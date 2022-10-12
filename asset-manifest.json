@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.b4961418.css",
+    "main.js": "/static/js/main.9fdc194b.js",
+    "static/media/safeguard.png": "/static/media/safeguard.83b86a085227beb28c77.png",
+    "static/media/3rd.png": "/static/media/3rd.bf184fc1d0a3e18119e5.png",
+    "static/media/Filecoin.png": "/static/media/Filecoin.48f962b059a482ed80f9.png",
+    "static/media/axure.png": "/static/media/axure.32374a3ac312367bc702.png",
+    "static/media/2nd.png": "/static/media/2nd.46100e73df708e2e67af.png",
+    "static/media/solanaLogo.png": "/static/media/solanaLogo.016a4f3aa3e2d3dea622.png",
+    "static/media/airmeet.png": "/static/media/airmeet.cb6a66779a8e7deccdc1.png",
+    "static/media/celo.png": "/static/media/celo.1df14939093da9b147d9.png",
+    "static/media/tezos.svg": "/static/media/tezos.b64d939f58ba3f6d4157dcf3b3ad2dcd.svg",
+    "static/media/Azonix.otf": "/static/media/Azonix.9091792cb1720a8c6ea0.otf",
+    "static/media/devfolio.svg": "/static/media/devfolio.5e02d33131e5923a760dbbdc39e231d9.svg",
+    "static/media/polygon.svg": "/static/media/polygon.206a8ea570b4cb41b4f5f2715ea6581f.svg",
+    "index.html": "/index.html",
+    "main.b4961418.css.map": "/static/css/main.b4961418.css.map",
+    "main.9fdc194b.js.map": "/static/js/main.9fdc194b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b4961418.css",
+    "static/js/main.9fdc194b.js"
+  ]
+}
