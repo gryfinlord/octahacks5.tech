@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Azonix';
+  /* src: local('Azonix'), url('./assets/Azonix.otf') format('truetype'); */
+  /* src: local('Azonix'), url('./assets/Azonix.ttf') format('truetype'); */
+  /* src: local('Azonix'), url('./assets/Poppins-Regular.ttf') format('truetype'); */
+  /* src: local('Azonix'), url('./assets/Barlow-Regular.ttf') format('truetype'); */
+  src: local('Azonix'), url('./assets/Mont-HeavyDEMO.otf') format('truetype');
+  /* src: local('Azonix'), url('./assets/OdibeeSans-Regular.ttf') format('truetype'); */
+  font-weight: normal;
+}
+
+body {
+  background-color: rgb(15 23 42);
+}
+
+@layer utilities {
+  html::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+  }
+}
