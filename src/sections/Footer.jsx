@@ -4,7 +4,7 @@ const Footer = () => {
 	return (
 		<div
 			id="footer"
-			className="bg-slate-900 bg-no-repeat bg-contain p-2 mt-8 snap-start"
+			className="bg-slate-900 bg-no-repeat bg-contain p-2 snap-start"
 		>
 			<div className="text-5xl lg:text-6xl xl:text-7xl text-center">
 				Contact Us
@@ -90,3 +90,4 @@ const Footer = () => {
 };
 
 export default Footer;
+
