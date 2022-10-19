@@ -35,7 +35,7 @@ const Sponsers = () => {
 				{/* right div -----------------------------------------------------------------------------------*/}
 
 				<div className="h-full w-full justify-center text-center items-center ">
-					<div className="flex flex-col text-center h-full items-center justify-center m-4">
+					<div className="flex flex-col text-center h-full items-center justify-center">
 						{/* Platinum Sponsors --------------------------------------------------------------------------*/}
 
 						<div className="bg-white bg-opacity-10 backdrop-filter backdrop-blur-lg min-h-[50px] rounded-lg shadow-x overflow-hidden flex-auto m-4 h-auto  w-full pb-4 mt-[10%] md:mt-[20%]">
