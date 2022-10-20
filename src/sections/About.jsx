@@ -2,14 +2,7 @@ import React from "react";
 
 const About = () => {
 	return (
-		<div
-			id="about"
-<<<<<<< Updated upstream
-			className="flex flex-col bg-slate-900 font-azonix justify-evenly md: items-center lg:flex-row  w-full h-full p-2 gap-2 h-screen snap-start"
-=======
-			className="flex flex-col bg-slate-900 font-azonix md:justify-between items-center lg:flex-row  w-full h-full h-screen md:p-2 p-8 gap-2 snap-start"
->>>>>>> Stashed changes
-		>
+		<div className="flex flex-col bg-slate-900 font-azonix md:justify-between items-center lg:flex-row  w-full h-full h-screen md:p-2 p-8 gap-2 snap-start">
 			<div className="text-3xl lg:text-5xl xl:text-6xl font-normal text-transparent md:text-4xl lg:w-1/2 bg-clip-text  bg-gradient-to-r from-[#6c6aff] via-[#fbc7d4] to-[#ff658b] text-center lg:text-start">
 				About Us
 			</div>
