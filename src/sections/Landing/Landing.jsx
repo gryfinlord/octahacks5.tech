@@ -1,7 +1,10 @@
 import React from "react";
 const Landing = () => {
 	return (
-		<div id="home" className="flex relative flex-row flex-1 snap-start">
+		<div
+			id="home"
+			className="flex relative flex-row flex-1 snap-start h-screen"
+		>
 			<div
 				className="w-full h-full min-h-screen flex flex-col justify-center backdrop-blur-lg bg-black/30
       "

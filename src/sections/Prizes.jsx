@@ -4,7 +4,11 @@ function Prizes() {
 	return (
 		<div
 			id="prizes"
+<<<<<<< Updated upstream
 			className="min-h-screen bg-slate-900 bg-[url(https://github.com/ikaushiksharma/WhatsApp_Ui/blob/master/backVideo.gif?raw=true)] bg-no-repeat bg-contain grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 w-full xl:h-[84%] lg:h-[84%] snap-start"
+=======
+			className="min-h-screen bg-slate-900 bg-[url(https://github.com/ikaushiksharma/WhatsApp_Ui/blob/master/backVideo.gif?raw=true)] bg-no-repeat bg-contain grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 w-full xl:h-[84%] lg:h-[84%] h-[88%] p-2 snap-start h-screen"
+>>>>>>> Stashed changes
 		>
 			<div className="flex flex-col justify-center items-center backdrop-blur-lg bg-black/30">
 				<div className="p-2 flex flex-col justify-center items-center lg:ml-4">
