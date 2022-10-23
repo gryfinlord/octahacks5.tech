@@ -12,11 +12,17 @@ const Footer = () => {
 
 			<div className="footer_section font-azonix flex flex-row justify-between w-full h-full">
 				<div class="footer_section_1 w-1/3">
-					<div class="footer_section_1_content">
-						<img src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.chitkara.edu.in%2Fwp-content%2Fthemes%2Fchitkara%2Fimages%2FCU_logo.png&f=1&nofb=1&ipt=73285697f123d5332b2fc6459189124b501093459305c9bf57dee8acfe851f7b&ipo=images" />
+					<div class="">
+						<img
+							src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.chitkara.edu.in%2Fwp-content%2Fthemes%2Fchitkara%2Fimages%2FCU_logo.png&f=1&nofb=1&ipt=73285697f123d5332b2fc6459189124b501093459305c9bf57dee8acfe851f7b&ipo=images"
+							alt="footer"
+							class="h-[50px] mx-auto"
+						/>
 						<div>
-							<h1 className="text-center">About Chitkara University</h1>
-							<p className="text-center">
+							<h1 className="text-center text-white">
+								About Chitkara University
+							</h1>
+							<p className="text-center text-white">
 								Chitkara university is a private university located in
 								Rajpura,Punjab, India. It offers undergraduate programs,
 								post-graduate program and doctoral programs in fields of
@@ -27,10 +33,14 @@ const Footer = () => {
 				</div>
 				<div class="footer_section_1 w-1/3">
 					<div class="footer_section_1_content">
-						<img src="https://github.com/ikaushiksharma/WhatsApp_Ui/blob/master/logo.png?raw=true" />
+						<img
+							src="https://github.com/ikaushiksharma/WhatsApp_Ui/blob/master/logo.png?raw=true"
+							alt="logo"
+							class="bg-slate-900"
+						/>
 						<div>
-							<h1 className="text-center">About Octahacks</h1>
-							<p className="text-center">
+							<h1 className="text-center text-black">About Octahacks</h1>
+							<p className="text-center text-black">
 								This November, Octahacks is back with it's fourth edition,
 								Octahacks 4.0. Expect more than 36 hours of inspiring panel
 								discussions, empowering tech products, networking opportunities
@@ -42,26 +52,26 @@ const Footer = () => {
 				<div class="footer_section_2 md:w-1/3 w-full flex items-center justify-center">
 					<div class="social_icons">
 						<div className="flex items-center justify-center">
-							<a href="https://www.instagram.com/gdsc_ciet/" target="_blank">
+							<a href="https://www.instagram.com/gdsc_ciet/">
 								<img
 									alt="socials"
 									src="https://img.icons8.com/ios-glyphs/40/ffffff/instagram-new.png"
 								/>
 							</a>
-							<a
-								href="https://www.linkedin.com/company/gdsc-ciet/mycompany/"
-								target="_blank"
-							>
+							<a href="https://www.linkedin.com/company/gdsc-ciet/mycompany/">
 								<img
 									alt="socials"
 									src="https://img.icons8.com/ios-glyphs/40/ffffff/linkedin-circled.png"
 								/>
 							</a>
 
-							<a href="https://github.com/DSC-ChitkaraUniv" target="_blank">
-								<img src="https://img.icons8.com/ios-glyphs/40/ffffff/github.png" />
+							<a href="https://github.com/DSC-ChitkaraUniv">
+								<img
+									src="https://img.icons8.com/ios-glyphs/40/ffffff/github.png"
+									alt="githublogo"
+								/>
 							</a>
-							<a href="https://twitter.com/gdscciet" target="_blank">
+							<a href="https://twitter.com/gdscciet">
 								<img
 									src="https://img.icons8.com/ios-glyphs/40/ffffff/twitter--v1.png"
 									alt=""
@@ -69,7 +79,7 @@ const Footer = () => {
 								/>
 							</a>
 						</div>
-						<p>
+						<p class="text-left">
 							For more updates,
 							<br />
 							follow us on all social media.
@@ -90,4 +100,3 @@ const Footer = () => {
 };
 
 export default Footer;
-

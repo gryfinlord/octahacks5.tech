@@ -5,8 +5,12 @@ const Judges = () => {
 			id="judges"
 			className="min-h-screen bg-slate-900 bg-no-repeat bg-contain p-2 snap-start"
 		>
-			<div className="text-5xl lg:text-6xl xl:text-7xl text-center">Judges</div>
-			<div class="grid sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-6 px-12 py-12 auto-rows-fr">
+			<div className="judgesText">
+				<div className="text-5xl lg:text-6xl xl:text-7xl text-center">
+					Judges
+				</div>
+			</div>
+			{/* <div class="grid sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-6 px-12 py-12 auto-rows-fr">
 				<div
 					data-aos="flip-left"
 					data-aos-easing="ease-in-sine"
@@ -15,8 +19,8 @@ const Judges = () => {
 					<div>
 						<img
 							class="object-center object-cover h-auto w-full"
-							src="https://images.unsplash.com/flagged/photo-1570612861542-284f4c12e75f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80"
-							alt="photo"
+							src="https://images.unsplash.com/flagged/photo-1570612861542-284f4c12e75f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fG2VufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80"
+							alt="photoJudges"
 						/>
 					</div>
 					<div class="text-center py-8 sm:py-6">
@@ -33,7 +37,7 @@ const Judges = () => {
 						<img
 							class="object-center object-cover h-auto w-full"
 							src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80"
-							alt="photo"
+							alt="photoJudges"
 						/>
 					</div>
 					<div class="text-center py-8 sm:py-6">
@@ -50,7 +54,7 @@ const Judges = () => {
 						<img
 							class="object-center object-cover h-auto w-full"
 							src="https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1171&q=80"
-							alt="photo"
+							alt="photoJudges"
 						/>
 					</div>
 					<div class="text-center py-8 sm:py-6">
@@ -67,7 +71,7 @@ const Judges = () => {
 						<img
 							class="object-center object-cover h-auto w-full"
 							src="https://images.unsplash.com/flagged/photo-1570612861542-284f4c12e75f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80"
-							alt="photo"
+							alt="photoJudges"
 						/>
 					</div>
 					<div class="text-center py-8 sm:py-6">
@@ -84,7 +88,7 @@ const Judges = () => {
 						<img
 							class="object-center object-cover h-auto w-full"
 							src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80"
-							alt="photo"
+							alt="photoJudges"
 						/>
 					</div>
 					<div class="text-center py-8 sm:py-6">
@@ -101,7 +105,7 @@ const Judges = () => {
 						<img
 							class="object-center object-cover h-auto w-full"
 							src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80"
-							alt="photo"
+							alt="photoJudges"
 						/>
 					</div>
 					<div class="text-center py-8 sm:py-6">
@@ -109,6 +113,9 @@ const Judges = () => {
 						<p class="text-base text-gray-400 font-normal">Graphic Designer</p>
 					</div>
 				</div>
+			</div> */}
+			<div className="text-center h-[80vh] flex flex-row justify-center items-center">
+				<p className="coming text-5xl">Coming Soon...</p>
 			</div>
 		</div>
 	);

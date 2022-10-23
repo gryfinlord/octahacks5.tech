@@ -4,7 +4,7 @@ function Prizes() {
 	return (
 		<div
 			id="prizes"
-			className="min-h-screen bg-slate-900 bg-[url(https://github.com/ikaushiksharma/WhatsApp_Ui/blob/master/backVideo.gif?raw=true)] bg-no-repeat bg-contain grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 w-full xl:h-[84%] lg:h-[84%] h-[88%] p-2 snap-start h-screen"
+			className="min-h-screen bg-slate-900 bg-no-repeat bg-contain grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 w-full xl:h-[84%] lg:h-[84%] p-2 snap-start h-screen"
 		>
 			<div className="flex flex-col justify-center items-center backdrop-blur-lg bg-black/30">
 				<div className="p-2 flex flex-col justify-center items-center lg:ml-4">
@@ -55,7 +55,7 @@ function Prizes() {
 					</div>
 					<div className="w-full h-full flex flex-col justify-center items-center text-white bg-gray-800 p-2 cursor-pointer rounded-[4px] space-y-2">
 						<h2 className="h-auto w-[28%] sm:w-1/2 md:w-[75%] p-[2%] ">
-							<img src="	https://octahacks4.tech/assets/Sponsors/present/tezos.svg" />
+							<img alt="imageSponsors" src="	https://octahacks4.tech/assets/Sponsors/present/tezos.svg" />
 						</h2>
 						<p className="text-[.7rem]  md:text-[.6rem] lg:text-[.8rem] text-center">
 							₹ 20,000* for best Dapp built on Tezos.
@@ -67,7 +67,7 @@ function Prizes() {
 					</div>
 					<div className="w-full h-full flex flex-col justify-center items-center text-white bg-gray-800 p-2 cursor-pointer rounded-[4px] space-y-2">
 						<h2 className="h-auto w-[28%] sm:w-1/2 md:w-[75%] p-[2%] ">
-							<img src="https://octahacks4.tech/assets/Sponsors/present/polygon.svg" />
+							<img alt="imageSponsors" src="https://octahacks4.tech/assets/Sponsors/present/polygon.svg" />
 						</h2>
 						<p className="text-[.7rem]  md:text-[.6rem]  lg:text-[.8rem] text-center">
 							₹ 20,000* for best Dapp built on Tezos.
@@ -79,7 +79,7 @@ function Prizes() {
 					</div>
 					<div className="w-full h-full flex flex-col justify-center items-center text-white bg-gray-800 p-2 cursor-pointer rounded-[4px] space-y-2">
 						<h2 className="h-auto w-[28%] sm:w-1/2 md:w-[75%] p-[2%] ">
-							<img src="	https://octahacks4.tech/assets/Sponsors/present/celo.png" />
+							<img alt="imageSponsors" src="	https://octahacks4.tech/assets/Sponsors/present/celo.png" />
 						</h2>
 						<p className="text-[.7rem]  md:text-[.6rem] lg:text-[.8rem] text-center">
 							₹ 20,000* for best Dapp built on Tezos.

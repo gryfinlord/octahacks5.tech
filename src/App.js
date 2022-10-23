@@ -9,39 +9,39 @@ import Footer from "./sections/Footer";
 import Sponsers from "./sections/Sponsers";
 import Tracks from "./sections/Track/Track";
 document.onkeydown = function (e) {
-	if (e.keyCode == 123) {
+	if (e.keyCode === 123) {
 		return true;
 	}
 	if (
 		e.ctrlKey &&
 		e.shiftKey &&
-		(e.keyCode == "I".charCodeAt(0) || e.keyCode == "i".charCodeAt(0))
+		(e.keyCode === "I".charCodeAt(0) || e.keyCode === "i".charCodeAt(0))
 	) {
 		return false;
 	}
 	if (
 		e.ctrlKey &&
 		e.shiftKey &&
-		(e.keyCode == "C".charCodeAt(0) || e.keyCode == "c".charCodeAt(0))
+		(e.keyCode === "C".charCodeAt(0) || e.keyCode === "c".charCodeAt(0))
 	) {
 		return false;
 	}
 	if (
 		e.ctrlKey &&
 		e.shiftKey &&
-		(e.keyCode == "J".charCodeAt(0) || e.keyCode == "j".charCodeAt(0))
+		(e.keyCode === "J".charCodeAt(0) || e.keyCode === "j".charCodeAt(0))
 	) {
 		return false;
 	}
 	if (
 		e.ctrlKey &&
-		(e.keyCode == "U".charCodeAt(0) || e.keyCode == "u".charCodeAt(0))
+		(e.keyCode === "U".charCodeAt(0) || e.keyCode === "u".charCodeAt(0))
 	) {
 		return false;
 	}
 	if (
 		e.ctrlKey &&
-		(e.keyCode == "S".charCodeAt(0) || e.keyCode == "s".charCodeAt(0))
+		(e.keyCode === "S".charCodeAt(0) || e.keyCode === "s".charCodeAt(0))
 	) {
 		return false;
 	}
@@ -50,7 +50,7 @@ function App() {
 	const [navbarOpen, setNavbarOpen] = React.useState(false);
 	return (
 		// <div className='debug-screens font-azonix bg-slate-900 w-full h-full min-h-screen bg-cover bg-center text-gray-100'>
-		<div className="font-azonix bg-[url(https://github.com/ikaushiksharma/WhatsApp_Ui/blob/master/backVideo.gif?raw=true)] bg-no-repeat bg-contain w-full h-full min-h-screen text-gray-100">
+		<div className="font-azonix bg-no-repeat bg-contain w-full h-full min-h-screen text-gray-100">
 			<AnimatedCursor
 				innerSize={8}
 				outerSize={30}
@@ -75,7 +75,7 @@ function App() {
 			<div className="fixed w-full h-fit z-20 bg-gradient-to-b from-black">
 				<nav className="relative px-4 py-4 flex justify-between items-center">
 					<div className="flex items-center justify-center w-28 h-full ml-2">
-						<a className="text-3xl font-bold leading-none" href="#">
+						<a className="text-3xl font-bold leading-none" href="#!">
 							<img
 								src="https://github.com/ikaushiksharma/WhatsApp_Ui/blob/master/logo.png?raw=true"
 								class="w-56 h-12"
@@ -131,7 +131,7 @@ function App() {
 					<div className="hidden lg:flex items-center justify-center">
 						<a
 							className="hidden lg:inline-block lg:ml-auto text-sm font-bold  transition duration-200"
-							href="#"
+							href="#!"
 						>
 							<img
 								src="https://octahacks4.tech/assets/media/GDSClogo.png"
@@ -150,7 +150,7 @@ function App() {
 					<div className="navbar-backdrop fixed inset-0 bg-gray-800 opacity-25"></div>
 					<nav className="fixed top-0 left-0 bottom-0 flex flex-col w-5/6 max-w-sm py-6 px-6 bg-black border-r overflow-y-auto">
 						<div className="flex items-center mb-8">
-							<a className="mr-auto text-3xl font-bold leading-none" href="#">
+							<a className="mr-auto text-3xl font-bold leading-none" href="#!">
 								<img
 									src="https://github.com/ikaushiksharma/WhatsApp_Ui/blob/master/logo.png?raw=true"
 									alt="gdsc"
@@ -182,7 +182,7 @@ function App() {
 								<li className="mb-1">
 									<a
 										className="block p-4 text-xl  text-white hover:bg-blue-300 hover:text-blue-600 rounded"
-										href="#"
+										href="#!"
 									>
 										Home
 									</a>
@@ -275,7 +275,7 @@ function App() {
 					</a>
 				</div>
 			</div>
-			<div className="h-full lg:ml-[15%] snap-y snap-mandatory h-screen overflow-scroll">
+			<div className="lg:ml-[15%] snap-y snap-mandatory h-screen overflow-scroll">
 				<Landing />
 				<About />
 				<Tracks />

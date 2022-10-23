@@ -15,7 +15,7 @@ const Landing = () => {
 
 				<div className="w-full text-4xl p-2 xl:text-9xl lg:text-8xl md:text-8xl sm:text-7xl xs:text-5xl">
 					<p className="w-full h-full p-1">
-						Octahacks <br /> Five
+						Octahacks <br /> 5.0
 					</p>
 				</div>
 				<div className="w-2/12 h-[1px] bg-white rounded-lg my-8 mx-4 border-white border-2"></div>
