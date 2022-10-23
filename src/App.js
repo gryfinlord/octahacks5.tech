@@ -50,7 +50,7 @@ function App() {
 	const [navbarOpen, setNavbarOpen] = React.useState(false);
 	return (
 		// <div className='debug-screens font-azonix bg-slate-900 w-full h-full min-h-screen bg-cover bg-center text-gray-100'>
-		<div className="font-azonix w-full h-full min-h-screen text-gray-100">
+		<div className="font-azonix bg-[url(https://github.com/ikaushiksharma/WhatsApp_Ui/blob/master/backVideo.gif?raw=true)] bg-no-repeat bg-contain w-full h-full min-h-screen text-gray-100">
 			<AnimatedCursor
 				innerSize={8}
 				outerSize={30}

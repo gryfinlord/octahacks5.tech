@@ -3,16 +3,19 @@ const Landing = () => {
 	return (
 		<div
 			id="home"
-			className="flex relative flex-row flex-1 snap-start h-screen bg-slate-900 bg-[length:100%_100%]"
+			className="flex relative flex-row flex-1 snap-start h-screen"
 		>
-			<div className="w-full h-full min-h-screen flex flex-col justify-center backdrop-blur-lg bg-slate-900">
+			<div
+				className="w-full h-full min-h-screen flex flex-col justify-center backdrop-blur-lg bg-black/30
+      "
+			>
 				<div className="w-2/3 text-md p-1 xl:text-5xl lg:text-3xl md:text-2xl sm:text-xl xs:text-lg">
 					<p>"TECH IT EASY"</p>
 				</div>
 
-				<div className="w-full text-4xl p-2 xl:text-9xl lg:text-8xl md:text-8xl sm:text-7xl xs:text-5xl ">
+				<div className="w-full text-4xl p-2 xl:text-9xl lg:text-8xl md:text-8xl sm:text-7xl xs:text-5xl">
 					<p className="w-full h-full p-1">
-						Octahacks <br /> Five
+						Octahacks <br /> 5.0
 					</p>
 				</div>
 				<div className="w-2/12 h-[1px] bg-white rounded-lg my-8 mx-4 border-white border-2"></div>

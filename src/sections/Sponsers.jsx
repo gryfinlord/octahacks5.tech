@@ -4,7 +4,7 @@ const Sponsers = () => {
 	return (
 		<div
 			id="sponsors"
-			className="sm:flex-col flex https://github.com/ikaushiksharma/WhatsApp_Ui/blob/master/backVideo.gif?raw=true bg-[length:100%_100%] bg-no-repeat flex-wrap snap-start"
+			className="sm:flex-col flex https://github.com/ikaushiksharma/WhatsApp_Ui/blob/master/backVideo.gif?raw=true bg-contain bg-no-repeat flex-wrap snap-start"
 		>
 			{/* left div----------------------------------------------------------------------------------------- */}
 			<div className=" md:h-screen backdrop-blur-lg flex-col md:flex-row flex text-center items-center justify-center ">
