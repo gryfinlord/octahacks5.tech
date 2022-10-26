@@ -2,10 +2,10 @@ import React from "react";
 
 const Cards1 = () => {
 	return (
-		<div className="md:flex-1 mx-8 md:mx-2 sm:mx-0 xs:ms-0 ">
-			<div className="scroll  md:space-y-8 space-y-3 md:mx-7 mx-1 my-4 bg-slate-900 px-4 py-6 h-[75vh] rounded-md overflow-y-scroll flex flex-row flex-wrap w-fit gap-x-8 lg:space-y-4 text-center justify-center">
+		<div className="md:flex-1">
+			<div className="scroll  bg-slate-900 px-4 py-6 h-[75vh] rounded-md overflow-y-scroll flex flex-row flex-wrap w-fit gap-8  text-center justify-center">
 				{/* card1 */}
-				<div className="p-5 rounded-xl shadow-xl shadow-slate-900 bg-slate-800 xl:basis-1/5 lg:basis-1/5 py-8 mt-4 md:basis-1/3 sm:basis-1/3 xs:basis-full">
+				<div className="p-5 rounded-xl shadow-xl shadow-slate-900 bg-slate-800 xl:basis-1/5 lg:basis-1/5 py-8  md:basis-1/3 sm:basis-1/3 xs:basis-full">
 					<div className="lg:w-[100%]">
 						<div className="">
 							<p className="titlePara uppercase text-center">Smart City</p>
@@ -20,7 +20,7 @@ const Cards1 = () => {
 						{/* <p className='para'> to safeguard meritocracy in</p>
                     <p className='para'>GameFi</p> */}
 					</div>
-					<div className="md:flex-1">
+					<div className="md:flex-1 flex items-center justify-center">
 						<img
 							className="rounded-xl"
 							src={require("../../assets/Tracks_1.png")}
@@ -29,7 +29,7 @@ const Cards1 = () => {
 					</div>
 				</div>
 
-				<div className=" p-5 rounded-xl shadow-xl shadow-slate-900 bg-slate-800 xl:basis-1/5 lg:basis-1/5 py-8 md:basis-1/3 sm:basis-1/3 xs:basis-full">
+				<div className="p-5 rounded-xl shadow-xl shadow-slate-900 bg-slate-800 xl:basis-1/5 lg:basis-1/5 py-8  md:basis-1/3 sm:basis-1/3 xs:basis-full">
 					<div className="md:w-[100%]">
 						<div className="">
 							<p className="titlePara uppercase text-center">Security</p>
@@ -43,7 +43,7 @@ const Cards1 = () => {
 						{/* <p className='para'> to safeguard meritocracy in</p>
                     <p className='para'>GameFi</p> */}
 					</div>
-					<div className="md:flex-1">
+					<div className="md:flex-1 flex items-center justify-center">
 						<img
 							className="rounded-xl md:pt-12"
 							src={require("../../assets/Tracks_2.png")}
@@ -55,7 +55,7 @@ const Cards1 = () => {
 				<div className=" items-center p-5 rounded-xl shadow-xl shadow-slate-900 bg-slate-800 xl:basis-1/5 lg:basis-1/5 py-8 md:basis-1/3 sm:basis-1/3 xs:basis-full">
 					<div className="md:w-[100%]">
 						<div className="">
-							<p className="titlePara uppercase text-center">fintech</p>
+							<p className="titlePara uppercase text-center">Fintech</p>
 						</div>
 						<p className="para text-center">
 							From mobile payments to internet banking, an increased number of
@@ -65,7 +65,7 @@ const Cards1 = () => {
 						{/* <p className='para'> to safeguard meritocracy in</p>
                     <p className='para'>GameFi</p> */}
 					</div>
-					<div className="md:flex-1">
+					<div className="md:flex-1 flex items-center justify-center">
 						<img
 							className="rounded-xl pt-12"
 							src={require("../../assets/Tracks_3.png")}
@@ -77,7 +77,7 @@ const Cards1 = () => {
 				<div className="p-5 rounded-xl shadow-xl shadow-slate-900 bg-slate-800 xl:basis-1/5 lg:basis-1/5 py-8 md:basis-1/3 sm:basis-1/3 xs:basis-full">
 					<div className="md:w-[100%]">
 						<div className="">
-							<p className="titlePara uppercase text-center">health</p>
+							<p className="titlePara uppercase text-center">Health</p>
 						</div>
 						<p className="para text-center">
 							The increase in patients has led to the decrease in the relative
@@ -89,9 +89,9 @@ const Cards1 = () => {
 						{/* <p className='para'> to safeguard meritocracy in</p>
                     <p className='para'>GameFi</p> */}
 					</div>
-					<div className="md:flex-1">
+					<div className="md:flex-1 flex items-center justify-center">
 						<img
-							className="rounded-xl pt-12 pl-6"
+							className="rounded-xl pt-12 w-auto h-[210px]"
 							src={require("../../assets/Tracks_4.png")}
 							alt="image1"
 						/>
@@ -101,7 +101,7 @@ const Cards1 = () => {
 				<div className="p-5 rounded-xl shadow-xl shadow-slate-900 bg-slate-800 xl:basis-1/5 lg:basis-1/5 py-8 md:basis-1/3 sm:basis-1/3 xs:basis-full">
 					<div className="md:w-[100%]">
 						<div className="">
-							<p className="titlePara uppercase text-center">business</p>
+							<p className="titlePara uppercase text-center">Business</p>
 						</div>
 						<p className="para text-center">
 							As technology is evolving, Business are accelerating their
@@ -113,7 +113,7 @@ const Cards1 = () => {
 						{/* <p className='para'> to safeguard meritocracy in</p>
                     <p className='para'>GameFi</p> */}
 					</div>
-					<div className="md:flex-1">
+					<div className="md:flex-1 flex items-center justify-center">
 						<img
 							className="rounded-xl"
 							src={require("../../assets/Tracks_5.png")}
@@ -137,7 +137,7 @@ const Cards1 = () => {
 						{/* <p className='para'> to safeguard meritocracy in</p>
                     <p className='para'>GameFi</p> */}
 					</div>
-					<div className="md:flex-1">
+					<div className="md:flex-1 flex items-center justify-center">
 						<img
 							className="rounded-xl pt-14"
 							src={require("../../assets/Tracks_6.png")}
@@ -159,7 +159,7 @@ const Cards1 = () => {
 						{/* <p className='para'> to safeguard meritocracy in</p>
                     <p className='para'>GameFi</p> */}
 					</div>
-					<div className="md:flex-1">
+					<div className="md:flex-1 flex items-center justify-center">
 						<img
 							className="rounded-xl pt-24"
 							src={require("../../assets/Tracks_7.png")}
@@ -171,7 +171,7 @@ const Cards1 = () => {
 				<div className="p-5 rounded-xl shadow-xl shadow-slate-900 bg-slate-800 xl:basis-1/5 lg:basis-1/5 py-8 md:basis-1/3 sm:basis-1/3 xs:basis-full">
 					<div className="md:w-[100%]">
 						<div className="">
-							<p className="titlePara uppercase text-center">education</p>
+							<p className="titlePara uppercase text-center">Education</p>
 						</div>
 						<p className="para text-center">
 							A large part of our population is still not able to recieve proper
@@ -182,7 +182,7 @@ const Cards1 = () => {
 						{/* <p className='para'> to safeguard meritocracy in</p>
                     <p className='para'>GameFi</p> */}
 					</div>
-					<div className="md:flex-1">
+					<div className="flex-1 flex items-center justify-center">
 						<img
 							className="rounded-xl pt-24"
 							src={require("../../assets/Tracks_8.png")}

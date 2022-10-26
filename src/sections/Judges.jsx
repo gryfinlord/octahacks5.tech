@@ -3,14 +3,14 @@ const Judges = () => {
 	return (
 		<div
 			id="judges"
-			className="min-h-screen bg-slate-900 bg-no-repeat bg-contain p-2 snap-start pt-[1rem]"
+			className="h-screen bg-slate-900 bg-no-repeat bg-contain p-2 snap-start"
 		>
 			<div className="judgesText">
 				<div className="text-5xl lg:text-6xl xl:text-7xl text-center">
 					Judges
 				</div>
 			</div>
-			<div class="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-6 px-12 py-12 md:px-6 md:py-6 xl:px-12 xl:py-12 auto-rows-fr">
+			<div class="grid sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-6 px-12 py-12 md:px-6 md:py-6 xl:px-12 xl:py-12 auto-rows-fr h-[90vh]">
 				<div
 					data-aos="flip-left"
 					data-aos-easing="ease-in-sine"
@@ -117,10 +117,9 @@ const Judges = () => {
 						<p class="text-xl text-gray-700 font-bold mb-2">Lucy Carter</p>
 						<p class="text-base text-gray-400 font-normal">Graphic Designer</p>
 					</div> */}
-					<div className="text-black text-3xl w-full h-[286px] text-center flex items-center justify-center">Coming Soon..</div>
+					<div className="text-black text-3xl w-full h-full text-center flex items-center justify-center">Coming Soon..</div>
 				</div>
 			</div>
-			
 		</div>
 	);
 };

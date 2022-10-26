@@ -51,34 +51,13 @@ function App() {
 	return (
 		// <div className='debug-screens font-azonix bg-slate-900 w-full h-full min-h-screen bg-cover bg-center text-gray-100'>
 		<div className="font-azonix bg-no-repeat bg-contain w-full h-full min-h-screen text-gray-100">
-			<AnimatedCursor
-				innerSize={8}
-				outerSize={30}
-				color="256, 256, 256"
-				outerAlpha={0.2}
-				innerScale={0.7}
-				outerScale={3}
-				clickables={[
-					"a",
-					'input[type="text"]',
-					'input[type="email"]',
-					'input[type="number"]',
-					'input[type="submit"]',
-					'input[type="image"]',
-					"label[for]",
-					"select",
-					"textarea",
-					"button",
-					".link",
-				]}
-			/>
-			<div className="fixed w-full h-fit z-20 bg-gradient-to-b from-black">
+			<div className="w-full h-fit z-20 bg-[black]">
 				<nav className="relative px-4 py-4 flex justify-between items-center">
 					<div className="flex items-center justify-center w-28 h-full ml-2">
 						<a className="text-3xl font-bold leading-none" href="#!">
 							<img
 								src="https://github.com/ikaushiksharma/WhatsApp_Ui/blob/master/logo.png?raw=true"
-								class="w-56 h-12"
+								class="w-52 h-auto"
 								alt="gdsc"
 							/>
 						</a>
@@ -98,34 +77,64 @@ function App() {
 							</svg>
 						</button>
 					</div>
-					<div className="hidden absolute top-1/2 left-72 transform -translate-y-1/2 -translate-x-1/3 lg:flex lg:mr-6 xl:mr-12 lg:items-center lg:w-auto lg:space-x-10">
-						<ul className="lg:flex lg:mx-2 lg:my-2 lg:items-center lg:w-auto lg:space-x-10">
-							<li>
-								<a
-									className="text-lg text-white hover:text-mainColor"
-									href="#home"
-								>
-									Home
-								</a>
-							</li>
-
-							<li>
-								<a
-									className="text-lg text-white hover:text-mainColor"
-									href="#about"
-								>
-									About
-								</a>
-							</li>
-
-							<li>
-								<a
-									className="text-lg text-white hover:text-mainColor"
-									href="#footer"
-								>
-									Contact
-								</a>
-							</li>
+					<div className="hidden lg:flex  lg:items-center lg:w-auto">
+						<ul className="lg:flex lg:mx-2 lg:my-2 lg:items-center lg:w-auto lg:space-x-4 xl:space-x-6">
+								<li className="">
+									<a
+										className="block p-2 text-md  text-white hover:bg-blue-300 hover:text-blue-600 rounded"
+										href="#home"
+									>
+										Home
+									</a>
+								</li>
+								<li className="">
+									<a
+										className="block p-2 text-md  text-white hover:bg-blue-300 hover:text-blue-600 rounded"
+										href="#tracks"
+									>
+										Tracks
+									</a>
+								</li>
+								<li className="">
+									<a
+										className="block p-2 text-md  text-white hover:bg-blue-300 hover:text-blue-600 rounded"
+										href="#prizes"
+									>
+										Prizes
+									</a>
+								</li>
+								<li className="">
+									<a
+										className="block p-2 text-md  text-white hover:bg-blue-300 hover:text-blue-600 rounded"
+										href="#sponsers"
+									>
+										Sponsors
+									</a>
+								</li>
+								<li className="">
+									<a
+										className="block p-2 text-md  text-white hover:bg-blue-300 hover:text-blue-600 rounded"
+										href="#judges"
+									>
+										Judges
+									</a>
+								</li>
+								<li className="">
+									<a
+										className="block p-2 text-md  text-white hover:bg-blue-300 hover:text-blue-600 rounded"
+										href="#mentors"
+									>
+										Mentor
+									</a>
+								</li>
+								<li className="">
+									<a
+										className="block p-2 text-md  text-white hover:bg-blue-300 hover:text-blue-600 rounded"
+										href="#footer"
+									>
+										Contact
+									</a>
+								</li>
 						</ul>
 					</div>
 					<div className="hidden lg:flex items-center justify-center">
@@ -134,8 +143,8 @@ function App() {
 							href="#!"
 						>
 							<img
-								src="https://octahacks4.tech/assets/media/GDSClogo.png"
-								className="w-52 h-12"
+								src={require("./assets/Sponsors/gdsc.png")}
+								className="w-52"
 								alt="gdsc"
 							/>
 						</a>
