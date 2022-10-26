@@ -3,11 +3,10 @@ const Landing = () => {
 	return (
 		<div
 			id="home"
-			className="flex relative flex-row flex-1 snap-start h-screen"
+			className="ml-[5%] flex relative flex-row flex-1 snap-start h-screen"
 		>
 			<div
-				className="w-full h-full min-h-screen flex flex-col justify-center backdrop-blur-lg bg-black/30
-      "
+				className="w-full h-full min-h-screen flex flex-col justify-center backdrop-blur-lg bg-black/30"
 			>
 				<div className="w-2/3 text-md p-1 xl:text-5xl lg:text-3xl md:text-2xl sm:text-xl xs:text-lg">
 					<p>"TECH IT EASY"</p>
