@@ -17,6 +17,13 @@ body {
 	background-color: rgb(15 23 42);
 	scroll-snap-type: y mandatory;
 }
+.scroll-remove::-webkit-scrollbar{
+	display: none;
+}
+.scroll-remove{
+		-ms-overflow-style: none;  /* IE and Edge */
+		scrollbar-width: none;  /* Firefox */
+}
 
 @layer utilities {
 	html::-webkit-scrollbar {
