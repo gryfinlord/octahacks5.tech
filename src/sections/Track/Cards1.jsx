@@ -20,13 +20,13 @@ const Cards1 = () => {
 						{/* <p className='para'> to safeguard meritocracy in</p>
                     <p className='para'>GameFi</p> */}
 					</div>
-					{/* <div className="md:flex-1 md:w-[45%]">
+					<div className="md:flex-1">
 						<img
 							className="rounded-xl"
-							src={require("../../assets/safeguard.png")}
+							src={require("../../assets/Tracks_1.png")}
 							alt="image1"
 						/>
-					</div> */}
+					</div>
 				</div>
 
 				<div className=" p-5 rounded-xl shadow-xl shadow-slate-900 bg-slate-800 xl:basis-1/5 lg:basis-1/5 py-8 md:basis-1/3 sm:basis-1/3 xs:basis-full">
@@ -43,13 +43,13 @@ const Cards1 = () => {
 						{/* <p className='para'> to safeguard meritocracy in</p>
                     <p className='para'>GameFi</p> */}
 					</div>
-					{/* <div className="md:flex-1 md:w-[45%]">
+					<div className="md:flex-1">
 						<img
-							className="rounded-xl"
-							src={require("../../assets/safeguard.png")}
+							className="rounded-xl md:pt-12"
+							src={require("../../assets/Tracks_2.png")}
 							alt="image1"
 						/>
-					</div> */}
+					</div>
 				</div>
 
 				<div className=" items-center p-5 rounded-xl shadow-xl shadow-slate-900 bg-slate-800 xl:basis-1/5 lg:basis-1/5 py-8 md:basis-1/3 sm:basis-1/3 xs:basis-full">
@@ -65,13 +65,13 @@ const Cards1 = () => {
 						{/* <p className='para'> to safeguard meritocracy in</p>
                     <p className='para'>GameFi</p> */}
 					</div>
-					{/* <div className="md:flex-1 md:w-[45%]">
+					<div className="md:flex-1">
 						<img
-							className="rounded-xl"
-							src={require("../../assets/safeguard.png")}
+							className="rounded-xl pt-12"
+							src={require("../../assets/Tracks_3.png")}
 							alt="image1"
 						/>
-					</div> */}
+					</div>
 				</div>
 
 				<div className="p-5 rounded-xl shadow-xl shadow-slate-900 bg-slate-800 xl:basis-1/5 lg:basis-1/5 py-8 md:basis-1/3 sm:basis-1/3 xs:basis-full">
@@ -89,13 +89,13 @@ const Cards1 = () => {
 						{/* <p className='para'> to safeguard meritocracy in</p>
                     <p className='para'>GameFi</p> */}
 					</div>
-					{/* <div className="md:flex-1 md:w-[45%]">
+					<div className="md:flex-1">
 						<img
-							className="rounded-xl"
-							src={require("../../assets/safeguard.png")}
+							className="rounded-xl pt-12 pl-6"
+							src={require("../../assets/Tracks_4.png")}
 							alt="image1"
 						/>
-					</div> */}
+					</div>
 				</div>
 
 				<div className="p-5 rounded-xl shadow-xl shadow-slate-900 bg-slate-800 xl:basis-1/5 lg:basis-1/5 py-8 md:basis-1/3 sm:basis-1/3 xs:basis-full">
@@ -113,13 +113,13 @@ const Cards1 = () => {
 						{/* <p className='para'> to safeguard meritocracy in</p>
                     <p className='para'>GameFi</p> */}
 					</div>
-					{/* <div className="md:flex-1 md:w-[45%]">
+					<div className="md:flex-1">
 						<img
 							className="rounded-xl"
-							src={require("../../assets/safeguard.png")}
+							src={require("../../assets/Tracks_5.png")}
 							alt="image1"
 						/>
-					</div> */}
+					</div>
 				</div>
 
 				<div className=" p-5 rounded-xl shadow-xl shadow-slate-900 bg-slate-800 xl:basis-1/5 lg:basis-1/5 py-8 md:basis-1/3 sm:basis-1/3 xs:basis-full">
@@ -137,13 +137,13 @@ const Cards1 = () => {
 						{/* <p className='para'> to safeguard meritocracy in</p>
                     <p className='para'>GameFi</p> */}
 					</div>
-					{/* <div className="md:flex-1 md:w-[45%]">
+					<div className="md:flex-1">
 						<img
-							className="rounded-xl"
-							src={require("../../assets/safeguard.png")}
+							className="rounded-xl pt-14"
+							src={require("../../assets/Tracks_6.png")}
 							alt="image1"
 						/>
-					</div> */}
+					</div>
 				</div>
 
 				<div className=" p-5 rounded-xl shadow-xl shadow-slate-900 bg-slate-800 xl:basis-1/5 lg:basis-1/5 py-8 md:basis-1/3 sm:basis-1/3 xs:basis-full">
@@ -159,13 +159,13 @@ const Cards1 = () => {
 						{/* <p className='para'> to safeguard meritocracy in</p>
                     <p className='para'>GameFi</p> */}
 					</div>
-					{/* <div className="md:flex-1 md:w-[45%]">
+					<div className="md:flex-1">
 						<img
-							className="rounded-xl"
-							src={require("../../assets/safeguard.png")}
+							className="rounded-xl pt-24"
+							src={require("../../assets/Tracks_7.png")}
 							alt="image1"
 						/>
-					</div> */}
+					</div>
 				</div>
 
 				<div className="p-5 rounded-xl shadow-xl shadow-slate-900 bg-slate-800 xl:basis-1/5 lg:basis-1/5 py-8 md:basis-1/3 sm:basis-1/3 xs:basis-full">
@@ -182,13 +182,13 @@ const Cards1 = () => {
 						{/* <p className='para'> to safeguard meritocracy in</p>
                     <p className='para'>GameFi</p> */}
 					</div>
-					{/* <div className="md:flex-1 md:w-[45%]">
+					<div className="md:flex-1">
 						<img
-							className="rounded-xl"
-							src={require("../../assets/safeguard.png")}
+							className="rounded-xl pt-24"
+							src={require("../../assets/Tracks_8.png")}
 							alt="image1"
 						/>
-					</div> */}
+					</div>
 				</div>
 			</div>
 		</div>
