@@ -161,7 +161,7 @@ const Cards1 = () => {
 					</div>
 					<div className="md:flex-1">
 						<img
-							className="rounded-xl pt-28"
+							className="rounded-xl pt-24"
 							src={require("../../assets/Tracks_7.png")}
 							alt="image1"
 						/>
