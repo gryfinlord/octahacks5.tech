@@ -4,7 +4,8 @@ function Sponsors() {
   return (
     <>
     <div className='snap-start'>
- <section className="sponsors sm:h-[100vh] flex flex-col items-center justify-center" id="sponsors">
+ <section className="sponsors flex flex-col items-center justify-center p-2" id="sponsors">
+      <div class="flex flex-col gap-4 m-2 p-2">
         <h1 className="sponsor-title text-5xl lg:text-6xl xl:text-7xl text-center">
           Our <span className="awesome">Awesome</span> Sponsors
         </h1>
@@ -13,6 +14,8 @@ function Sponsors() {
           amazing <span className="about_high">sponsors</span> that
           <span className="about_high">make it possible.</span>
         </p>
+        </div>
+        <div className="flex flex-col gap-4 m-6 p-2">
         <div className="sponsors-alpha">
           <h2 className="alpha-title">Platinum Sponsors</h2>
           <div className="alpha-images flex items-center justify-center">
@@ -45,16 +48,17 @@ function Sponsors() {
           <h2 className="beta-title">Premium Sponsors</h2>
           <div className="beta-images flex items-center justify-center">
             <a href="#" target="black">
-              <img src={require("../../assets/Sponsors/solanaLogo.png")} style={{width: 'fit-content'}} />
+              <img src={require("../../assets/Sponsors/solanaLogo.png")} style={{width: '150px',height: 'auto', marginTop: '10px'}} />
             </a>
             <a href="#" target="blank">
-              <img src={require("../../assets/Sponsors/airmeet.png")} alt="" style={{width: '130px', height: 'auto', marginTop: '10px'}} />
+              <img src={require("../../assets/Sponsors/airmeet.png")} alt="" style={{width: '150px', height: 'auto', marginTop: '10px'}} />
             </a>
             <a href="#" target="blank">
-              <img src={require("../../assets/Sponsors/sashido.png")} alt="" style={{width: '150px', height: 'auto', marginTop: '-5px'}} />
+              <img src={require("../../assets/Sponsors/sashido.png")} alt="" style={{width: '150px', height: 'auto', marginTop: '10px'}} />
             </a>
             
           </div>
+        </div>
         </div>
         {/* <div class="sponsors-gold">
           <h2 class="gold-title">Bronze Sponsors</h2>
