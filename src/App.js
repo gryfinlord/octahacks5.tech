@@ -134,8 +134,8 @@ function App() {
 							href="#!"
 						>
 							<img
-								src={require("./assets/Sponsors/gdsc.png")}
-								className="w-52"
+								src="https://octahacks4.tech/assets/media/GDSClogo.png"
+								className="w-52 h-12"
 								alt="gdsc"
 							/>
 						</a>
@@ -256,7 +256,7 @@ function App() {
 					</nav>
 				</div>
 			</div>
-			<div className="hidden fixed w-[15%] h-full min-h-screen z-[18] bg-gradient-to-r from-black lg:flex justify-center items-center">
+			{/* <div className="hidden fixed w-[15%] h-full min-h-screen z-[18] bg-gradient-to-r from-black lg:flex justify-center items-center">
 				<div className="hidden flex-row justify-between gap-6 items-center p-4 relative top-[2.5rem] text-lg text-white lg:flex rotate-[270deg]">
 					<a href="#sponsors">
 						<div className="text-light "> Sponsors</div>
@@ -274,8 +274,8 @@ function App() {
 						<div className="text-light "> Tracks </div>
 					</a>
 				</div>
-			</div>
-			<div className="lg:ml-[15%] snap-y snap-mandatory h-screen overflow-scroll">
+			</div> */}
+			<div className="scroll-remove snap-y snap-mandatory h-screen overflow-scroll">
 				<Landing />
 				<About />
 				<Tracks />
