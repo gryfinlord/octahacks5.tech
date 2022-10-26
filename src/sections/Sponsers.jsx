@@ -1,4 +1,5 @@
 import React from "react";
+import "./index.css";
 
 const Sponsers = () => {
 	return (
@@ -34,7 +35,7 @@ const Sponsers = () => {
 
 				{/* right div -----------------------------------------------------------------------------------*/}
 
-				<div className="h-full w-full justify-center text-center items-center ">
+				<div className="h-full w-full justify-center text-center items-center">
 					<div className="flex flex-col text-center h-full items-center justify-center">
 						{/* Platinum Sponsors --------------------------------------------------------------------------*/}
 
@@ -51,7 +52,7 @@ const Sponsers = () => {
 								<img
 									src={require("../assets/Sponsors/devfolio.svg").default}
 									alt="devfolio"
-									className=" w-36 h-auto inline"
+									className=" xl:w-42 lg:w-36 md:w-30 sm:w-24 xs:w-18 h-auto inline"
 								/>
 								<img
 									src={require("../assets/Sponsors/polygon.svg").default}
@@ -108,7 +109,7 @@ const Sponsers = () => {
 								<img
 									src={require("../assets/Sponsors/solanaLogo.png")}
 									alt="devfolio"
-									className="w-36 h-auto inline"
+									className="h-auto inline xl:w-42 lg:w-36 md:w-30 sm:w-24 xs:w-18"
 								/>
 								<img
 									src={require("../assets/Sponsors/airmeet.png")}

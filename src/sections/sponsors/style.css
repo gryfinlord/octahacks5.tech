@@ -1,132 +1,136 @@
 .sponsors {
-    padding-bottom: 15px;
-  }
-  .sponsors div {
-    cursor: pointer;
-  }
-  .sponsors_description {
-    color: rgb(238, 224, 224);
-    text-align: center;
-    font-size:1.3rem;
-  }
-  .sponsor-title {
-    color: rgb(236, 230, 217);
-    font-weight: 400;
-    margin-bottom: 20px;
-    margin-left: 0;
-    margin-top: 10px;
-    text-align: center;
-  }
-  .awesome {
-    color: rgb(238, 80, 23);
-  }
-  .sponsors-alpha,
-  .sponsors-beta,
-  .sponsors-gold,
-  .sponsors-gamma,
-  .sponsors-delta,
-  .sponsor-nova {
-    border-radius: 20px;
-    box-sizing: border-box;
-    margin-top: 70px;
-    background-color: #080808;
-    padding: 2%;
-    padding-left: 4%;
-    margin-left: 2rem;
-    margin-right:2rem;
-    transition: all ease-in-out 0.4s;
-  }
-  
-  .alpha-images,
-  .beta-images,
-  .gamma-images,
-  .delta-images,
-  .nova-images,
-  .gold-images {
-    display: flex;
-    flex-wrap: wrap;
-  }
-  .alpha-images img,
-  .beta-images img,
-  .gold-images img {
-    height: 40px;
-    width: 100px;
-    margin:10px 10px 10px 10px;
-  }
-  
-  .alpha-images,
-  .beta-images,
-  .gold-images {
-    justify-content: space-around;
-  }
-  .sponsors-alpha {
-    border-left: 2px solid #ea4335;
-    transition: all 0.5s ease-in-out;
-  }
-  
-  .alpha-title {
-    color: #ea4335;
-    font-size: 1.2rem;
-  }
-  .sponsors-alpha:hover {
-    background-color: black;
-    border-right: 2px solid #ea4335;
-    border-top: 2px solid #ea4335;
-    border-bottom: 2px solid #ea4335;
-    border-left: none;
-  }
-  
-  .sponsors-beta {
-    border-left: 2px solid #4285f4;
-    transition: all 0.5s ease-in-out;
-  }
-  .sponsors-gold {
-    border-left: 2px solid #eedb35;
-    transition: all 0.5s ease-in-out;
-  }
-  .beta-title {
-    color: #4285f4;
-    font-size: 1.2rem;
-  }
-  .gold-title {
-    color: #eedb35;
-    font-size: 1.2rem;
-  }
-  .sponsors-beta:hover {
-    background-color: black;
-    border-right: 2px solid #4285f4;
-    border-top: 2px solid #4285f4;
-    border-bottom: 2px solid #4285f4;
-    border-left: none;
-  }
-  
-  .sponsors-gold:hover {
-    background-color: black;
-    border-right: 2px solid #eedb35;
-    border-top: 2px solid #eedb35;
-    border-bottom: 2px solid #eedb35;
-    border-left: none;
-  }
-  
-  .sponsors-gamma {
-    border-left: 2px solid #df8464;
-    width: 40%;
-    margin-top: 20px;
-    transition: all 0.5s ease-in-out;
-    margin-right: 4%;
-  }
-  .gamma-title {
-    color: #df8464;
-    font-size: 1.2rem;
-  }
-  .sponsors-gamma:hover {
-    background-color: black;
-    border-right: 2px solid #df8464;
-    border-top: 2px solid #df8464;
-    border-bottom: 2px solid #df8464;
-    border-left: none;
-  }
-  /* 
+	padding-bottom: 15px;
+}
+.sponsors div {
+	cursor: pointer;
+}
+.sponsors_description {
+	color: rgb(238, 224, 224);
+	text-align: center;
+	font-size: 1.3rem;
+}
+.sponsor-title {
+	color: rgb(236, 230, 217);
+	font-weight: 400;
+	margin-bottom: 20px;
+	margin-left: 0;
+	margin-top: 10px;
+	text-align: center;
+}
+.awesome {
+	color: rgb(238, 80, 23);
+}
+.sponsors-alpha,
+.sponsors-beta,
+.sponsors-gold,
+.sponsors-gamma,
+.sponsors-delta,
+.sponsor-nova {
+	border-radius: 20px;
+	box-sizing: border-box;
+	margin-top: 10px;
+	background-color: #080808;
+	padding: 2%;
+	padding-left: 4%;
+	margin-left: 2rem;
+	margin-right: 2rem;
+	transition: all ease-in-out 0.4s;
+}
+
+.alpha-images,
+.beta-images,
+.gamma-images,
+.delta-images,
+.nova-images,
+.gold-images {
+	display: flex;
+	flex-wrap: wrap;
+}
+.alpha-images img,
+.beta-images img,
+.gold-images img {
+	height: 40px;
+	width: 100px;
+	margin: 10px 10px 10px 10px;
+}
+
+.alpha-images,
+.beta-images,
+.gold-images {
+	justify-content: space-around;
+}
+.sponsors-alpha {
+	border-left: 2px solid #ea4335;
+	transition: all 0.5s ease-in-out;
+}
+
+.alpha-title {
+	color: #ea4335;
+	font-size: 1.2rem;
+}
+.sponsors-alpha:hover {
+	background-color: black;
+	border-right: 2px solid #ea4335;
+	border-top: 2px solid #ea4335;
+	border-bottom: 2px solid #ea4335;
+	border-left: none;
+	transition: all 0.5s ease-in-out;
+}
+
+.sponsors-beta {
+	border-left: 2px solid #4285f4;
+	transition: all 0.5s ease-in-out;
+}
+.sponsors-gold {
+	border-left: 2px solid #eedb35;
+	transition: all 0.5s ease-in-out;
+}
+.beta-title {
+	color: #4285f4;
+	font-size: 1.2rem;
+}
+.gold-title {
+	color: #eedb35;
+	font-size: 1.2rem;
+}
+.sponsors-beta:hover {
+	background-color: black;
+	border-right: 2px solid #4285f4;
+	border-top: 2px solid #4285f4;
+	border-bottom: 2px solid #4285f4;
+	border-left: none;
+	transition: all 0.5s ease-in-out;
+}
+
+.sponsors-gold:hover {
+	background-color: black;
+	border-right: 2px solid #eedb35;
+	border-top: 2px solid #eedb35;
+	border-bottom: 2px solid #eedb35;
+	border-left: none;
+	transition: all 0.5s ease-in-out;
+}
+
+.sponsors-gamma {
+	border-left: 2px solid #df8464;
+	width: 40%;
+	margin-top: 20px;
+	transition: all 0.5s ease-in-out;
+	margin-right: 4%;
+}
+.gamma-title {
+	color: #df8464;
+	font-size: 1.2rem;
+}
+.sponsors-gamma:hover {
+	background-color: black;
+	border-right: 2px solid #df8464;
+	border-top: 2px solid #df8464;
+	border-bottom: 2px solid #df8464;
+	border-left: none;
+	transition: all 0.5s ease-in-out;
+}
+/* 
   .sponsors-nova {
     display: block;
     border-left: 2px solid #df8464;
@@ -145,128 +149,135 @@
     border-bottom: 2px solid #df8464;
     border-left: none;
   } */
-  
-  .sponsors-delta {
-    border-left: 2px solid #d21fff;
-    width: 60%;
-    margin-top: 20px;
-    transition: all 0.5s ease-in-out;
-  }
-  .delta-title {
-    color: #d21fff;
-  }
-  .sponsors-delta:hover {
-    background-color: black;
-    border-right: 2px solid #d21fff;
-    border-top: 2px solid #d21fff;
-    border-bottom: 2px solid #d21fff;
-    border-left: none;
-  }
-  /* .sponsors-alpha:hover > .alpha-title,
+
+.sponsors-delta {
+	border-left: 2px solid #d21fff;
+	width: 60%;
+	margin-top: 20px;
+	transition: all 0.5s ease-in-out;
+}
+.delta-title {
+	color: #d21fff;
+}
+.sponsors-delta:hover {
+	background-color: black;
+	border-right: 2px solid #d21fff;
+	border-top: 2px solid #d21fff;
+	border-bottom: 2px solid #d21fff;
+	border-left: none;
+}
+/* .sponsors-alpha:hover > .alpha-title,
   .sponsors-beta:hover > .beta-title,
   .sponsors-gamma:hover > .gamma-title,
   .sponsors-delta:hover > .delta-title {
     color: black; 
   } */
-  .sponsors-delta,
-  .sponsors-gamma {
-    margin-top: 60px;
-  }
-  .wrap {
-    display: flex;
-    margin-top: 20px;
-    padding: 0;
-  }
-  .wrap div {
-    box-sizing: border-box;
-    border-radius: 10px;
-  }
-  .gamma-images img,
-  .delta-images img {
-    height: 40px;
-    width: 80px;
-    margin-right: 20px;
-    margin-top: 20px;
-  }
-  .gamma-images,
-  .delta-images {
-    width: 100%;
-    padding: 0 !important;
-    margin-right: 0;
-    justify-content: space-evenly;
-  }
-  
-  .partner {
-    margin-top: 50px;
-    width: 100px;
-    margin-left:2rem;
-    margin-right:2rem;
-  }
-  .authentication,
-  .community {
-    padding: 1%;
-    padding-left: 2%;
-    background-color: #080808;
-    margin-top: 60px;
-    margin-left:2rem;
-    margin-right:2rem;
-  }
-  .authentication {
-    border-left: 2px solid #fbbc04;
-    width: 40%;
-    margin-top: 20px;
-    transition: all 0.5s ease-in-out;
-    margin-right: 4%;
-  }
-  
-  .authentication-title {
-    color: #fbbc04;
-  }
-  
-  .authentication:hover {
-    background-color: black;
-    border-right: 2px solid #fbbc04;
-    border-top: 2px solid #fbbc04;
-    border-bottom: 2px solid #fbbc04;
-    border-left: none;
-  }
-  .community {
-    border-left: 2px solid #34a853;
-    width: 60%;
-    margin-top: 20px;
-    transition: all 0.5s ease-in-out;
-  }
-  .community-title {
-    color: #34a853;
-  }
-  .community:hover {
-    background-color: black;
-    border-right: 2px solid #34a853;
-    border-top: 2px solid #34a853;
-    border-bottom: 2px solid #34a853;
-    border-left: none;
-  }
-  
-  
-  @media screen and (max-width: 650px) {
-    .wrap {
-      flex-direction: column;
-    }
-    .authentication {
-      width: 100%;
-    }
-    .community {
-      width: 100%;
-    }
-    .sponsors-gamma {
-      width: 100%;
-    }
-    .sponsors-delta {
-      width: 100%;
-    }
-  }
-  @media screen and (max-width: 650px) {
-    .alpha-images {
-      width: 100%;
-    }
-  }
+.sponsors-delta,
+.sponsors-gamma {
+	margin-top: 60px;
+}
+.wrap {
+	display: flex;
+	margin-top: 20px;
+	padding: 0;
+}
+.wrap div {
+	box-sizing: border-box;
+	border-radius: 10px;
+}
+.gamma-images img,
+.delta-images img {
+	height: 40px;
+	width: 80px;
+	margin-right: 20px;
+	margin-top: 20px;
+}
+.gamma-images,
+.delta-images {
+	width: 100%;
+	padding: 0 !important;
+	margin-right: 0;
+	justify-content: space-evenly;
+}
+
+.partner {
+	margin-top: 50px;
+	width: 100px;
+	margin-left: 2rem;
+	margin-right: 2rem;
+}
+.authentication,
+.community {
+	padding: 1%;
+	padding-left: 2%;
+	background-color: #080808;
+	margin-top: 60px;
+	margin-left: 2rem;
+	margin-right: 2rem;
+}
+.authentication {
+	border-left: 2px solid #fbbc04;
+	width: 40%;
+	margin-top: 20px;
+	transition: all 0.5s ease-in-out;
+	margin-right: 4%;
+}
+
+.authentication-title {
+	color: #fbbc04;
+}
+
+.authentication:hover {
+	background-color: black;
+	border-right: 2px solid #fbbc04;
+	border-top: 2px solid #fbbc04;
+	border-bottom: 2px solid #fbbc04;
+	border-left: none;
+}
+.community {
+	border-left: 2px solid #34a853;
+	width: 60%;
+	margin-top: 20px;
+	transition: all 0.5s ease-in-out;
+}
+.community-title {
+	color: #34a853;
+}
+.community:hover {
+	background-color: black;
+	border-right: 2px solid #34a853;
+	border-top: 2px solid #34a853;
+	border-bottom: 2px solid #34a853;
+	border-left: none;
+}
+
+@media screen and (max-width: 650px) {
+	.wrap {
+		flex-direction: column;
+	}
+	.authentication {
+		width: 100%;
+	}
+	.community {
+		width: 100%;
+	}
+	.sponsors-gamma {
+		width: 100%;
+	}
+	.sponsors-delta {
+		width: 100%;
+	}
+}
+@media screen and (max-width: 650px) {
+	.alpha-images {
+		width: 100%;
+		height: auto;
+	}
+}
+@media only screen and (max-width: 576px) {
+	.sponsorLogos {
+		width: fit-content;
+		padding-right: 20px;
+		margin: 0;
+	}
+}

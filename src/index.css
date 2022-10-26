@@ -17,12 +17,12 @@ body {
 	background-color: rgb(15 23 42);
 	scroll-snap-type: y mandatory;
 }
-.scroll-remove::-webkit-scrollbar{
+.scroll-remove::-webkit-scrollbar {
 	display: none;
 }
-.scroll-remove{
-		-ms-overflow-style: none;  /* IE and Edge */
-		scrollbar-width: none;  /* Firefox */
+.scroll-remove {
+	-ms-overflow-style: none; /* IE and Edge */
+	scrollbar-width: none; /* Firefox */
 }
 
 @layer utilities {
@@ -31,3 +31,10 @@ body {
 		height: 0px;
 	}
 }
+
+/* @media only screen and (max-width: 992px) {
+	#sponsors a img {
+		width: 
+	}
+}
+ */
