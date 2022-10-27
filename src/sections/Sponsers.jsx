@@ -4,7 +4,7 @@ const Sponsers = () => {
 	return (
 		<div
 			id="sponsors"
-			className="sm:flex-col flex https://github.com/ikaushiksharma/WhatsApp_Ui/blob/master/backVideo.gif?raw=true bg-contain bg-no-repeat flex-wrap snap-start"
+			className="bg-gradient-to-r from-[#0b0025] via-[#1d0027] to-[#250026] sm:flex-col flex https://github.com/ikaushiksharma/WhatsApp_Ui/blob/master/backVideo.gif?raw=true bg-contain bg-no-repeat flex-wrap"
 		>
 			{/* left div----------------------------------------------------------------------------------------- */}
 			<div className=" md:h-screen backdrop-blur-lg flex-col md:flex-row flex text-center items-center justify-center ">
@@ -51,12 +51,12 @@ const Sponsers = () => {
 								<img
 									src={require("../assets/Sponsors/devfolio.svg").default}
 									alt="devfolio"
-									className=" w-36 h-auto inline"
+									className="w-28 sm:w-36 h-auto inline"
 								/>
 								<img
 									src={require("../assets/Sponsors/polygon.svg").default}
 									alt=""
-									className="w-36 h-auto"
+									className="w-28 sm:w-36 h-auto"
 								/>
 							</div>
 						</div>

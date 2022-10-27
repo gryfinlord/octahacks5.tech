@@ -2,7 +2,8 @@ import React from "react";
 
 const About = () => {
 	return (
-		<div className="flex flex-col bg-blend-saturation bg-fixed font-azonix justify-evenly items-center lg:flex-col  w-full h-screen md:p-2 p-8 snap-start">
+		<div className="flex flex-col bg-blend-saturation bg-fixed font-azonix justify-evenly items-center lg:flex-col  w-full h-full md:p-2 p-8 bg-gradient-to-r from-[#0b0025] via-[#1d0027] to-[#250026]">
+			<div className="m-20 h-full w-full flex flex-col items-center justify-center">
 			<div className="text-3xl lg:text-5xl xl:text-6xl font-normal text-transparent md:text-4xl lg:w-1/2 bg-clip-text bg-[#EE5017] text-center ">
 				About Us
 			</div>
@@ -14,6 +15,7 @@ const About = () => {
 					36 hours of inspiring panel discussions, working and collaborating on
 					futuristic and empowering tech products, networking opportunities.
 				</p>
+			</div>
 			</div>
 		</div>
 	);

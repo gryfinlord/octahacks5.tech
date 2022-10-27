@@ -5,8 +5,8 @@ const Cards1 = () => {
 		<div className="md:flex-1">
 			<div className="scroll  bg-slate-900 px-4 py-6 h-[75vh] rounded-md overflow-y-scroll flex flex-row flex-wrap w-fit gap-8  text-center justify-center">
 				{/* card1 */}
-				<div className="p-5 rounded-xl shadow-xl shadow-slate-900 bg-slate-800 xl:basis-1/5 lg:basis-1/5 py-8  md:basis-1/3 sm:basis-1/3 xs:basis-full">
-					<div className="lg:w-[100%]">
+				<div className="p-5 rounded-lg shadow-xl shadow-slate-900 bg-slate-800 xl:basis-1/5 lg:basis-1/5 py-8  md:basis-1/3 sm:basis-1/3 xs:basis-full">
+					<div className="lg:w-[100%] flex items-center justify-center gap-2 flex-col">
 						<div className="">
 							<p className="titlePara uppercase text-center">Smart City</p>
 						</div>
@@ -29,8 +29,8 @@ const Cards1 = () => {
 					</div>
 				</div>
 
-				<div className="p-5 rounded-xl shadow-xl shadow-slate-900 bg-slate-800 xl:basis-1/5 lg:basis-1/5 py-8  md:basis-1/3 sm:basis-1/3 xs:basis-full">
-					<div className="md:w-[100%]">
+				<div className="p-5 rounded-lg shadow-xl shadow-slate-900 bg-slate-800 xl:basis-1/5 lg:basis-1/5 py-8  md:basis-1/3 sm:basis-1/3 xs:basis-full">
+					<div className="md:w-[100%] flex items-center justify-center gap-2 flex-col">
 						<div className="">
 							<p className="titlePara uppercase text-center">Security</p>
 						</div>
@@ -52,8 +52,8 @@ const Cards1 = () => {
 					</div>
 				</div>
 
-				<div className=" items-center p-5 rounded-xl shadow-xl shadow-slate-900 bg-slate-800 xl:basis-1/5 lg:basis-1/5 py-8 md:basis-1/3 sm:basis-1/3 xs:basis-full">
-					<div className="md:w-[100%]">
+				<div className=" items-center p-5 rounded-lg shadow-xl shadow-slate-900 bg-slate-800 xl:basis-1/5 lg:basis-1/5 py-8 md:basis-1/3 sm:basis-1/3 xs:basis-full">
+					<div className="md:w-[100%] flex items-center justify-center gap-2 flex-col">
 						<div className="">
 							<p className="titlePara uppercase text-center">Fintech</p>
 						</div>
@@ -74,8 +74,8 @@ const Cards1 = () => {
 					</div>
 				</div>
 
-				<div className="p-5 rounded-xl shadow-xl shadow-slate-900 bg-slate-800 xl:basis-1/5 lg:basis-1/5 py-8 md:basis-1/3 sm:basis-1/3 xs:basis-full">
-					<div className="md:w-[100%]">
+				<div className="p-5 rounded-lg shadow-xl shadow-slate-900 bg-slate-800 xl:basis-1/5 lg:basis-1/5 py-8 md:basis-1/3 sm:basis-1/3 xs:basis-full">
+					<div className="md:w-[100%] flex items-center justify-center gap-2 flex-col">
 						<div className="">
 							<p className="titlePara uppercase text-center">Health</p>
 						</div>
@@ -98,8 +98,8 @@ const Cards1 = () => {
 					</div>
 				</div>
 
-				<div className="p-5 rounded-xl shadow-xl shadow-slate-900 bg-slate-800 xl:basis-1/5 lg:basis-1/5 py-8 md:basis-1/3 sm:basis-1/3 xs:basis-full">
-					<div className="md:w-[100%]">
+				<div className="p-5 rounded-lg shadow-xl shadow-slate-900 bg-slate-800 xl:basis-1/5 lg:basis-1/5 py-8 md:basis-1/3 sm:basis-1/3 xs:basis-full">
+					<div className="md:w-[100%] flex items-center justify-center gap-2 flex-col">
 						<div className="">
 							<p className="titlePara uppercase text-center">Business</p>
 						</div>
@@ -122,8 +122,8 @@ const Cards1 = () => {
 					</div>
 				</div>
 
-				<div className=" p-5 rounded-xl shadow-xl shadow-slate-900 bg-slate-800 xl:basis-1/5 lg:basis-1/5 py-8 md:basis-1/3 sm:basis-1/3 xs:basis-full">
-					<div className="md:w-[100%]">
+				<div className=" p-5 rounded-lg shadow-xl shadow-slate-900 bg-slate-800 xl:basis-1/5 lg:basis-1/5 py-8 md:basis-1/3 sm:basis-1/3 xs:basis-full">
+					<div className="md:w-[100%] flex items-center justify-center gap-2 flex-col">
 						<div className="">
 							<p className="titlePara uppercase text-center">Woman security</p>
 						</div>
@@ -146,8 +146,8 @@ const Cards1 = () => {
 					</div>
 				</div>
 
-				<div className=" p-5 rounded-xl shadow-xl shadow-slate-900 bg-slate-800 xl:basis-1/5 lg:basis-1/5 py-8 md:basis-1/3 sm:basis-1/3 xs:basis-full">
-					<div className="md:w-[100%]">
+				<div className=" p-5 rounded-lg shadow-xl shadow-slate-900 bg-slate-800 xl:basis-1/5 lg:basis-1/5 py-8 md:basis-1/3 sm:basis-1/3 xs:basis-full">
+					<div className="md:w-[100%] flex items-center justify-center gap-2 flex-col">
 						<div className="">
 							<p className="titlePara uppercase text-center">Environment</p>
 						</div>
@@ -168,8 +168,8 @@ const Cards1 = () => {
 					</div>
 				</div>
 
-				<div className="p-5 rounded-xl shadow-xl shadow-slate-900 bg-slate-800 xl:basis-1/5 lg:basis-1/5 py-8 md:basis-1/3 sm:basis-1/3 xs:basis-full">
-					<div className="md:w-[100%]">
+				<div className="p-5 rounded-lg shadow-xl shadow-slate-900 bg-slate-800 xl:basis-1/5 lg:basis-1/5 py-8 md:basis-1/3 sm:basis-1/3 xs:basis-full">
+					<div className="md:w-[100%] flex items-center justify-center gap-2 flex-col">
 						<div className="">
 							<p className="titlePara uppercase text-center">Education</p>
 						</div>

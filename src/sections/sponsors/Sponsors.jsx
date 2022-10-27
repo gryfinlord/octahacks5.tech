@@ -3,8 +3,8 @@ import './style.css';
 function Sponsors() {
   return (
     <>
-    <div className='snap-start'>
- <section className="sponsors flex flex-col items-center justify-center p-2" id="sponsors">
+   
+ <section className="bg-gradient-to-r from-[#0b0025] via-[#1d0027] to-[#250026] sponsors flex flex-col items-center justify-center p-2" id="sponsors">
       <div class="flex flex-col gap-4 m-2 p-2">
         <h1 className="sponsor-title text-5xl lg:text-6xl xl:text-7xl text-center">
           Our <span className="awesome">Awesome</span> Sponsors
@@ -18,43 +18,43 @@ function Sponsors() {
         <div className="flex flex-col gap-4 m-6 p-2">
         <div className="sponsors-alpha">
           <h2 className="alpha-title">Platinum Sponsors</h2>
-          <div className="alpha-images flex items-center justify-center">
+          <div className="alpha-images flex items-center justify-center gap-2 p-1">
             <a href="https://devfolio.co" target="blank">
-              <img src={require("../../assets/Sponsors/devfolio.svg").default} style={{width: '230px'}} />
+              <img className="w-32 sm:w-36 h-auto inline" src={require("../../assets/Sponsors/devfolio.svg").default}  />
             </a>
             <a href="https://polygon.technology/" target="blank">
-              <img src={require("../../assets/Sponsors/polygon.svg").default} style={{width: '230px'}} />
+              <img className="w-32 sm:w-36 h-auto inline"src={require("../../assets/Sponsors/polygon.svg").default}  />
             </a>
           </div>
         </div>
         <div className="sponsors-gold">
           <h2 className="gold-title">Gold Sponsors</h2>
-          <div className="gold-images flex items-center justify-center">
+          <div className="gold-images flex items-center justify-center gap-2 p-1">
             <a href="https://filecoin.io" target="blank">
-              <img src={require("../../assets/Sponsors/Filecoin.png")} style={{width: '190px',height:'80px'}} />
+              <img className="w-32 sm:w-36 h-auto inline" src={require("../../assets/Sponsors/Filecoin.png")}  />
             </a>
             <a href="https://tezos.com" target="blank">
-              <img src={require("../../assets/Sponsors/tezos.svg").default} alt="" style={{width: '190px'}} />
+              <img className="w-32 sm:w-36 h-auto inline" src={require("../../assets/Sponsors/tezos.svg").default}  />
             </a>
             <a href="https://celo.org" target="blank">
-              <img src={require("../../assets/Sponsors/celo.png")} style={{width: '150px', height: 'auto', marginTop: '10px'}} />
+              <img className="w-32 sm:w-36 h-auto inline" src={require("../../assets/Sponsors/celo.png")}/>
             </a>
             <a href="https://www.axure.com/" target="blank">
-              <img src={require("../../assets/Sponsors/axure.png")} style={{width: '150px', height: 'auto'}} />
+              <img className="w-32 sm:w-36 h-auto inline" src={require("../../assets/Sponsors/axure.png")} />
             </a>
           </div>
         </div>
         <div className="sponsors-beta">
           <h2 className="beta-title">Premium Sponsors</h2>
-          <div className="beta-images flex items-center justify-center">
+          <div className="beta-images flex items-center justify-center gap-2 p-1">
             <a href="#" target="black">
-              <img src={require("../../assets/Sponsors/solanaLogo.png")} style={{width: '150px',height: 'auto', marginTop: '10px'}} />
+              <img className="w-32 sm:w-36 h-auto inline" src={require("../../assets/Sponsors/solanaLogo.png")} />
             </a>
             <a href="#" target="blank">
-              <img src={require("../../assets/Sponsors/airmeet.png")} alt="" style={{width: '150px', height: 'auto', marginTop: '10px'}} />
+              <img className="w-32 sm:w-36 h-auto inline" src={require("../../assets/Sponsors/airmeet.png")}  />
             </a>
             <a href="#" target="blank">
-              <img src={require("../../assets/Sponsors/sashido.png")} alt="" style={{width: '150px', height: 'auto', marginTop: '10px'}} />
+              <img className="w-32 sm:w-36 h-auto inline" src={require("../../assets/Sponsors/sashido.png")} />
             </a>
             
           </div>
@@ -75,8 +75,7 @@ function Sponsors() {
       </section>
 
 
-      
-      </div>
+
     </>
   )
 }

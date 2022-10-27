@@ -3,7 +3,7 @@ const Judges = () => {
 	return (
 		<div
 			id="judges"
-			className="h-screen bg-slate-900 bg-no-repeat bg-contain snap-start"
+			className="bg-gradient-to-r from-[#0b0025] via-[#1d0027] to-[#250026] bg-no-repeat bg-contain p-4"
 		>
 			<div className="judgesText">
 				<div className="text-5xl lg:text-6xl xl:text-7xl text-center">

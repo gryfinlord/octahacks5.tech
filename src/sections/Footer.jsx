@@ -4,14 +4,14 @@ const Footer = () => {
 	return (
 		<div
 			id="footer"
-			className="bg-slate-900 bg-no-repeat bg-contain p-2 snap-start"
+			className="bg-gradient-to-r from-[#0b0025] via-[#1d0027] to-[#250026] bg-no-repeat bg-contain p-2 h-screen"
 		>
 			<div className="text-5xl lg:text-6xl xl:text-7xl text-center">
 				Contact Us
 			</div>
 
-			<div className="footer_section font-azonix flex flex-row justify-between w-full h-full">
-				<div class="footer_section_1 w-1/3">
+			<div className="footer_section font-azonix flex flex-row justify-between w-full">
+				<div class="footer_section_1 w-1/3 rounded-lg">
 					<div class="">
 						<img
 							src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.chitkara.edu.in%2Fwp-content%2Fthemes%2Fchitkara%2Fimages%2FCU_logo.png&f=1&nofb=1&ipt=73285697f123d5332b2fc6459189124b501093459305c9bf57dee8acfe851f7b&ipo=images"
@@ -31,7 +31,7 @@ const Footer = () => {
 						</div>
 					</div>
 				</div>
-				<div class="footer_section_1 w-1/3">
+				<div class="footer_section_1 w-1/3 rounded-lg">
 					<div class="footer_section_1_content">
 						<img
 							src="https://github.com/ikaushiksharma/WhatsApp_Ui/blob/master/logo.png?raw=true"

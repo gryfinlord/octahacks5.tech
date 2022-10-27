@@ -44,14 +44,7 @@
     display: flex;
     flex-wrap: wrap;
   }
-  .alpha-images img,
-  .beta-images img,
-  .gold-images img {
-    height: 40px;
-    width: 100px;
-    margin:10px 10px 10px 10px;
-  }
-  
+
   .alpha-images,
   .beta-images,
   .gold-images {

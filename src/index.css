@@ -15,7 +15,7 @@
 
 body {
 	background-image: linear-gradient(-215deg, rgb(28, 12, 91), rgb(61, 44, 141),rgb(145, 107, 191),rgb(201, 150, 204));
-	scroll-snap-type: y mandatory;
+
 }
 .scroll-remove::-webkit-scrollbar{
 	display: none;

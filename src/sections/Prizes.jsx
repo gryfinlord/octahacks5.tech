@@ -4,7 +4,7 @@ function Prizes() {
 	return (
 		<div
 			id="prizes"
-			className="bg-slate-900 bg-[url(https://github.com/YAKSHIT-22/Cyber_Threat_Analysis_Website/blob/main/ezgif.com-gif-maker.gif?raw=true)] bg-no-repeat bg-cover bg-center  w-full   snap-start sm:h-screen"
+			className="bg-slate-900 bg-[url(https://github.com/YAKSHIT-22/Cyber_Threat_Analysis_Website/blob/main/ezgif.com-gif-maker.gif?raw=true)] bg-no-repeat bg-cover bg-center  w-full sm:h-screen"
 		>
 			<div className="backdrop-blur-md h-full w-full grid sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2">
 			<div className="flex flex-col justify-center items-center  md:p-2 lg:p-4">
