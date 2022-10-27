@@ -277,3 +277,9 @@
 		margin: 0;
 	}
 }
+
+@media only screen and (max-width: 250px) {
+	.sponsor-title {
+		font-size: 40px;
+	}
+}
