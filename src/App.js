@@ -106,7 +106,7 @@ function App() {
 								<li className="">
 									<a
 										className="block p-2 text-md  text-white hover:bg-blue-300 hover:text-blue-600 rounded"
-										href="#sponsers"
+										href="#sponsors"
 									>
 										Sponsors
 									</a>
@@ -223,7 +223,7 @@ function App() {
 								<li className="mb-1">
 									<a
 										className="block p-4 text-xl  text-white hover:bg-blue-300 hover:text-blue-600 rounded"
-										href="#sponsers"
+										href="#sponsors"
 									>
 										Sponsors
 									</a>
