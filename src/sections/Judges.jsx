@@ -3,7 +3,7 @@ const Judges = () => {
 	return (
 		<div
 			id="judges"
-			className="h-screen bg-slate-900 bg-no-repeat bg-contain p-2 snap-start"
+			className="h-screen bg-slate-900 bg-no-repeat bg-contain snap-start"
 		>
 			<div className="judgesText">
 				<div className="text-5xl lg:text-6xl xl:text-7xl text-center">
@@ -27,9 +27,7 @@ const Judges = () => {
 						<p class="text-xl text-gray-700 font-bold mb-2">Dany Bailey</p>
 						<p class="text-base text-gray-400 font-normal">Software Engineer</p>
 					</div> */}
-					<div className="text-black text-3xl w-full h-full text-center flex items-center justify-center">
-						Coming Soon..
-					</div>
+					<div className="text-black text-3xl w-full h-full text-center flex items-center justify-center">Coming Soon..</div>
 				</div>
 				<div
 					data-aos="flip-up"
@@ -47,9 +45,7 @@ const Judges = () => {
 						<p class="text-xl text-gray-700 font-bold mb-2">Lucy Carter</p>
 						<p class="text-base text-gray-400 font-normal">Graphic Designer</p>
 					</div> */}
-					<div className="text-black text-3xl w-full h-full text-center flex items-center justify-center">
-						Coming Soon..
-					</div>
+					<div className="text-black text-3xl w-full h-full text-center flex items-center justify-center">Coming Soon..</div>
 				</div>
 				<div
 					data-aos="flip-right"
@@ -67,9 +63,7 @@ const Judges = () => {
 						<p class="text-xl text-gray-700 font-bold mb-2">Jade Bradley</p>
 						<p class="text-base text-gray-400 font-normal">Dev Ops</p>
 					</div> */}
-					<div className="text-black text-3xl w-full h-full text-center flex items-center justify-center">
-						Coming Soon..
-					</div>
+					<div className="text-black text-3xl w-full h-full text-center flex items-center justify-center">Coming Soon..</div>
 				</div>
 				<div
 					data-aos="flip-left"
@@ -87,9 +81,7 @@ const Judges = () => {
 						<p class="text-xl text-gray-700 font-bold mb-2">Dany Bailey</p>
 						<p class="text-base text-gray-400 font-normal">Software Engineer</p>
 					</div> */}
-					<div className="text-black text-3xl w-full h-full text-center flex items-center justify-center">
-						Coming Soon..
-					</div>
+					<div className="text-black text-3xl w-full h-full text-center flex items-center justify-center">Coming Soon..</div>
 				</div>
 				<div
 					data-aos="flip-down"
@@ -107,9 +99,7 @@ const Judges = () => {
 						<p class="text-xl text-gray-700 font-bold mb-2">Lucy Carter</p>
 						<p class="text-base text-gray-400 font-normal">Graphic Designer</p>
 					</div> */}
-					<div className="text-black text-3xl w-full h-full text-center flex items-center justify-center">
-						Coming Soon..
-					</div>
+					<div className="text-black text-3xl w-full h-full text-center flex items-center justify-center">Coming Soon..</div>
 				</div>
 				<div
 					data-aos="flip-right"
@@ -127,9 +117,7 @@ const Judges = () => {
 						<p class="text-xl text-gray-700 font-bold mb-2">Lucy Carter</p>
 						<p class="text-base text-gray-400 font-normal">Graphic Designer</p>
 					</div> */}
-					<div className="text-black text-3xl w-full h-full text-center flex items-center justify-center">
-						Coming Soon..
-					</div>
+					<div className="text-black text-3xl w-full h-full text-center flex items-center justify-center">Coming Soon..</div>
 				</div>
 			</div>
 		</div>

@@ -4,9 +4,10 @@ function Prizes() {
 	return (
 		<div
 			id="prizes"
-			className="bg-slate-900 bg-no-repeat bg-contain grid sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 w-full  md:p-2 lg:p-4 snap-start sm:h-screen"
+			className="bg-slate-900 bg-[url(https://github.com/YAKSHIT-22/Cyber_Threat_Analysis_Website/blob/main/ezgif.com-gif-maker.gif?raw=true)] bg-no-repeat bg-cover bg-center  w-full   snap-start sm:h-screen"
 		>
-			<div className="flex flex-col justify-center items-center backdrop-blur-lg bg-black/30">
+			<div className="backdrop-blur-md h-full w-full grid sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2">
+			<div className="flex flex-col justify-center items-center  md:p-2 lg:p-4">
 				<div className="p-2 flex flex-col justify-center items-center">
 					<div className="md:w-full lg:w-[88%] h-full flex flex-col justify-center items-center lg:items-start text-white bg-transparent  cursor-pointer space-y-4 ">	
 						<h1 className="text-5xl lg:text-6xl xl:text-7xl font-normal text-transparent bg-gradient-to-r from-[#6c6aff] via-[#fbc7d4] to-[#ff658b] inline-block bg-clip-text">
@@ -22,7 +23,7 @@ function Prizes() {
 					</div>
 				</div>
 			</div>
-			<div className="flex flex-col justify-center items-center backdrop-blur-lg bg-black/30">
+			<div className="flex flex-col justify-center items-center  md:p-2 lg:p-4">
 				<div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 w-full h-full  items-center md:px-1 p-4  md:py-5 gap-2">
 					<div className="w-full h-full flex flex-col justify-center items-center text-white bg-gray-800 p-2 cursor-pointer rounded-[4px]">
 						<h2 className="text-xl font-semibold p-[2%] text-center">Winner</h2>
@@ -87,6 +88,7 @@ function Prizes() {
 						</p>
 					</div>
 				</div>
+			</div>
 			</div>
 		</div>
 	);

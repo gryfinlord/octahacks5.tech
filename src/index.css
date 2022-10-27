@@ -14,15 +14,15 @@
 }
 
 body {
-	background-color: rgb(15 23 42);
+	background-image: linear-gradient(-215deg, rgb(28, 12, 91), rgb(61, 44, 141),rgb(145, 107, 191),rgb(201, 150, 204));
 	scroll-snap-type: y mandatory;
 }
-.scroll-remove::-webkit-scrollbar {
+.scroll-remove::-webkit-scrollbar{
 	display: none;
 }
-.scroll-remove {
-	-ms-overflow-style: none; /* IE and Edge */
-	scrollbar-width: none; /* Firefox */
+.scroll-remove{
+		-ms-overflow-style: none;  /* IE and Edge */
+		scrollbar-width: none;  /* Firefox */
 }
 
 @layer utilities {
@@ -31,10 +31,3 @@ body {
 		height: 0px;
 	}
 }
-
-/* @media only screen and (max-width: 992px) {
-	#sponsors a img {
-		width: 
-	}
-}
- */
