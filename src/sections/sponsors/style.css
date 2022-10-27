@@ -9,15 +9,12 @@
   }
   .sponsor-title {
     color: rgb(236, 230, 217);
-    font-weight: 400;
     margin-bottom: 20px;
     margin-left: 0;
     margin-top: 10px;
     text-align: center;
   }
-  .awesome {
-    color: rgb(238, 80, 23);
-  }
+
   .sponsors-alpha,
   .sponsors-beta,
   .sponsors-gold,

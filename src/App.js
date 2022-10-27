@@ -53,11 +53,11 @@ function App() {
 		<div className="font-azonix bg-no-repeat bg-contain w-full h-full min-h-screen text-gray-100">
 			<div className="w-full bg-gradient-to-r from-[#0b0025] via-[#1d0027] to-[#250026] h-[12vh]">
 				<nav className="relative px-4 py-4 flex justify-between items-center">
-					<div className="flex items-center justify-center w-28 h-full ml-2">
+					<div className="flex items-center justify-center w-28 h-full ml-7">
 						<a className="text-3xl font-bold leading-none" href="#!">
 							<img
 								src="https://github.com/ikaushiksharma/WhatsApp_Ui/blob/master/logo.png?raw=true"
-								class="w-52 h-auto"
+								class="w-58 h-14"
 								alt="gdsc"
 							/>
 						</a>
@@ -78,7 +78,7 @@ function App() {
 						</button>
 					</div>
 					<div className="hidden lg:flex  lg:items-center lg:w-auto">
-						<ul className="lg:flex lg:mx-2 lg:my-2 lg:items-center lg:w-auto lg:space-x-4 xl:space-x-6">
+						<ul className="lg:flex lg:mx-2 lg:my-2 lg:items-center lg:w-auto lg:space-x-4 xl:space-x-6 font-medium">
 								<li className="">
 									<a
 										className="block p-2 text-md  text-white hover:bg-blue-300 hover:text-blue-600 rounded"
@@ -137,7 +137,7 @@ function App() {
 								</li>
 						</ul>
 					</div>
-					<div className="hidden lg:flex items-center justify-center">
+					<div className="hidden lg:flex items-center justify-center mr-7">
 						<a
 							className="hidden lg:inline-block lg:ml-auto text-sm font-bold  transition duration-200"
 							href="#!"

@@ -6,10 +6,10 @@ function Sponsors() {
    
  <section className="bg-gradient-to-r from-[#0b0025] via-[#1d0027] to-[#250026] sponsors flex flex-col items-center justify-center p-2" id="sponsors">
       <div class="flex flex-col gap-4 m-2 p-2">
-        <h1 className="sponsor-title text-5xl lg:text-6xl xl:text-7xl text-center">
-          Our <span className="awesome">Awesome</span> Sponsors
+        <h1 className="sponsor-title text-5xl lg:text-6xl xl:text-7xl text-center font-semibold">
+          Our <span className="awesome text-transparent  bg-gradient-to-r from-[#6c6aff] via-[#fbc7d4] to-[#ff658b] inline-block bg-clip-text ">Awesome</span> Sponsors
         </h1>
-        <p className="sponsors_description">
+        <p className="sponsors_description font-medium">
           While all our participants make our event lively. It is our very
           amazing <span className="about_high">sponsors</span> that
           <span className="about_high">make it possible.</span>

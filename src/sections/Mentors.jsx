@@ -3,10 +3,12 @@ const Mentors = () => {
 	return (
 		<div
 			id="mentors"
-			className="bg-gradient-to-r from-[#0b0025] via-[#1d0027] to-[#250026] bg-no-repeat bg-contain p-4"
+			className="p-4"
 		>
-			<div className="text-5xl lg:text-6xl xl:text-7xl text-center">
-				Mentors
+			<div className="text-white flex flex-col justify-center items-center">
+				<h1 className="font-semibold text-5xl lg:text-6xl xl:text-7xl text-center text-transparent bg-gradient-to-r from-[#6c6aff] via-[#fbc7d4] to-[#ff658b] inline-block bg-clip-text">
+					Mentors
+				</h1>
 			</div>
 			<div class="grid sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-6 px-12 py-12 md:px-6 md:py-6 xl:px-12 xl:py-12 auto-rows-fr h-[90vh]">
 				<div
