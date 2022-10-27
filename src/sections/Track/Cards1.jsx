@@ -3,7 +3,7 @@ import React from "react";
 const Cards1 = () => {
 	return (
 		<div className="md:flex-1">
-			<div className="scroll  bg-slate-900 px-4 py-6 h-[75vh] rounded-md overflow-y-scroll flex flex-row flex-wrap w-fit gap-8  text-center justify-center">
+			<div className="scroll  bg-slate-900 px-4 py-6 h-fit rounded-md overflow-y-scroll flex flex-row flex-wrap w-fit gap-8  text-center justify-center">
 				{/* card1 */}
 				<div className="p-5 rounded-lg shadow-xl shadow-slate-900 bg-slate-800 xl:basis-1/5 lg:basis-1/5 py-8  md:basis-1/3 sm:basis-1/3 xs:basis-full">
 					<div className="lg:w-[100%] flex items-center justify-center gap-2 flex-col">

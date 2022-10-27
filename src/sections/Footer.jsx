@@ -4,91 +4,72 @@ const Footer = () => {
 	return (
 		<div
 			id="footer"
-			className="bg-gradient-to-r from-[#0b0025] via-[#1d0027] to-[#250026] bg-no-repeat bg-contain p-2 h-screen"
+			className="bg-slate-900 bg-no-repeat bg-contain p-2 pt-12 snap-start h-fit"
 		>
-			<div className="text-5xl lg:text-6xl xl:text-7xl text-center">
+			<h1 className="text-5xl lg:text-6xl xl:text-5xl font-normal text-transparent bg-gradient-to-r from-[#6c6aff] via-[#fbc7d4] to-[#ff658b] inline-block bg-clip-text ml-10">
 				Contact Us
-			</div>
+			</h1>
 
-			<div className="footer_section font-azonix flex flex-row justify-between w-full">
-				<div class="footer_section_1 w-1/3 rounded-lg">
-					<div class="">
-						<img
-							src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.chitkara.edu.in%2Fwp-content%2Fthemes%2Fchitkara%2Fimages%2FCU_logo.png&f=1&nofb=1&ipt=73285697f123d5332b2fc6459189124b501093459305c9bf57dee8acfe851f7b&ipo=images"
-							alt="footer"
-							class="h-[50px] mx-auto"
-						/>
-						<div>
-							<h1 className="text-center text-white">
-								About Chitkara University
-							</h1>
-							<p className="text-center text-white">
-								Chitkara university is a private university located in
-								Rajpura,Punjab, India. It offers undergraduate programs,
-								post-graduate program and doctoral programs in fields of
-								engineering, management, pharmacy, and education.
+			<p className="contactUsSubText ml-10">
+				Octahacks has developed at a massive rate and positions for
+				participants, mentors, judges and sponsorships are open now!
+			</p>
+
+			<div className="grid grid-cols-12 ml-10 mt-8">
+				<div className="col-span-2"></div>
+				<div className="col-span-12 2xl:col-span-4 xl:col-span-4 lg:col-span-6 md:col-span-6 sm:col-span-12 xs:col-span-12">
+					<div className="grid grid-cols-12 mt-10">
+						<div className="p-3 bg-[#2D3340] col-span-9 rounded-2xl">
+							<p className="text-[22px]"> About Chitkara University</p>
+							<div className="grid grid-cols-12 mt-1">
+								<div className="col-span-3">
+									<hr />
+								</div>
+								<div className="col-span-9"></div>
+							</div>
+							<p className="mt-2 text-[14px]">
+								Chitkara University is a private university with a rating of A+
+								by the presitigious NAAC and ranks in top 5% of HEIs. The
+								University scored a Cummulative Grade Point Average(CGPA) of
+								3.26 on a 4 point scale.
 							</p>
 						</div>
 					</div>
-				</div>
-				<div class="footer_section_1 w-1/3 rounded-lg">
-					<div class="footer_section_1_content">
-						<img
-							src="https://github.com/ikaushiksharma/WhatsApp_Ui/blob/master/logo.png?raw=true"
-							alt="logo"
-							class="bg-slate-900"
-						/>
-						<div>
-							<h1 className="text-center text-black">About Octahacks</h1>
-							<p className="text-center text-black">
+
+					<div className="grid grid-cols-12 mt-10">
+						<div className="p-3 bg-[#2D3340] col-span-9 rounded-2xl">
+							<p className="text-[22px]"> About Octahacks 5.0</p>
+							<div className="grid grid-cols-12 mt-1">
+								<div className="col-span-3">
+									<hr />
+								</div>
+								<div className="col-span-9"></div>
+							</div>
+							<p className="mt-2 text-[14px]">
 								This November, Octahacks is back with it's fourth edition,
-								Octahacks 4.0. Expect more than 36 hours of inspiring panel
-								discussions, empowering tech products, networking opportunities
-								with budding developers and lots of fun!
+								octahacks 4.0. Expect more than 36 hours of inspiring panel
+								discussions and networking opportunities with budding developers
+								and lots of fun! We value the participation of each member and
+								want all attendees to have an enjoyable and fulfilling
+								experience.
 							</p>
 						</div>
 					</div>
 				</div>
-				<div class="footer_section_2 md:w-1/3 w-full flex items-center justify-center">
-					<div class="social_icons">
-						<div className="flex items-center justify-center">
-							<a href="https://www.instagram.com/gdsc_ciet/">
-								<img
-									alt="socials"
-									src="https://img.icons8.com/ios-glyphs/40/ffffff/instagram-new.png"
-								/>
-							</a>
-							<a href="https://www.linkedin.com/company/gdsc-ciet/mycompany/">
-								<img
-									alt="socials"
-									src="https://img.icons8.com/ios-glyphs/40/ffffff/linkedin-circled.png"
-								/>
-							</a>
 
-							<a href="https://github.com/DSC-ChitkaraUniv">
-								<img
-									src="https://img.icons8.com/ios-glyphs/40/ffffff/github.png"
-									alt="githublogo"
-								/>
-							</a>
-							<a href="https://twitter.com/gdscciet">
-								<img
-									src="https://img.icons8.com/ios-glyphs/40/ffffff/twitter--v1.png"
-									alt=""
-									srcset=""
-								/>
-							</a>
-						</div>
-						<p class="text-left">
-							For more updates,
-							<br />
-							follow us on all social media.
-						</p>
-					</div>
+				<div className="col-span-12 2xl:col-span-4 xl:col-span-4 lg:col-span-4 md:col-span-4 sm:col-span-12 xs:col-span-12">
+					<img
+						src={require("../assets/contactUsGuy.png")}
+						alt=""
+						className="mt-10 2xl:w-[60%] xl:w-[80%] lg:w-[90%]"
+					/>
 				</div>
+
+				<div className="col-span-2"></div>
 			</div>
-			<div class="footer_section_3">
-				<p>Architected with ♥ by GDSC Core Team</p>
+
+			<div className="footer_section_3">
+				<p className="">Architected with ♥ by GDSC Core Team</p>
 				<img
 					src={require("../assets/Sponsors/gdsc.png")}
 					className="w-52"
