@@ -23,12 +23,14 @@ function Sponsors() {
 								<img
 									src={require("../../assets/Sponsors/devfolio.svg").default}
 									style={{ width: "230px" }}
+									className="sponsorLogos"
 								/>
 							</a>
 							<a href="https://polygon.technology/" target="blank">
 								<img
 									src={require("../../assets/Sponsors/polygon.svg").default}
 									style={{ width: "230px" }}
+									className="sponsorLogos"
 								/>
 							</a>
 						</div>
@@ -39,26 +41,30 @@ function Sponsors() {
 							<a href="https://filecoin.io" target="blank">
 								<img
 									src={require("../../assets/Sponsors/Filecoin.png")}
-									style={{ width: "190px", height: "80px" }}
+									style={{ width: "190px", height: "auto" }}
+									className="sponsorLogos"
 								/>
 							</a>
 							<a href="https://tezos.com" target="blank">
 								<img
 									src={require("../../assets/Sponsors/tezos.svg").default}
 									alt=""
-									style={{ width: "190px" }}
+									style={{ width: "100%" }}
+									className="sponsorLogos"
 								/>
 							</a>
 							<a href="https://celo.org" target="blank">
 								<img
 									src={require("../../assets/Sponsors/celo.png")}
 									style={{ width: "150px", height: "auto", marginTop: "10px" }}
+									className="sponsorLogos"
 								/>
 							</a>
 							<a href="https://www.axure.com/" target="blank">
 								<img
 									src={require("../../assets/Sponsors/axure.png")}
 									style={{ width: "150px", height: "auto" }}
+									className="sponsorLogos"
 								/>
 							</a>
 						</div>
@@ -69,7 +75,8 @@ function Sponsors() {
 							<a href="#" target="black">
 								<img
 									src={require("../../assets/Sponsors/solanaLogo.png")}
-									style={{ width: "fit-content" }}
+									style={{ width: "150px", height: "auto" }}
+									className="sponsorLogos"
 								/>
 							</a>
 							<a href="#" target="blank">
@@ -77,6 +84,7 @@ function Sponsors() {
 									src={require("../../assets/Sponsors/airmeet.png")}
 									alt=""
 									style={{ width: "130px", height: "auto", marginTop: "10px" }}
+									className="sponsorLogos"
 								/>
 							</a>
 							<a href="#" target="blank">
@@ -84,6 +92,7 @@ function Sponsors() {
 									src={require("../../assets/Sponsors/sashido.png")}
 									alt=""
 									style={{ width: "150px", height: "auto", marginTop: "-5px" }}
+									className="sponsorLogos"
 								/>
 							</a>
 						</div>

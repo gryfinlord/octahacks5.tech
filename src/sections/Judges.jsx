@@ -3,7 +3,7 @@ const Judges = () => {
 	return (
 		<div
 			id="judges"
-			className="h-screen bg-slate-900 bg-no-repeat bg-contain snap-start"
+			className="h-screen bg-slate-900 bg-no-repeat bg-contain p-2 snap-start"
 		>
 			<div className="judgesText">
 				<div className="text-5xl lg:text-6xl xl:text-7xl text-center">
