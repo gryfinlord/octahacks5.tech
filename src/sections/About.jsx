@@ -7,7 +7,7 @@ const About = () => {
 			<h1 className="text-4xl lg:text-5xl xl:text-6xl font-semibold text-transparent bg-gradient-to-r from-[#6c6aff] via-[#fbc7d4] to-[#ff658b] inline-block bg-clip-text text-center">
 				About Us
 			</h1>
-			<div className="text-[1.2rem] lg:text-[1.3rem] xl:text-[1.5rem] md:w-3/4 p-4 text-center font-medium">
+			<div className="text-[1.2rem] lg:text-[1.3rem] xl:text-[1.5rem] md:w-3/4 p-4 text-center font-regular">
 				<p>
 					OctaHacks is the annual flagship event of GDSC, Chitkara University,
 					where innovators get an opportunity to merge their creative ideas with

@@ -15,10 +15,10 @@ const Landing = () => {
 				
 
 				<div className="w-full text-4xl p-2 xl:text-[9rem] leading-[1] lg:text-8xl md:text-8xl sm:text-7xl xs:text-5xl text-center  relative flex items-center justify-center">
-					<p className="text-center absolute font-bold">
+					<p className="text-center absolute font-medium tracking-wider">
 						OCTAHACKS 
 					</p>
-					<p className="w-full h-full text-[7rem] xs:text-[8rem] sm:text-[10rem] md:text-[12rem] lg:text-[15rem] xl:text-[18rem] leading-[1] text-[#651c6e]">
+					<p className="w-full h-full text-[7rem] xs:text-[8rem] sm:text-[10rem] md:text-[12rem] lg:text-[15rem] xl:text-[18rem] leading-[1] text-[#490b52] tracking-tighter">
 						5.0 
 					</p>
 				</div>

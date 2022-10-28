@@ -12,7 +12,7 @@ function Sponsors() {
         <p className="sponsors_description font-medium">
           While all our participants make our event lively. It is our very
           amazing <span className="about_high">sponsors</span> that
-          <span className="about_high">make it possible.</span>
+          <span className="about_high"> make it possible.</span>
         </p>
         </div>
         <div className="flex flex-col gap-4 m-6 p-2">

@@ -6,7 +6,7 @@ const Judges = () => {
 			className="p-4"
 		>
 			<div className="text-white flex  justify-center items-center">
-				<h1 className="font-semibold text-5xl lg:text-6xl xl:text-7xl text-transparent bg-gradient-to-r from-[#6c6aff] via-[#fbc7d4] to-[#ff658b] inline-block bg-clip-text p-2">
+				<h1 className="font-semibold text-5xl lg:text-6xl text-transparent bg-gradient-to-r from-[#6c6aff] via-[#fbc7d4] to-[#ff658b] inline-block bg-clip-text p-2">
 					Judges
 				</h1>
 			</div>

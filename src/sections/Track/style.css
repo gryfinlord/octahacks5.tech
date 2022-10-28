@@ -99,10 +99,10 @@
 }
 
 .para {
-	line-height: 15px;
-	font-size: 12px;
-	letter-spacing: 0.1px;
-	font-weight: 500;
+	line-height: 1rem;
+	font-size: 13px;
+	letter-spacing: 0.6px;
+	
 }
 .cards img {
 	/* height: 100%; */
