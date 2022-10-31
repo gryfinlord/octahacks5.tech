@@ -1,5 +1,5 @@
 import React from "react";
-import AnimatedCursor from "react-animated-cursor";
+// import AnimatedCursor from "react-animated-cursor";
 import Judges from "./sections/Judges";
 import About from "./sections/About";
 import Landing from "./sections/Landing/Landing";
