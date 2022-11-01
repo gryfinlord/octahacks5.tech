@@ -3,14 +3,14 @@ const Mentors = () => {
 	return (
 		<div
 			id="mentors"
-			className="min-h-screen bg-no-repeat bg-contain p-2 snap-start"
+			className="min-h-screen bg-no-repeat bg-contain p-2 snap-start bg-slate-900"
 		>
 			<div className="text-white flex  justify-center items-center">
 				<h1 className="font-semibold text-5xl lg:text-6xl text-transparent bg-gradient-to-r from-[#6c6aff] via-[#fbc7d4] to-[#ff658b] inline-block bg-clip-text p-2 mt-4">
 					Mentors
 				</h1>
 			</div>
-			<div class="grid sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-6 px-12 py-12 md:px-6 md:py-6 xl:px-12 xl:py-12 auto-rows-fr h-[90vh]">
+			<div class="grid sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-6 px-12 py-12 md:px-6 md:py-6 xl:px-12 xl:py-12 auto-rows-fr h-[90vh] bg-slate-900">
 				<div
 					data-aos="flip-left"
 					data-aos-easing="ease-in-sine"

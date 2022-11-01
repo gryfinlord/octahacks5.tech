@@ -4,7 +4,7 @@ const Footer = () => {
 	return (
 		<div
 			id="footer"
-			className="bg-no-repeat bg-contain p-2 snap-start"
+			className="bg-no-repeat bg-contain p-2 snap-start bg-slate-900"
 		>
 			 <div className="w-full  h-full flex flex-col justify-center items-center text-white bg-transparent cursor-pointer space-y-4 p-2 text-center">
 				<h1 className="text-4xl lg:text-5xl xl:text-6xl font-semibold text-transparent bg-gradient-to-r from-[#6c6aff] via-[#fbc7d4] to-[#ff658b] inline-block bg-clip-text text-center">

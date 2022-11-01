@@ -8,7 +8,7 @@ const Tracks = () => {
 	return (
 		<div
 			id="tracks"
-			className="tracksContainer items-center max-w-[100vw] text-white"
+			className="tracksContainer flex items-center max-w-[100vw] text-white bg-slate-900"
 		>
 			<Text />
 			{/* <Cards/> */}

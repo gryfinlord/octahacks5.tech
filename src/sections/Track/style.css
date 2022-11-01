@@ -51,9 +51,7 @@
 }
 
 @media screen and (max-width: 594px) {
-	.textContainer {
-		padding: 50px 20px;
-	}
+	
 	.title {
 		text-align: left !important;
 	}

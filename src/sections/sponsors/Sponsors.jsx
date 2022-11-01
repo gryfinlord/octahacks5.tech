@@ -1,83 +1,74 @@
+
 import React from 'react'
-import './style.css';
-function Sponsors() {
+
+const Sponsers = () => {
   return (
-    <>
-   
- <section className="bg-gradient-to-r from-[#0b0025] via-[#1d0027] to-[#250026] sponsors flex flex-col items-center justify-center p-2" id="sponsors">
-      <div class="flex flex-col gap-4 m-2 p-2">
-        <h1 className="sponsor-title text-5xl lg:text-6xl text-center font-semibold">
-          Our <span className="awesome text-transparent  bg-gradient-to-r from-[#6c6aff] via-[#fbc7d4] to-[#ff658b] inline-block bg-clip-text ">Awesome</span> Sponsors
-        </h1>
-        <p className="sponsors_description font-medium">
-          While all our participants make our event lively. It is our very
-          amazing <span className="about_high">sponsors</span> that
-          <span className="about_high"> make it possible.</span>
-        </p>
-        </div>
-        <div className="flex flex-col gap-4 m-6 p-2">
-        <div className="sponsors-alpha">
-          <h2 className="alpha-title">Platinum Sponsors</h2>
-          <div className="alpha-images flex items-center justify-center gap-2 p-1">
-            <a href="https://devfolio.co" target="blank">
-              <img className="w-32 sm:w-36 h-auto inline" src={require("../../assets/Sponsors/devfolio.svg").default}  />
-            </a>
-            <a href="https://polygon.technology/" target="blank">
-              <img className="w-32 sm:w-36 h-auto inline"src={require("../../assets/Sponsors/polygon.svg").default}  />
-            </a>
-          </div>
-        </div>
-        <div className="sponsors-gold">
-          <h2 className="gold-title">Gold Sponsors</h2>
-          <div className="gold-images flex items-center justify-center gap-2 p-1">
-            <a href="https://filecoin.io" target="blank">
-              <img className="w-32 sm:w-36 h-auto inline" src={require("../../assets/Sponsors/Filecoin.png")}  />
-            </a>
-            <a href="https://tezos.com" target="blank">
-              <img className="w-32 sm:w-36 h-auto inline" src={require("../../assets/Sponsors/tezos.svg").default}  />
-            </a>
-            <a href="https://celo.org" target="blank">
-              <img className="w-32 sm:w-36 h-auto inline" src={require("../../assets/Sponsors/celo.png")}/>
-            </a>
-            <a href="https://www.axure.com/" target="blank">
-              <img className="w-32 sm:w-36 h-auto inline" src={require("../../assets/Sponsors/axure.png")} />
-            </a>
-          </div>
-        </div>
-        <div className="sponsors-beta">
-          <h2 className="beta-title">Premium Sponsors</h2>
-          <div className="beta-images flex items-center justify-center gap-2 p-1">
-            <a href="#" target="black">
-              <img className="w-32 sm:w-36 h-auto inline" src={require("../../assets/Sponsors/solanaLogo.png")} />
-            </a>
-            <a href="#" target="blank">
-              <img className="w-32 sm:w-36 h-auto inline" src={require("../../assets/Sponsors/airmeet.png")}  />
-            </a>
-            <a href="#" target="blank">
-              <img className="w-32 sm:w-36 h-auto inline" src={require("../../assets/Sponsors/sashido.png")} />
-            </a>
-            
-          </div>
-        </div>
-        </div>
-        {/* <div class="sponsors-gold">
-          <h2 class="gold-title">Bronze Sponsors</h2>
-          <div class="gold-images">
-            <a href="https://www.interviewcake.com/" target="black">
-              <img
-                src="assets/Sponsors/present/cake_logo_white.svg"
-                style="width: fit-content"
-              />
-            </a>
-            </a>
-          </div>
-        </div> */}
-      </section>
+
+    <div id="sponsors" className='sm:flex-col flex bg-slate-900 flex-wrap'>
+
+{/* left div----------------------------------------------------------------------------------------- */}
+      <div className=' backdrop-blur-lg flex-col md:flex-row flex text-center items-center justify-center '>
+      <div className='w-full'>
+        <div className='font-semibold text-4xl sm:text-5xl text-white pb-4 p-4 mt-2'><h1>Our <span className='font-semibold text-4xl sm:text-5xl 
+text-transparent  bg-gradient-to-r from-[#6c6aff] via-[#fbc7d4] to-[#ff658b] inline-block bg-clip-text'>Awesome </span>Sponsors</h1></div>
+        <div className='text-white p-4'>While all our participants make our event lively. it is our very amazing  <span className='text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600'> sponsors </span>that <span className='text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600'>make it possible</span></div>
+      </div>
+      
+{/* right div -----------------------------------------------------------------------------------*/}
+
+      <div className=' w-full justify-center text-center items-center '>
+
+          <div className='flex flex-col text-center  items-center justify-center p-6'>
 
 
 
-    </>
+          {/* Platinum Sponsors --------------------------------------------------------------------------*/}
+
+          <div className='bg-white flex flex-col items-center justify-center bg-opacity-10 backdrop-filter backdrop-blur-lg  h-full rounded-lg shadow-x overflow-hidden m-4  w-full p-4  mt-[10%] md:mt-[20%]'>
+            <div><h1 className='text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 p-2'>Platinum Sponsors</h1></div>
+
+          {/* Platinum Sponsors Images-------------------------------------------------------------------- */}
+
+          <div className='flex justify-center gap-6 p-4 flex-wrap items-center'>
+            <img src={require("../../assets/Sponsors/devfolio.svg").default} alt="devfolio" className=' w-36 h-auto inline' />
+            <img src={require("../../assets/Sponsors/polygon.svg").default} alt="" className='w-36 h-auto' />
+            </div>
+          </div>
+
+
+            {/* Gold Sponsors ----------------------------------------------------------------------------*/}
+
+            <div className='bg-white flex flex-col items-center justify-center bg-opacity-10 backdrop-filter backdrop-blur-lg  h-full rounded-lg shadow-x overflow-hidden m-4  w-full p-4 '>
+              <div>
+                <h1 className='text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 p-2'>Gold Sponsors</h1></div>
+
+            {/* Gold Sponsors Images ----------------------------------------------------------------*/}
+            <div className='flex justify-center gap-2 p-4 flex-wrap items-center '>
+            <img src={require("../../assets/Sponsors/Filecoin.png")} alt="devfolio" className='w-36 h-auto inline' />
+            <img src={require("../../assets/Sponsors/tezos.svg").default} alt="" className='w-36 h-auto' />
+            <img src={require("../../assets/Sponsors/celo.png")} alt="" className='w-36 h-auto' />
+            <img src={require("../../assets/Sponsors/axure.png")} alt="" className='w-36 h-auto' /></div></div>
+
+
+
+            {/* Premium Sponsors ------------------------------------------------------------------------ */}
+            <div className='bg-white flex flex-col items-center justify-center bg-opacity-10 backdrop-filter backdrop-blur-lg  h-full rounded-lg shadow-x overflow-hidden m-4  w-full p-4  mb-[20%]'><div><h1 className='text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600  p-2'>Premium Sponsors</h1></div>
+
+            {/* Premium Sponsors Images ---------------------------------------------------------------- */}
+          <div className='flex justify-center gap-4 p-4 flex-wrap items-center'>
+            <img src={require("../../assets/Sponsors/solanaLogo.png")} alt="devfolio" className='w-36 h-auto inline' />
+            <img src={require("../../assets/Sponsors/airmeet.png")} alt="" className='w-36 h-auto' />
+            <img src={require("../../assets/Sponsors/sashido.png")} alt="" className='w-36 h-auto' /></div></div>
+          </div>
+
+      </div>
+      </div>
+
+
+      {/* right div -----------------------------------------------------------------------------------*/}
+
+    </div>
   )
 }
 
-export default Sponsors
+export default Sponsers

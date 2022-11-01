@@ -13,7 +13,7 @@
 	font-weight: normal;
 }
 body {
-	background-image: url("./assets/bg.png");
+	background-color:rgba(0,0,0,1);
 
 }
 .scroll-remove::-webkit-scrollbar{

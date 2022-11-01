@@ -3,11 +3,11 @@ const Landing = () => {
 	return (
 		<div
 			id="home"
-			className="flex relative flex-row flex-1 h-screen bg-[url(https://github.com/YAKSHIT-22/Cyber_Threat_Analysis_Website/blob/main/ezgif.com-gif-maker.gif?raw=true)] bg-no-repeat bg-cover bg-center"
+			className="flex relative flex-row flex-1 h-screen  bg-[url(https://github.com/ikaushiksharma/WhatsApp_Ui/blob/master/backVideo.gif?raw=true)]   bg-no-repeat bg-cover bg-center"
 			
 		>
 			<div
-				className="w-full h-full min-h-screen flex flex-col justify-center backdrop-blur-md items-center lg:items-start
+				className="w-full h-full min-h-screen flex flex-col justify-center backdrop-blur-lg bg-black/30 items-center lg:items-start
       "
 			>
 				<div className="w-2/3 text-md p-1 xl:text-5xl lg:text-3xl md:text-2xl sm:text-xl xs:text-lg text-center lg:text-start">
