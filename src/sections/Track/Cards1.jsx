@@ -5,8 +5,8 @@ const Cards1 = () => {
         <div className='md:flex-1 '>
             <div className='scroll  md:space-y-8 space-y-3 md:mx-7 mx-2 my-4 bg-slate-900 px-4 py-6 h-[90vh] rounded-md overflow-y-scroll'>
                 {/* card1 */}
-                <div className='flex flex-col md:flex-row justify-evenly md:space-x-4 space-y-8 md:space-y-0 items-center p-5 rounded-xl shadow-xl shadow-slate-900 bg-slate-800'>
-                    <div className="md:w-[55%]">
+                <div className='flex flex-col md:flex-row justify-evenly md:space-x-4 space-y-8 md:space-y-0 items-center p-5 rounded-xl  bg-slate-800 bg-clip-padding backdrop-filter backdrop-blur-xl bg-opacity-60 border border-gray-200'>
+                    <div className="md:w-[55%] ">
                         <div className='flex flex-row justify-between items-center'>
                             <p className="titlePara">Smart City</p>
                             <p className="number">1</p>
@@ -26,7 +26,7 @@ const Cards1 = () => {
                     </div>
                 </div>
 
-                <div className='flex flex-col md:flex-row justify-evenly md:space-x-4 space-y-8 md:space-y-0 items-center p-5 rounded-xl shadow-xl shadow-slate-900 bg-slate-800'>
+                <div className='flex flex-col md:flex-row justify-evenly md:space-x-4 space-y-8 md:space-y-0 items-center p-5 rounded-xl  bg-slate-800 bg-clip-padding backdrop-filter backdrop-blur-xl bg-opacity-60 border border-gray-200'>
                     <div className="md:w-[55%]">
                         <div className='flex flex-row justify-between items-center'>
                             <p className="titlePara">Security</p>
@@ -46,7 +46,7 @@ const Cards1 = () => {
                     </div>
                 </div>
 
-                <div className='flex flex-col md:flex-row justify-evenly md:space-x-4 space-y-8 md:space-y-0 items-center p-5 rounded-xl shadow-xl shadow-slate-900 bg-slate-800'>
+                <div className='flex flex-col md:flex-row justify-evenly md:space-x-4 space-y-8 md:space-y-0 items-center p-5 rounded-xl  bg-slate-800 bg-clip-padding backdrop-filter backdrop-blur-xl bg-opacity-60 border border-gray-200'>
                     <div className="md:w-[55%]">
                         <div className='flex flex-row justify-between items-center'>
                             <p className="titlePara">Fintech</p>
@@ -66,7 +66,7 @@ const Cards1 = () => {
                 </div>
 
 
-                <div className='flex flex-col md:flex-row justify-evenly md:space-x-4 space-y-8 md:space-y-0 items-center p-5 rounded-xl shadow-xl shadow-slate-900 bg-slate-800'>
+                <div className='flex flex-col md:flex-row justify-evenly md:space-x-4 space-y-8 md:space-y-0 items-center p-5 rounded-xl  bg-slate-800 bg-clip-padding backdrop-filter backdrop-blur-xl bg-opacity-60 border border-gray-200'>
                     <div className="md:w-[55%]">
                         <div className='flex flex-row justify-between items-center'>
                             <p className="titlePara">Health</p>
@@ -88,7 +88,7 @@ const Cards1 = () => {
                 </div>
 
 
-                <div className='flex flex-col md:flex-row justify-evenly md:space-x-4 space-y-8 md:space-y-0 items-center p-5 rounded-xl shadow-xl shadow-slate-900 bg-slate-800'>
+                <div className='flex flex-col md:flex-row justify-evenly md:space-x-4 space-y-8 md:space-y-0 items-center p-5 rounded-xl  bg-slate-800 bg-clip-padding backdrop-filter backdrop-blur-xl bg-opacity-60 border border-gray-200'>
                     <div className="md:w-[55%]">
                         <div className='flex flex-row justify-between items-center'>
                             <p className="titlePara">Business</p>
@@ -111,7 +111,7 @@ const Cards1 = () => {
                 </div>
 
 
-                <div className='flex flex-col md:flex-row justify-evenly md:space-x-4 space-y-8 md:space-y-0 items-center p-5 rounded-xl shadow-xl shadow-slate-900 bg-slate-800'>
+                <div className='flex flex-col md:flex-row justify-evenly md:space-x-4 space-y-8 md:space-y-0 items-center p-5 rounded-xl  bg-slate-800 bg-clip-padding backdrop-filter backdrop-blur-xl bg-opacity-60 border border-gray-200'>
                     <div className="md:w-[55%]">
                         <div className='flex flex-row justify-between items-center'>
                             <p className="titlePara">Woman security</p>
@@ -133,7 +133,7 @@ const Cards1 = () => {
                 </div>
 
 
-                <div className='flex flex-col md:flex-row justify-evenly md:space-x-4 space-y-8 md:space-y-0 items-center p-5 rounded-xl shadow-xl shadow-slate-900 bg-slate-800'>
+                <div className='flex flex-col md:flex-row justify-evenly md:space-x-4 space-y-8 md:space-y-0 items-center p-5 rounded-xl  bg-slate-800 bg-clip-padding backdrop-filter backdrop-blur-xl bg-opacity-60 border border-gray-200'>
                     <div className="md:w-[55%]">
                         <div className='flex flex-row justify-between items-center'>
                             <p className="titlePara">Environment</p>
@@ -153,7 +153,7 @@ const Cards1 = () => {
                 </div>
 
 
-                <div className='flex flex-col md:flex-row justify-evenly md:space-x-4 space-y-8 md:space-y-0 items-center p-5 rounded-xl shadow-xl shadow-slate-900 bg-slate-800'>
+                <div className='flex flex-col md:flex-row justify-evenly md:space-x-4 space-y-8 md:space-y-0 items-center p-5 rounded-xl  bg-slate-800 bg-clip-padding backdrop-filter backdrop-blur-xl bg-opacity-60 border border-gray-200'>
                     <div className="md:w-[55%]">
                         <div className='flex flex-row justify-between items-center'>
                             <p className="titlePara">Education</p>

@@ -3,7 +3,7 @@ const Landing = () => {
 	return (
 		<div
 			id="home"
-			className="flex relative flex-row flex-1 h-screen  bg-[url(https://github.com/ikaushiksharma/WhatsApp_Ui/blob/master/backVideo.gif?raw=true)]   bg-no-repeat bg-cover bg-center"
+			className="flex relative flex-row flex-1 h-screen  bg-[url(https://github.com/ikaushiksharma/WhatsApp_Ui/blob/master/backVideo2.gif?raw=true)]   bg-no-repeat bg-cover bg-center"
 			
 		>
 			<div
