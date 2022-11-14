@@ -8,7 +8,7 @@ const Landing = () => {
 		>
 			<div
 				className="w-full h-full min-h-screen flex flex-col justify-center backdrop-blur-lg bg-black/30 items-center lg:items-start
-      "
+      font-extrabold font-azonix "
 			>
 				<div className="w-2/3 text-md p-1 xl:text-5xl lg:text-3xl md:text-2xl sm:text-xl xs:text-lg text-center lg:text-start">
 					<p>"TECH IT EASY"</p>
@@ -20,15 +20,24 @@ const Landing = () => {
 					</p>
 				</div>
 				<div className="w-2/12 h-[1px] bg-white rounded-lg my-8 mx-4 border-white border-2"></div>
-
-				<button className="p-2 font-medium group w-1/3 flex items-center justify-center gap-4 sm:text-sm md:text-md lg:text-xl">
+                <div className="flex items-center flex-col lg:flex-row justify-center gap-7">
+					
+				<button className="p-2  w-[22.5rem] flex items-center justify-center gap-4 sm:text-sm md:text-md lg:text-lg  font-semibold border-2 border-blue-700">
 					Apply With Devfolio
-					<span className="flex group-hover:-inset-x-2 items-center relative text-2xl transition-all duration-150 ">
+					<span className="flex  items-center relative text-2xl transition-all duration-150 ">
+						<span className="z-10"> &rarr;</span>
+						<div className="w-6 h-6 absolute border border-blue-400 left-3 group-hover:bg-blue-500  transition-all ease-in duration-150"></div>
+					</span>
+				</button>
+				<button className="p-2 w-[20rem] flex items-center  justify-center gap-4 sm:text-sm md:text-md lg:text-lg font-semibold border-violet-700 border-2">
+					Join Discord
+					<span className="flex  items-center relative text-2xl transition-all duration-150 ">
 						<span className="z-10"> &rarr;</span>
 						<div className="w-6 h-6 absolute border border-blue-400 left-3 group-hover:bg-blue-500  transition-all ease-in duration-150"></div>
 					</span>
 				</button>
 				
+				</div>
 			</div>
 			<div className="flex-col justify-center item-center flex absolute right-6 xs:right-6 sm:right-8 md:right-10 lg:right-12 xl:right-14 gap-[1px] bottom-6">
 				<img
@@ -39,7 +48,7 @@ const Landing = () => {
 				<img
 					alt="socials"
 					className="p-1 h-8 w-8"
-					src="https://img.icons8.com/ios-glyphs/40/ffffff/twitter--v1.png"
+					src="https://img.icons8.com/ios-glyphs/40/ffffff/discord--v1.png"
 				/>
 				<img
 					alt="socials"

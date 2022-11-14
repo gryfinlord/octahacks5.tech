@@ -6,7 +6,7 @@ const Mentors = () => {
 			className="min-h-screen bg-no-repeat bg-contain p-2 snap-start bg-slate-900"
 		>
 			<div className="text-white flex  justify-center items-center">
-				<h1 className="font-semibold text-5xl lg:text-6xl text-transparent bg-gradient-to-r from-[#6c6aff] via-[#fbc7d4] to-[#ff658b] inline-block bg-clip-text p-2 mt-4">
+				<h1 className="font-bold text-5xl lg:text-6xl text-transparent bg-gradient-to-r from-[#6c6aff] via-[#fbc7d4] to-[#ff658b] inline-block bg-clip-text p-2 mt-4">
 					Mentors
 				</h1>
 			</div>

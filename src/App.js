@@ -1,6 +1,6 @@
 import React from "react";
 import Judges from "./sections/Judges";
-import AnimatedCursor from 'react-animated-cursor';
+
 import About from "./sections/About";
 import Landing from "./sections/Landing/Landing";
 import Mentors from "./sections/Mentors";
@@ -46,67 +46,44 @@ document.onkeydown = function (e) {
 		return false;
 	}
 };
-class App  extends React.Component{
-	// const [navbarOpen, setNavbarOpen] = React.useState(false);
-	state = {
-		color: 'transparent',
-		navbarOpen:false,
-		color1:'transparent',
-	  }
-	  setNavbarOpen=()=>{
-		this.setState({ navbarOpen:true})
-	}
-	  
-	  setNavbarClose=()=>{
-		this.setState({ navbarOpen:false})
-	}
-	  
+
+
+const App  =()=>{
+    const [navbarOpen, setNavbarOpen] = React.useState(false);
+	const [color,setcolor]=React.useState('transparent');
+	const [color1,setcolor1]=React.useState('transparent');
 	
-	  listenScrollEvent = e => {
+    const listenScrollEvent = e => {
 		if (window.scrollY > 75) {
-		  this.setState({color: 'rgba(15,23,42,1)'})
+			setcolor('rgba(15,23,42,1)')
 		} else {
-		  this.setState({color: 'transparent'})
+			setcolor('transparent')
 		}
 	  }
-	  listenScrollEvent1 = e => {
+	const listenScrollEvent1 = e => {
 		if (window.scrollY > 200) {
-		  this.setState({color1: 'rgba(15,23,42,1)'})
+		  setcolor1('rgba(15,23,42,1)')
 		} else {
-		  this.setState({color1: 'transparent'})
+			setcolor1('transparent')
 		}
 	  }
-	
-	  componentDidMount() {
-		window.addEventListener('scroll', this.listenScrollEvent)
-		window.addEventListener('scroll', this.listenScrollEvent1)
-	  }
-	render(){
+	 	
+	  React.useEffect(()=> {
+		window.addEventListener('scroll', listenScrollEvent)
+		
+		return () => window.removeEventListener('scroll', listenScrollEvent);
+	  },[]);
+
+	  React.useEffect(()=>{
+		window.addEventListener('scroll', listenScrollEvent1)
+		return () => window.removeEventListener('scroll', listenScrollEvent1);
+	  },[])
+
 		return (
 			// <div className='debug-screens font-azonix bg-slate-900 w-full h-full min-h-screen bg-cover bg-center text-gray-100'>
-			<div className="font-azonix bg-no-repeat bg-contain w-full h-full min-h-screen text-gray-100">
-				<AnimatedCursor
-			innerSize={8}
-			outerSize={30}
-			color='256, 256, 256'
-			outerAlpha={0.2}
-			innerScale={0.7}
-			outerScale={3}
-			clickables={[
-			  'a',
-			  'input[type="text"]',
-			  'input[type="email"]',
-			  'input[type="number"]',
-			  'input[type="submit"]',
-			  'input[type="image"]',
-			  'label[for]',
-			  'select',
-			  'textarea',
-			  'button',
-			  '.link',
-			]}
-		  />
-				<div className="fixed w-full h-fit z-20" style={{backgroundColor: this.state.color,transition:'all 1.5s ease-in'}}>
+			<div className="bg-no-repeat bg-contain w-full h-full min-h-screen text-gray-100 cursor-default">
+				
+				<div className="fixed w-full h-fit z-20" style={{backgroundColor: color,transition:'all 1s ease-in'}}>
 					<nav className="relative px-4 py-4 flex justify-between items-center">
 						<div className="flex items-center justify-center w-28 h-full ml-2">
 							<a className="text-3xl font-bold leading-none" href="#!">
@@ -120,7 +97,7 @@ class App  extends React.Component{
 						<div className="lg:hidden">
 							<button
 								className="navbar-burger flex items-center text-mainColor p-3"
-								onClick={this.setNavbarOpen}
+								onClick={() => setNavbarOpen(!navbarOpen)}
 							>
 								<svg
 									className="block h-4 w-4 fill-current"
@@ -133,7 +110,7 @@ class App  extends React.Component{
 							</button>
 						</div>
 						<div className="hidden absolute top-1/2 left-72 transform -translate-y-1/2 -translate-x-1/3 lg:flex lg:mr-6 xl:mr-12 lg:items-center lg:w-auto lg:space-x-10">
-							<ul className="lg:flex lg:mx-2 lg:my-2 lg:items-center lg:w-auto lg:space-x-10">
+							<ul className="lg:flex lg:mx-2 lg:my-2 lg:items-center lg:w-auto lg:space-x-10 font-medium">
 								<li>
 									<a
 										className="text-lg text-white hover:text-mainColor"
@@ -178,7 +155,7 @@ class App  extends React.Component{
 					<div
 						className={
 							"navbar-menu relative z-50 lg:hidden" +
-							(this.state.navbarOpen ? "flex" : " hidden")
+							(navbarOpen ? "flex" : " hidden")
 						}
 					>
 						<div className="navbar-backdrop fixed inset-0 bg-gray-800 opacity-25"></div>
@@ -193,7 +170,7 @@ class App  extends React.Component{
 								</a>
 								<button
 									className="navbar-close"
-									onClick={this.setNavbarClose}
+									onClick={() => setNavbarOpen(!navbarOpen)}
 								>
 									<svg
 										className="h-6 w-6 text-gray-400 cursor-pointer hover:text-gray-500"
@@ -290,8 +267,8 @@ class App  extends React.Component{
 						</nav>
 					</div>
 				</div>
-				<div className="hidden fixed w-[12%] h-full min-h-screen z-[18]  lg:flex justify-center items-center" style={{backgroundColor: this.state.color1,transition:'all 1s ease-in'}}>
-					<div className="hidden flex-row justify-between gap-5 items-center p-6 relative top-[2.5rem] text-lg text-white lg:flex rotate-[270deg]">
+				<div className="hidden fixed w-[12%] h-full min-h-screen z-[18]  lg:flex justify-center items-center" style={{backgroundColor: color1,transition:'all 1s ease-in'}}>
+					<div className="hidden flex-row justify-between gap-12 items-center p-6 relative top-[2.5rem] text-lg text-white lg:flex rotate-[270deg] font-medium">
 						<a href="#sponsors">
 							<div className="text-light "> Sponsors</div>
 						</a>
@@ -321,7 +298,7 @@ class App  extends React.Component{
 				</div>
 			</div>
 		);
-	}
+	
 	
 }
 

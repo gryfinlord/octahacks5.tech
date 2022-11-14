@@ -23,7 +23,8 @@ module.exports = {
 
     extend: {
       fontFamily: {
-        azonix: ['Azonix', 'sans-serif'],
+        Lato: ['Lato', 'sans-serif'],
+        azonix:['Azonix','sans-serif']
       },
     },
  

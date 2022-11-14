@@ -7,7 +7,7 @@ const Footer = () => {
 			className="bg-no-repeat bg-contain p-2 snap-start bg-slate-900"
 		>
 			 <div className="w-full  h-full flex flex-col justify-center items-center text-white bg-transparent cursor-pointer space-y-4 p-2 text-center">
-				<h1 className="text-4xl lg:text-5xl xl:text-6xl font-semibold text-transparent bg-gradient-to-r from-[#6c6aff] via-[#fbc7d4] to-[#ff658b] inline-block bg-clip-text text-center">
+				<h1 className="text-4xl lg:text-5xl xl:text-6xl font-bold text-transparent bg-gradient-to-r from-[#6c6aff] via-[#fbc7d4] to-[#ff658b] inline-block bg-clip-text text-center">
 				Contact Us
 				</h1>
 				<p className="text-[1.2rem] lg:text-[1.3rem] xl:text-[1.5rem] md:w-3/4 p-4 text-center font-regular">
@@ -68,8 +68,7 @@ const Footer = () => {
 				<div className="col-span-2"></div>
 			</div>
 
-			<div className="footer_section_3">
-				<p className="">Architected with ♥ by GDSC Core Team</p>
+			<div className="footer_section_3 flex items-center justify-center">
 				<img
 					src={require("../assets/Sponsors/gdsc.png")}
 					className="w-52"

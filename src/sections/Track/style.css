@@ -34,7 +34,7 @@
 
 .p {
 	font-size: 20px;
-	font-weight: 600;
+	font-weight: 400;
 }
 .title {
 	font-family: Azonix, sans-serif;
@@ -98,9 +98,9 @@
 
 .para {
 	line-height: 15px;
-	font-size: 12px;
-	letter-spacing: 0.1px;
-	font-weight: 600;
+	font-size: 14px;
+	letter-spacing: 0.2px;
+	font-weight: 400;
 }
 .cards img {
 	/* height: 100%; */
@@ -108,8 +108,8 @@
 	margin-right: 20px;
 	padding: 10px;
 }
-.safeDiv .titlePara {
-	font-weight: 600;
+.titlePara {
+	font-weight: 800;
 	text-transform: uppercase;
 }
 .number {
