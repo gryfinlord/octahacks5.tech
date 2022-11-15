@@ -56,7 +56,7 @@ const App = () => {
 		setLoading(true);
 		setTimeout(() => {
 			setLoading(false);
-		}, 1500);
+		}, 2500);
 	}, []);
 
 	const listenScrollEvent = (e) => {
