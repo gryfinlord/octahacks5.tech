@@ -3,7 +3,7 @@ const Landing = () => {
 	return (
 		<div
 			id="home"
-			className="flex relative flex-row flex-1 h-screen  bg-[url(https://github.com/ikaushiksharma/WhatsApp_Ui/blob/master/backVideo.gif?raw=true)]   bg-no-repeat bg-cover bg-center"
+			className="flex relative flex-row flex-1 h-screen  bg-gif   bg-no-repeat bg-cover bg-center"
 			
 		>
 			<div
@@ -55,7 +55,7 @@ const Landing = () => {
 					src="https://img.icons8.com/ios-glyphs/40/ffffff/github.png"
 				/>
 				<div className="w-full h-full flex items-center justify-center p-1 mx-auto">
-				<img src={require("../../assets/Line9.svg").default}/>
+				{/* <img src={require("../../assets/Line9.svg").default}/> */}
 </div>
 		</div>
 		</div>

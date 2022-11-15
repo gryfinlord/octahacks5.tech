@@ -24,8 +24,12 @@ module.exports = {
     extend: {
       fontFamily: {
         Lato: ['Lato', 'sans-serif'],
-        azonix:['Azonix','sans-serif']
+        azonix: ['Azonix', 'sans-serif']
       },
+      backgroundImage: {
+        'gif':"url(./assets/backVideo.gif)"
+        
+      }
     },
  
   },
