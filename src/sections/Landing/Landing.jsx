@@ -55,7 +55,7 @@ const Landing = () => {
 					src="https://img.icons8.com/ios-glyphs/40/ffffff/github.png"
 				/>
 				<div className="w-full h-full flex items-center justify-center p-1 mx-auto">
-				{/* <img src={require("../../assets/Line9.svg").default}/> */}
+				<img src={require("../../assets/Line9.svg").default}/>
 </div>
 		</div>
 		</div>
