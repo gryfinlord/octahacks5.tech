@@ -8,9 +8,9 @@ const Landing = () => {
 		>
 			<div
 				className="w-full h-full min-h-screen flex flex-col justify-center backdrop-blur-lg bg-black/30 items-center lg:items-start
-      font-extrabold font-azonix "
+      font-extrabold font-azonix"
 			>
-				<div className="w-2/3 text-md p-1 xl:text-5xl lg:text-3xl md:text-2xl sm:text-xl xs:text-lg text-center lg:text-start">
+				<div className="w-2/3 text-md p-1 xl:text-5xl lg:text-3xl md:text-2xl sm:text-xl xs:text-lg text-center lg:text-start lg:mt-[6%]">
 					<p>"TECH IT EASY"</p>
 				</div>
 
