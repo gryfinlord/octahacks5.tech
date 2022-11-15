@@ -46,7 +46,7 @@ const Footer = () => {
               </div>
               <p className="mt-2 text-[14px]">
                 This November, Octahacks is back with it's fourth edition,
-                octahacks 4.0. Expect more than 36 hours of inspiring panel
+                octahacks 5.0. Expect more than 36 hours of inspiring panel
                 discussions and networking opportunities with budding developers
                 and lots of fun! We value the participation of each member and
                 want all attendees to have an enjoyable and fulfilling

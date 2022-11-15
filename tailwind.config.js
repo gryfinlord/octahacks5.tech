@@ -22,17 +22,33 @@ module.exports = {
     },
 
     extend: {
+      animation: {
+        marquee: 'marquee 25s linear infinite',
+        marquee2: 'marquee2 25s linear infinite',
+      },
+      keyframes: {
+        marquee: {
+          '0%': { transform: 'translateY(0%)' },
+          '100%': { transform: 'translateY(-100%)' },
+        },
+        marquee2: {
+          '0%': { transform: 'translateY(100%)' },
+          '100%': { transform: 'translateY(0%)' },
+        },
+      },
+  
       fontFamily: {
         Lato: ['Lato', 'sans-serif'],
         azonix: ['Azonix', 'sans-serif']
       },
       backgroundImage: {
-        'gif':"url(./assets/backVideo.gif)"
-        
+        'gif':"url(./assets/backVideo.gif)"     
       }
+      
     },
- 
+   
   },
+ 
   plugins: [
     require('tailwindcss-debug-screens')
   ],

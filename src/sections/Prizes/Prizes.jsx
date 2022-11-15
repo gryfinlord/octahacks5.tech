@@ -60,21 +60,6 @@ function Prizes() {
             </p>
             <p>₹ 30 Thousand</p>
           </div>
-          <div className="w-full h-full flex flex-col justify-center items-center text-white bg-gray-800 p-2 cursor-pointer rounded-[4px] space-y-4">
-            <h2 className="h-auto w-[35%] sm:w-[60%] md:w-[50%] flex flex-col gap-1 justify-center items-center p-[1%]">
-              <img
-                alt="imageSponsors"
-                src={require("../../assets/Sponsors/tezos.svg").default}
-              />
-            </h2>
-            <p className="text-[.7rem]  md:text-[.6rem] lg:text-[.8rem] text-center font-regular">
-              ₹ 20,000* for best Dapp built on Tezos.
-            </p>
-            <p className="text-[.7rem]  md:text-[.6rem]  lg:text-[.8rem] text-center font-regular">
-              + Continuity grant opportunity up to 5,000 USD for an outstanding
-              project.
-            </p>
-          </div>
           <div className="h-full w-full flex flex-col justify-center items-center text-white bg-gray-800 p-2 cursor-pointer rounded-[4px] space-y-4">
             <h2 className="h-auto w-[35%] sm:w-[60%] md:w-[50%] flex flex-col gap-1 justify-center items-center p-[1%]">
               <img
@@ -90,6 +75,22 @@ function Prizes() {
               project.
             </p>
           </div>
+          <div className="w-full h-full flex flex-col justify-center items-center text-white bg-gray-800 p-2 cursor-pointer rounded-[4px] space-y-4">
+            <h2 className="h-auto w-[35%] sm:w-[60%] md:w-[50%] flex flex-col gap-1 justify-center items-center p-[1%]">
+              <img
+                alt="imageSponsors"
+                src={require("../../assets/Sponsors/tezos.svg").default}
+              />
+            </h2>
+            <p className="text-[.7rem]  md:text-[.6rem] lg:text-[.8rem] text-center font-regular">
+              ₹ 20,000* for best Dapp built on Tezos.
+            </p>
+            <p className="text-[.7rem]  md:text-[.6rem]  lg:text-[.8rem] text-center font-regular">
+              + Continuity grant opportunity up to 5,000 USD for an outstanding
+              project.
+            </p>
+          </div>
+          
           <div className="h-full w-full flex flex-col justify-center items-center text-white bg-gray-800 p-2 cursor-pointer rounded-[4px] space-y-2">
             <h2 className="h-auto w-[35%] sm:w-[60%] md:w-[50%] flex flex-col gap-1 justify-center items-center p-[1%]">
               <img

@@ -9,7 +9,7 @@ import Sponsers from "./sections/sponsors/Sponsors";
 import Tracks from "./sections/Track/Track";
 document.onkeydown = function (e) {
   if (e.keyCode === 123) {
-    return true;
+    return true; 
   }
   if (
     e.ctrlKey &&
