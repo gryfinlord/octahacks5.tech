@@ -41,6 +41,62 @@ function Tracks2() {
                             and intelligent.
                         </p>
                     </div>
+
+
+                    <div className="h-full w-full flex flex-col justify-center items-center text-white bg-gray-800 p-2 cursor-pointer rounded-[4px] space-y-2">
+                        <h2 className="h-auto w-[35%] sm:w-[60%] md:w-[50%] flex flex-col gap-1 justify-center items-center p-[1%]">
+                            <img className='rounded-xl' src={require("../../assets/Tracks_2.png")} alt='image1' />
+                        </h2>
+                        <p className="text-[.7rem]  md:text-[.6rem] lg:text-[.8rem] text-center font-regular">
+                            Security
+                        </p>
+                        <p className="text-[.7rem] md:text-[.6rem] lg:text-[.8rem] text-center font-regular">
+                            Security-related issues are growing. The
+                            programs for public safety lack and also
+                            the increased use of automated
+                            technologies is also driving an increase in
+                            the advancement of the need for proper
+                            security systems.
+                        </p>
+                    </div>
+
+
+                    <div className="h-full w-full flex flex-col justify-center items-center text-white bg-gray-800 p-2 cursor-pointer rounded-[4px] space-y-2">
+                        <h2 className="h-auto w-[35%] sm:w-[60%] md:w-[50%] flex flex-col gap-1 justify-center items-center p-[1%]">
+                            <img className='rounded-xl' src={require("../../assets/Tracks_3.png")} alt='image1' />
+                        </h2>
+                        <p className="text-[.7rem]  md:text-[.6rem] lg:text-[.8rem] text-center font-regular">
+                            Fintech
+                        </p>
+                        <p className="text-[.7rem] md:text-[.6rem] lg:text-[.8rem] text-center font-regular">
+                        From mobile payments to internet
+                            banking, an increased number of
+                            consumers are adopting fintech solutions
+                            today, and therefore there are a lot of
+                            exciting career options in this space.
+                        </p>
+                    </div>
+
+
+                    <div className="h-full w-full flex flex-col justify-center items-center text-white bg-gray-800 p-2 cursor-pointer rounded-[4px] space-y-2">
+                        <h2 className="h-auto w-[35%] sm:w-[60%] md:w-[50%] flex flex-col gap-1 justify-center items-center p-[1%]">
+                            <img className='rounded-xl' src={require("../../assets/Tracks_4.png")} alt='image1' />
+                        </h2>
+                        <p className="text-[.7rem]  md:text-[.6rem] lg:text-[.8rem] text-center font-regular">
+                        Health
+                        </p>
+                        <p className="text-[.7rem] md:text-[.6rem] lg:text-[.8rem] text-center font-regular">
+                        The increase in patients has led to the
+                            decrease in the relative number of doctors
+                            per patient which results in a vicous cycle
+                            where ignored or delayed diagnostics of an
+                            ailment makes the patient more
+                            dependent on doctor's check-up. Some
+                            also cannot afford to visit a doctor.
+                        </p>
+                    </div>
+
+
                     <div className="h-full w-full flex flex-col justify-center items-center text-white bg-gray-800 p-2 cursor-pointer rounded-[4px] space-y-2">
                         <h2 className="h-auto w-[35%] sm:w-[60%] md:w-[50%] flex flex-col gap-1 justify-center items-center p-[1%]">
                             <img className='rounded-xl' src={require("../../assets/Tracks_2.png")} alt='image1' />
@@ -53,42 +109,8 @@ function Tracks2() {
                             project.
                         </p>
                     </div>
-                    <div className="h-full w-full flex flex-col justify-center items-center text-white bg-gray-800 p-2 cursor-pointer rounded-[4px] space-y-2">
-                        <h2 className="h-auto w-[35%] sm:w-[60%] md:w-[50%] flex flex-col gap-1 justify-center items-center p-[1%]">
-                            <img className='rounded-xl' src={require("../../assets/Tracks_2.png")} alt='image1' />
-                        </h2>
-                        <p className="text-[.7rem]  md:text-[.6rem] lg:text-[.8rem] text-center font-regular">
-                            ₹ 20,000* for best Dapp built on Tezos.
-                        </p>
-                        <p className="text-[.7rem] md:text-[.6rem] lg:text-[.8rem] text-center font-regular">
-                            + Continuity grant opportunity up to 5,000 USD for an outstanding
-                            project.
-                        </p>
-                    </div>
-                    <div className="h-full w-full flex flex-col justify-center items-center text-white bg-gray-800 p-2 cursor-pointer rounded-[4px] space-y-2">
-                        <h2 className="h-auto w-[35%] sm:w-[60%] md:w-[50%] flex flex-col gap-1 justify-center items-center p-[1%]">
-                            <img className='rounded-xl' src={require("../../assets/Tracks_2.png")} alt='image1' />
-                        </h2>
-                        <p className="text-[.7rem]  md:text-[.6rem] lg:text-[.8rem] text-center font-regular">
-                            ₹ 20,000* for best Dapp built on Tezos.
-                        </p>
-                        <p className="text-[.7rem] md:text-[.6rem] lg:text-[.8rem] text-center font-regular">
-                            + Continuity grant opportunity up to 5,000 USD for an outstanding
-                            project.
-                        </p>
-                    </div>
-                    <div className="h-full w-full flex flex-col justify-center items-center text-white bg-gray-800 p-2 cursor-pointer rounded-[4px] space-y-2">
-                        <h2 className="h-auto w-[35%] sm:w-[60%] md:w-[50%] flex flex-col gap-1 justify-center items-center p-[1%]">
-                            <img className='rounded-xl' src={require("../../assets/Tracks_2.png")} alt='image1' />
-                        </h2>
-                        <p className="text-[.7rem]  md:text-[.6rem] lg:text-[.8rem] text-center font-regular">
-                            ₹ 20,000* for best Dapp built on Tezos.
-                        </p>
-                        <p className="text-[.7rem] md:text-[.6rem] lg:text-[.8rem] text-center font-regular">
-                            + Continuity grant opportunity up to 5,000 USD for an outstanding
-                            project.
-                        </p>
-                    </div>
+
+                    
                     <div className="h-full w-full flex flex-col justify-center items-center text-white bg-gray-800 p-2 cursor-pointer rounded-[4px] space-y-2">
                         <h2 className="h-auto w-[35%] sm:w-[60%] md:w-[50%] flex flex-col gap-1 justify-center items-center p-[1%]">
                             <img className='rounded-xl' src={require("../../assets/Tracks_2.png")} alt='image1' />
