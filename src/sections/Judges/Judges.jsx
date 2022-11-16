@@ -3,7 +3,7 @@ const Judges = () => {
   return (
     <div id="judges" className="min-h-screen">
       <div className="text-white flex  justify-center items-center bg-slate-900">
-        <h1 className="font-bold text-5xl lg:text-6xl text-transparent bg-gradient-to-r from-[#6c6aff] via-[#fbc7d4] to-[#ff658b] inline-block bg-clip-text p-2 mt-4">
+        <h1 className="font-bold text-5xl lg:text-6xl text-transparent bg-gradient-to-r from-[#6c6aff] via-[#fbc7d4] to-[#ff658b] inline-block bg-clip-text p-2 mt-12">
           Judges
         </h1>
       </div>

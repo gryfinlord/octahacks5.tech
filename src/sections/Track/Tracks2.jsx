@@ -3,8 +3,8 @@ import React from "react";
 function Tracks2() {
     return (
         <div
-            id="prizes"
-            className="bg-no-repeat bg-contain grid sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-1 w-full xl:h-[84%] lg:h-[84%] bg-slate-900 bg-fixed"
+            id="Tracks"
+            className="bg-no-repeat bg-contain grid sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-1 w-full xl:h-[84%] lg:h-[84%] bg-slate-900 bg-fixed p-6 lg:mt-[-80px]"
         >
             <div className="flex flex-col justify-center items-center">
                 <div className="p-2 flex flex-col justify-center items-center">

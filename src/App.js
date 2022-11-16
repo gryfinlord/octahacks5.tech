@@ -314,8 +314,8 @@ const App = () => {
           <div className="lg:ml-[12%]">
             <Landing />
             <About />
-            {/* <Tracks2 /> */}
-            <Tracks />
+            <Tracks2 />
+            {/* <Tracks /> */}
             <Prizes />
             <Judges />
             <Mentors />

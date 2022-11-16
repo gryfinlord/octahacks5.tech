@@ -22,8 +22,8 @@ function Prizes() {
           </div>
         </div>
       </div>
-      <div className="flex flex-col justify-center items-center pr-2">
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 w-full h-full  items-center px-2 py-5 gap-2">
+      <div className="flex flex-col justify-center items-center lg:pr-2">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 w-full h-full  items-center px-3 py-5 gap-2">
           <div className="w-full h-full flex flex-col justify-center items-center text-white bg-gray-800 p-2 rounded-[4px]">
             <h2 className="text-xl  font-semibold p-[2%] text-center">
               Winner
