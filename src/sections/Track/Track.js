@@ -3,7 +3,6 @@ import React from "react";
 import Text from "./Text";
 import "./style.css";
 import Cards1 from "./Cards1";
-import Cards2 from "./Cards2";
 
 const Tracks = () => {
 	return (

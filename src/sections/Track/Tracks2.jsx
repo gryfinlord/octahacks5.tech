@@ -69,7 +69,7 @@ function Tracks2() {
                             Fintech
                         </p>
                         <p className="text-[.7rem] md:text-[.6rem] lg:text-[.8rem] text-center font-regular">
-                        From mobile payments to internet
+                            From mobile payments to internet
                             banking, an increased number of
                             consumers are adopting fintech solutions
                             today, and therefore there are a lot of
@@ -83,10 +83,10 @@ function Tracks2() {
                             <img className='rounded-xl' src={require("../../assets/Tracks_4.png")} alt='image1' />
                         </h2>
                         <p className="text-[.7rem]  md:text-[.6rem] lg:text-[.8rem] text-center font-regular">
-                        Health
+                            Health
                         </p>
                         <p className="text-[.7rem] md:text-[.6rem] lg:text-[.8rem] text-center font-regular">
-                        The increase in patients has led to the
+                            The increase in patients has led to the
                             decrease in the relative number of doctors
                             per patient which results in a vicous cycle
                             where ignored or delayed diagnostics of an
@@ -99,52 +99,72 @@ function Tracks2() {
 
                     <div className="h-full w-full flex flex-col justify-center items-center text-white bg-gray-800 p-2 cursor-pointer rounded-[4px] space-y-2">
                         <h2 className="h-auto w-[35%] sm:w-[60%] md:w-[50%] flex flex-col gap-1 justify-center items-center p-[1%]">
-                            <img className='rounded-xl' src={require("../../assets/Tracks_2.png")} alt='image1' />
+                            <img className='rounded-xl' src={require("../../assets/Tracks_6.png")} alt='image1' />
                         </h2>
                         <p className="text-[.7rem]  md:text-[.6rem] lg:text-[.8rem] text-center font-regular">
-                            ₹ 20,000* for best Dapp built on Tezos.
+                            Woman security
                         </p>
                         <p className="text-[.7rem] md:text-[.6rem] lg:text-[.8rem] text-center font-regular">
-                            + Continuity grant opportunity up to 5,000 USD for an outstanding
-                            project.
+                            Everything you know about Women Safety
+                            is set to change. From self-driving cars to
+                            ride-hailing to micro-mobility, we are in the
+                            process of completely reinventing how
+                            people move. And while we do know that
+                            everything is about to change, we still
+                            need to figure out how.
                         </p>
                     </div>
 
-                    
+
                     <div className="h-full w-full flex flex-col justify-center items-center text-white bg-gray-800 p-2 cursor-pointer rounded-[4px] space-y-2">
                         <h2 className="h-auto w-[35%] sm:w-[60%] md:w-[50%] flex flex-col gap-1 justify-center items-center p-[1%]">
-                            <img className='rounded-xl' src={require("../../assets/Tracks_2.png")} alt='image1' />
+                            <img className='rounded-xl' src={require("../../assets/Tracks_5.png")} alt='image1' />
                         </h2>
                         <p className="text-[.7rem]  md:text-[.6rem] lg:text-[.8rem] text-center font-regular">
-                            ₹ 20,000* for best Dapp built on Tezos.
+                            Business
                         </p>
                         <p className="text-[.7rem] md:text-[.6rem] lg:text-[.8rem] text-center font-regular">
-                            + Continuity grant opportunity up to 5,000 USD for an outstanding
-                            project.
+                            As technology is evolving, Business are
+                            accelerating their investments in
+                            innovation and digital advancements.
+                            Today, in this fast trending world, many
+                            innovative ideas have turned into
+                            significant business adventures. Here, we
+                            are looking forward to our next Facebook,
+                            Uber or Zomato.
+                        </p>
+                    </div>
+
+
+                    <div className="h-full w-full flex flex-col justify-center items-center text-white bg-gray-800 p-2 cursor-pointer rounded-[4px] space-y-2">
+                        <h2 className="h-auto w-[35%] sm:w-[60%] md:w-[50%] flex flex-col gap-1 justify-center items-center p-[1%]">
+                            <img className='rounded-xl' src={require("../../assets/Tracks_7.png")} alt='image1' />
+                        </h2>
+                        <p className="text-[.7rem]  md:text-[.6rem] lg:text-[.8rem] text-center font-regular">
+                        Environment
+                        </p>
+                        <p className="text-[.7rem] md:text-[.6rem] lg:text-[.8rem] text-center font-regular">
+                        We are advancing in technology at a very
+                            rapid rate. But this development has made
+                            our nature suffer. It is considered more
+                            important to expand cities than to save
+                            trees.
                         </p>
                     </div>
                     <div className="h-full w-full flex flex-col justify-center items-center text-white bg-gray-800 p-2 cursor-pointer rounded-[4px] space-y-2">
                         <h2 className="h-auto w-[35%] sm:w-[60%] md:w-[50%] flex flex-col gap-1 justify-center items-center p-[1%]">
-                            <img className='rounded-xl' src={require("../../assets/Tracks_2.png")} alt='image1' />
+                            <img className='rounded-xl' src={require("../../assets/Tracks_8.png")} alt='image1' />
                         </h2>
                         <p className="text-[.7rem]  md:text-[.6rem] lg:text-[.8rem] text-center font-regular">
-                            ₹ 20,000* for best Dapp built on Tezos.
+                        Education
                         </p>
                         <p className="text-[.7rem] md:text-[.6rem] lg:text-[.8rem] text-center font-regular">
-                            + Continuity grant opportunity up to 5,000 USD for an outstanding
-                            project.
-                        </p>
-                    </div>
-                    <div className="h-full w-full flex flex-col justify-center items-center text-white bg-gray-800 p-2 cursor-pointer rounded-[4px] space-y-2">
-                        <h2 className="h-auto w-[35%] sm:w-[60%] md:w-[50%] flex flex-col gap-1 justify-center items-center p-[1%]">
-                            <img className='rounded-xl' src={require("../../assets/Tracks_2.png")} alt='image1' />
-                        </h2>
-                        <p className="text-[.7rem]  md:text-[.6rem] lg:text-[.8rem] text-center font-regular">
-                            ₹ 20,000* for best Dapp built on Tezos.
-                        </p>
-                        <p className="text-[.7rem] md:text-[.6rem] lg:text-[.8rem] text-center font-regular">
-                            + Continuity grant opportunity up to 5,000 USD for an outstanding
-                            project.
+                        A large part of our population is still not
+                            able to recieve proper education due to
+                            lack of resources. Education is important
+                            for everyone,but only a few have access to
+                            it. Children of poor families tend to move
+                            frequently, which disrupts their education.
                         </p>
                     </div>
                 </div>
