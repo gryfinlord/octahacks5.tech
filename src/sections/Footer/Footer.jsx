@@ -45,7 +45,7 @@ const Footer = () => {
                 <div className="col-span-9"></div>
               </div>
               <p className="mt-2 text-[14px]">
-                This November, Octahacks is back with it's fourth edition,
+                This December, Octahacks is back with it's fifth edition,
                 octahacks 5.0. Expect more than 36 hours of inspiring panel
                 discussions and networking opportunities with budding developers
                 and lots of fun! We value the participation of each member and
