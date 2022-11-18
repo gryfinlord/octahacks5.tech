@@ -6,7 +6,6 @@ import Mentors from "./sections/Mentor/Mentors";
 import Prizes from "./sections/Prizes/Prizes";
 import Footer from "./sections/Footer/Footer";
 import Sponsers from "./sections/sponsors/Sponsors";
-import Tracks2 from "./sections/Track/Tracks2";
 import Tracks from "./sections/Track/Track";
 document.onkeydown = function (e) {
   if (e.keyCode === 123) {
