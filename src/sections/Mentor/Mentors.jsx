@@ -13,7 +13,7 @@ const Mentors = () => {
       <div class="grid sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-6 px-6 xs:px-12 py-12 md:px-6 md:py-6 xl:px-12 xl:py-12 auto-rows-fr bg-slate-900">
       <div data-aos="flip-left" data-aos-easing="ease-in-sine" class="w-full bg-white rounded-lg shadow-lg overflow-hidden flex flex-col justify-center items-center">
                     <div>
-                        <img class="object-cover  object-center  w-full h-auto" src={require("../../assets/mentor/shehdev.jpg")} alt="photo" />
+                        <img class="object-fill mt-[-1rem] sm:mt-0  object-center  w-full h-auto" src={require("../../assets/mentor/shehdev.jpg")} alt="photo" />
                     </div>
                     <div class="text-center pt-8 pb-4 sm:py-6">
                         <p class="text-xl text-gray-700 font-bold mb-2">Sahdev Kharb</p>
