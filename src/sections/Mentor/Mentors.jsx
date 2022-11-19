@@ -56,7 +56,7 @@ const Mentors = () => {
                         <p class="text-base text-gray-500 font-semibold">SDE Fidelity</p>
                     </div>
                     <div class="flex flex-row items-center justify-center gap-2 mb-4">
-						<a href="#" class="">
+						<a href="https://www.linkedin.com/in/gautam-sood-55bb84232/" class="">
 							<img src={require("../../assets/linkedin.png")} class="w-7 h-7" alt="linkedin"/>
 						</a>
 						<a href="https://www.instagram.com/gautamsood__/" class="">
@@ -71,7 +71,7 @@ const Mentors = () => {
                     </div>
                     <div class="text-center py-8 sm:py-6">
                         <p class="text-xl text-gray-700 font-bold mb-2">Kartik Sharma</p>
-                        <p class="text-base text-gray-500 font-semibold">4th year full stack developer</p>
+                        <p class="text-base text-gray-500 font-semibold">Web Developer</p>
                     </div>
                     <div class="flex flex-row items-center justify-center gap-2 mb-4">
 						<a href="https://www.linkedin.com/in/kartik-sharma-a5618b194/" class="">
