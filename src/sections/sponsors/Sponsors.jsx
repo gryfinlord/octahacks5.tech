@@ -36,7 +36,7 @@ text-transparent  bg-gradient-to-r from-[#6c6aff] via-[#fbc7d4] to-[#ff658b] inl
 
 				<div className=' w-full flex justify-center text-center items-center relative h-screen overflow-y-hidden	'>
 					<div className='flex flex-col text-center items-center justify-center p-6 relative overflow-y-hidden'>
-						<div className='animate-marquee whitespace-nowrap'>
+						<div className='animate-marquee'>
 							{/* Platinum Sponsors --------------------------------------------------------------------------*/}
 
 							<div className=' bg-white flex flex-col items-center justify-center bg-opacity-10 backdrop-filter backdrop-blur-lg rounded-lg shadow-x overflow-hidden my-4  w-full p-4  mt-[10%] md:mt-[20%]'>
@@ -158,7 +158,7 @@ text-transparent  bg-gradient-to-r from-[#6c6aff] via-[#fbc7d4] to-[#ff658b] inl
 								</div>
 							</div>
 						</div>
-						<div className='absolute animate-marquee2 top-0 whitespace-nowrap p-6'>
+						<div className='absolute animate-marquee2 px-6'>
 							{/* Platinum Sponsors --------------------------------------------------------------------------*/}
 
 							<div className=' bg-white flex flex-col items-center justify-center bg-opacity-10 backdrop-filter backdrop-blur-lg rounded-lg shadow-x overflow-hidden my-4  w-full p-4  mt-[10%] md:mt-[20%]'>
