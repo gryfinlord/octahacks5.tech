@@ -39,7 +39,7 @@ text-transparent  bg-gradient-to-r from-[#6c6aff] via-[#fbc7d4] to-[#ff658b] inl
 						<div className='animate-marquee'>
 							{/* Platinum Sponsors --------------------------------------------------------------------------*/}
 
-							<div className=' bg-white flex flex-col items-center justify-center bg-opacity-10 backdrop-filter backdrop-blur-lg rounded-lg shadow-x overflow-hidden my-4  w-full p-4  mt-[10%] md:mt-[20%]'>
+							<div className=' bg-white flex flex-col items-center justify-center bg-opacity-10 backdrop-filter backdrop-blur-lg rounded-lg shadow-x overflow-hidden my-4  w-full p-4'>
 								<div>
 									<h1 className='text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 p-2'>
 										Platinum Sponsors
@@ -131,7 +131,7 @@ text-transparent  bg-gradient-to-r from-[#6c6aff] via-[#fbc7d4] to-[#ff658b] inl
 							</div>
 
 							{/* Premium Sponsors ------------------------------------------------------------------------ */}
-							<div className=' mb-[20%] bg-white flex flex-col items-center justify-center bg-opacity-10 backdrop-filter backdrop-blur-lg  h-full rounded-lg shadow-x overflow-hidden my-4  w-full p-4'>
+							<div className=' bg-white flex flex-col items-center justify-center bg-opacity-10 backdrop-filter backdrop-blur-lg  h-full rounded-lg shadow-x overflow-hidden  w-full p-4'>
 								<div>
 									<h1 className='text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600  p-2'>
 										Premium Sponsors
@@ -161,7 +161,7 @@ text-transparent  bg-gradient-to-r from-[#6c6aff] via-[#fbc7d4] to-[#ff658b] inl
 						<div className='absolute animate-marquee2 px-6'>
 							{/* Platinum Sponsors --------------------------------------------------------------------------*/}
 
-							<div className=' bg-white flex flex-col items-center justify-center bg-opacity-10 backdrop-filter backdrop-blur-lg rounded-lg shadow-x overflow-hidden my-4  w-full p-4  mt-[10%] md:mt-[20%]'>
+							<div className=' bg-white flex flex-col items-center justify-center bg-opacity-10 backdrop-filter backdrop-blur-lg rounded-lg shadow-x overflow-hidden my-4  w-full p-4'>
 								<div>
 									<h1 className='text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 p-2'>
 										Platinum Sponsors
@@ -253,9 +253,9 @@ text-transparent  bg-gradient-to-r from-[#6c6aff] via-[#fbc7d4] to-[#ff658b] inl
 							</div>
 
 							{/* Premium Sponsors ------------------------------------------------------------------------ */}
-							<div className=' mb-[20%] bg-white flex flex-col items-center justify-center bg-opacity-10 backdrop-filter backdrop-blur-lg  h-full rounded-lg shadow-x overflow-hidden my-4  w-full p-4'>
+							<div className=' bg-white flex flex-col items-center justify-center bg-opacity-10 backdrop-filter backdrop-blur-lg  h-full rounded-lg shadow-x overflow-hidden  w-full p-4'>
 								<div>
-									<h1 className='text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600  p-2'>
+									<h1 className='text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 p-2'>
 										Premium Sponsors
 									</h1>
 								</div>
