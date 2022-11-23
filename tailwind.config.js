@@ -25,6 +25,8 @@ module.exports = {
 			animation: {
 				marquee: "marquee 10s linear infinite",
 				marquee2: "marquee2 10s linear infinite",
+				marqueeT: "marquee 25s linear infinite",
+				marqueeT2: "marquee2 25s linear infinite",
 			},
 			keyframes: {
 				marquee: {
@@ -32,6 +34,14 @@ module.exports = {
 					"100%": { transform: "translateY(-100%)" },
 				},
 				marquee2: {
+					"0%": { transform: "translateY(100%)" },
+					"100%": { transform: "translateY(0%)" },
+				},
+				marqueeT: {
+					"0%": { transform: "translateY(0%)" },
+					"100%": { transform: "translateY(-100%)" },
+				},
+				marqueeT2: {
 					"0%": { transform: "translateY(100%)" },
 					"100%": { transform: "translateY(0%)" },
 				},
