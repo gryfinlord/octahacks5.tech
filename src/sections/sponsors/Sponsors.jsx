@@ -96,39 +96,6 @@ text-transparent  bg-gradient-to-r from-[#6c6aff] via-[#fbc7d4] to-[#ff658b] inl
 								</div>
 							</div>
 
-							{/* Gold Sponsors ----------------------------------------------------------------------------*/}
-
-							<div className=' bg-white flex flex-col items-center justify-center bg-opacity-10 backdrop-filter backdrop-blur-lg  h-full rounded-lg shadow-x overflow-hidden my-4  w-full p-4 '>
-								<div>
-									<h1 className='text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 p-2'>
-										Gold Sponsors
-									</h1>
-								</div>
-
-								{/* Gold Sponsors Images ----------------------------------------------------------------*/}
-								<div className='flex justify-center gap-2 p-4 flex-wrap items-center '>
-									<img
-										src={require("../../assets/Sponsors/Filecoin.png")}
-										alt='devfolio'
-										className='w-36 h-auto inline'
-									/>
-									<img
-										src={require("../../assets/Sponsors/tezos.svg").default}
-										alt=''
-										className='w-36 h-auto'
-									/>
-									<img
-										src={require("../../assets/Sponsors/celo.png")}
-										alt=''
-										className='w-36 h-auto'
-									/>
-									<img
-										src={require("../../assets/Sponsors/axure.png")}
-										alt=''
-										className='w-36 h-auto'
-									/>
-								</div>
-							</div>
 
 							{/* Premium Sponsors ------------------------------------------------------------------------ */}
 							<div className=' bg-white flex flex-col items-center justify-center bg-opacity-10 backdrop-filter backdrop-blur-lg  h-full rounded-lg shadow-x overflow-hidden  w-full p-4'>
@@ -155,6 +122,66 @@ text-transparent  bg-gradient-to-r from-[#6c6aff] via-[#fbc7d4] to-[#ff658b] inl
 										alt=''
 										className='w-36 h-auto'
 									/>
+								</div>
+							</div>
+							
+							{/* Community Partner ----------------------------------------------------------------------------*/}
+
+							<div className=' bg-white flex flex-col items-center justify-center bg-opacity-10 backdrop-filter backdrop-blur-lg  h-full rounded-lg shadow-x overflow-hidden my-4  w-full p-4 '>
+								<div>
+									<h1 className='text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 p-2'>
+										Community Partner
+									</h1>
+								</div>
+
+								{/* community Partner Images ----------------------------------------------------------------*/}
+								<div className='flex justify-center gap-2 p-4 flex-wrap items-center '>
+								<img
+										src={require("../../assets/Sponsors/chitkara.jpg")}
+										alt='chitkara'
+										className='w-32 h-auto rounded-md'
+									/>
+								<img
+										src={require("../../assets/Sponsors/gietu.jpg")}
+										alt='gietu'
+										className='w-32 h-auto rounded-md'
+									/>
+									<img
+										src={require("../../assets/Sponsors/kalindi.jpg")}
+										alt='kalindi'
+										className='w-32 h-auto rounded-md'
+									/>
+									<img
+										src={require("../../assets/Sponsors/kanpur.jpg")}
+										alt='kanpur'
+										className='w-32 h-auto rounded-md'
+									/>
+									<img
+										src={require("../../assets/Sponsors/maharishi.jpg")}
+										alt='maharishi'
+										className='w-32 h-auto rounded-md'
+									/>
+									<img
+										src={require("../../assets/Sponsors/peshawar.jpg")}
+										alt='peshawar'
+										className='w-32 h-auto rounded-md'
+									/>
+									<img
+										src={require("../../assets/Sponsors/ropar.jpg")}
+										alt='ropar'
+										className='w-32 h-auto rounded-md'
+									/>
+									<img
+										src={require("../../assets/Sponsors/srinix.jpg")}
+										alt='ropar'
+										className='w-32 h-auto rounded-md'
+									/>
+									<img
+										src={require("../../assets/Sponsors/jalandhar.jpg")}
+										alt='jalandhar'
+										className='w-32 h-auto rounded-md'
+									/>
+									
 								</div>
 							</div>
 						</div>
@@ -184,41 +211,7 @@ text-transparent  bg-gradient-to-r from-[#6c6aff] via-[#fbc7d4] to-[#ff658b] inl
 								</div>
 							</div>
 
-							{/* Gold Sponsors ----------------------------------------------------------------------------*/}
-
-							<div className=' bg-white flex flex-col items-center justify-center bg-opacity-10 backdrop-filter backdrop-blur-lg  h-full rounded-lg shadow-x overflow-hidden my-4  w-full p-4 '>
-								<div>
-									<h1 className='text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 p-2'>
-										Gold Sponsors
-									</h1>
-								</div>
-
-								{/* Gold Sponsors Images ----------------------------------------------------------------*/}
-								<div className='flex justify-center gap-2 p-4 flex-wrap items-center '>
-									<img
-										src={require("../../assets/Sponsors/Filecoin.png")}
-										alt='devfolio'
-										className='w-36 h-auto inline'
-									/>
-									<img
-										src={require("../../assets/Sponsors/tezos.svg").default}
-										alt=''
-										className='w-36 h-auto'
-									/>
-									<img
-										src={require("../../assets/Sponsors/celo.png")}
-										alt=''
-										className='w-36 h-auto'
-									/>
-									<img
-										src={require("../../assets/Sponsors/axure.png")}
-										alt=''
-										className='w-36 h-auto'
-									/>
-								</div>
-							</div>
-
-							{/* Gold Sponsors ----------------------------------------------------------------------------*/}
+                            {/* Gold Sponsors ----------------------------------------------------------------------------*/}
 
 							<div className=' bg-white flex flex-col items-center justify-center bg-opacity-10 backdrop-filter backdrop-blur-lg  h-full rounded-lg shadow-x overflow-hidden my-4  w-full p-4 '>
 								<div>
@@ -277,6 +270,68 @@ text-transparent  bg-gradient-to-r from-[#6c6aff] via-[#fbc7d4] to-[#ff658b] inl
 										alt=''
 										className='w-36 h-auto'
 									/>
+								</div>
+							</div>
+							
+							
+
+							{/* Community Partner ----------------------------------------------------------------------------*/}
+
+							<div className=' bg-white flex flex-col items-center justify-center bg-opacity-10 backdrop-filter backdrop-blur-lg  h-full rounded-lg shadow-x overflow-hidden my-4  w-full p-4 '>
+								<div>
+									<h1 className='text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 p-2'>
+										Community Partner
+									</h1>
+								</div>
+
+								{/* Gold Sponsors Images ----------------------------------------------------------------*/}
+								<div className='flex justify-center gap-2 p-4 flex-wrap items-center '>
+								<img
+										src={require("../../assets/Sponsors/chitkara.jpg")}
+										alt='chitkara'
+										className='w-32 h-auto rounded-md'
+									/>
+								<img
+										src={require("../../assets/Sponsors/gietu.jpg")}
+										alt='gietu'
+										className='w-32 h-auto rounded-md'
+									/>
+									<img
+										src={require("../../assets/Sponsors/kalindi.jpg")}
+										alt='kalindi'
+										className='w-32 h-auto rounded-md'
+									/>
+									<img
+										src={require("../../assets/Sponsors/kanpur.jpg")}
+										alt='kanpur'
+										className='w-32 h-auto rounded-md'
+									/>
+									<img
+										src={require("../../assets/Sponsors/maharishi.jpg")}
+										alt='maharishi'
+										className='w-32 h-auto rounded-md'
+									/>
+									<img
+										src={require("../../assets/Sponsors/peshawar.jpg")}
+										alt='peshawar'
+										className='w-32 h-auto rounded-md'
+									/>
+									<img
+										src={require("../../assets/Sponsors/ropar.jpg")}
+										alt='ropar'
+										className='w-32 h-auto rounded-md'
+									/>
+									<img
+										src={require("../../assets/Sponsors/srinix.jpg")}
+										alt='ropar'
+										className='w-32 h-auto rounded-md'
+									/>
+									<img
+										src={require("../../assets/Sponsors/jalandhar.jpg")}
+										alt='jalandhar'
+										className='w-32 h-auto rounded-md'
+									/>
+									
 								</div>
 							</div>
 						</div>

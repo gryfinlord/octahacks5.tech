@@ -222,14 +222,6 @@ const App = () => {
                     <li className="mb-1">
                       <a
                         className="block p-4 text-xl  text-white hover:bg-blue-300 hover:text-blue-600 rounded"
-                        href="#home"
-                      >
-                        Overview
-                      </a>
-                    </li>
-                    <li className="mb-1">
-                      <a
-                        className="block p-4 text-xl  text-white hover:bg-blue-300 hover:text-blue-600 rounded"
                         href="#tracks"
                       >
                         Tracks

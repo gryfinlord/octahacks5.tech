@@ -64,7 +64,7 @@ const Landing = () => {
 					/>
 				</a>
 				<div className="w-full h-full flex items-center justify-center p-1 mx-auto">
-					<img src={require("../../assets/Line9.svg").default} />
+					<img src={require("../../assets/Line9.svg").default} alt="line" />
 				</div>
 			</div>
 		</div>
