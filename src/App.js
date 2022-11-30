@@ -238,7 +238,7 @@ const App = () => {
                     <li className="mb-1">
                       <a
                         className="block p-4 text-xl  text-white hover:bg-blue-300 hover:text-blue-600 rounded"
-                        href="#sponsers"
+                        href="#sponsors"
                       >
                         Sponsors
                       </a>
