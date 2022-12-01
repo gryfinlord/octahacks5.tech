@@ -1,5 +1,6 @@
 import React from "react";
 import JetLogo from "../../assets/Sponsors/premium/jbLogo.svg";
+import DGOcean from "../../assets/Sponsors/gold/DigitalOcean_logo.svg";
 
 const Sponsers = () => {
 	return (
@@ -94,6 +95,12 @@ text-transparent  bg-gradient-to-r from-[#6c6aff] via-[#fbc7d4] to-[#ff658b] inl
 										alt=""
 										className="w-36 h-auto"
 									/>
+									<img src={DGOcean} alt="" className="w-28 h-auto" />
+									<img
+										src={require("../../assets/Sponsors/premium/wolfram.png")}
+										alt=""
+										className="w-36 h-auto"
+									/>
 								</div>
 							</div>
 
@@ -122,7 +129,37 @@ text-transparent  bg-gradient-to-r from-[#6c6aff] via-[#fbc7d4] to-[#ff658b] inl
 										alt=""
 										className="w-36 h-auto"
 									/>
-									<img src={JetLogo} alt="" className="w-36 h-auto" />
+									<img src={JetLogo} alt="" className="w-28 h-auto" />
+									<img
+										src={require("../../assets/Sponsors/premium/logo_taskade_black.png")}
+										alt=""
+										className="w-28 h-auto"
+									/>
+									<img
+										src={require("../../assets/Sponsors/premium/rosenfeld-logo.png")}
+										alt=""
+										className="w-28 h-auto"
+									/>
+									<img
+										src={require("../../assets/Sponsors/premium/interviewCake.png")}
+										alt=""
+										className="w-28 h-auto"
+									/>
+									<img
+										src={require("../../assets/Sponsors/premium/streamYard.png")}
+										alt=""
+										className="w-28 h-auto"
+									/>
+									<img
+										src={require("../../assets/Sponsors/premium/balsamiq.png")}
+										alt=""
+										className="w-36 h-auto"
+									/>
+									<img
+										src={require("../../assets/Sponsors/premium/oreilly.png")}
+										alt=""
+										className="w-36 h-auto"
+									/>
 								</div>
 							</div>
 
@@ -242,6 +279,12 @@ text-transparent  bg-gradient-to-r from-[#6c6aff] via-[#fbc7d4] to-[#ff658b] inl
 										alt=""
 										className="w-36 h-auto"
 									/>
+									<img src={DGOcean} alt="" className="w-28 h-auto" />
+									<img
+										src={require("../../assets/Sponsors/premium/wolfram.png")}
+										alt=""
+										className="w-36 h-auto"
+									/>
 								</div>
 							</div>
 
@@ -270,7 +313,37 @@ text-transparent  bg-gradient-to-r from-[#6c6aff] via-[#fbc7d4] to-[#ff658b] inl
 										alt=""
 										className="w-36 h-auto"
 									/>
-									<img src={JetLogo} alt="" className="w-36 h-auto" />
+									<img src={JetLogo} alt="" className="w-28 h-auto" />
+									<img
+										src={require("../../assets/Sponsors/premium/logo_taskade_black.png")}
+										alt=""
+										className="w-28 h-auto"
+									/>
+									<img
+										src={require("../../assets/Sponsors/premium/rosenfeld-logo.png")}
+										alt=""
+										className="w-28 h-auto"
+									/>
+									<img
+										src={require("../../assets/Sponsors/premium/interviewCake.png")}
+										alt=""
+										className="w-28 h-auto"
+									/>
+									<img
+										src={require("../../assets/Sponsors/premium/streamYard.png")}
+										alt=""
+										className="w-28 h-auto"
+									/>
+									<img
+										src={require("../../assets/Sponsors/premium/balsamiq.png")}
+										alt=""
+										className="w-36 h-auto"
+									/>
+									<img
+										src={require("../../assets/Sponsors/premium/oreilly.png")}
+										alt=""
+										className="w-36 h-auto"
+									/>
 								</div>
 							</div>
 
