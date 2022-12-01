@@ -68,11 +68,11 @@ function Prizes() {
 							/>
 						</h2>
 						<p className="text-[.7rem]  md:text-[.6rem] lg:text-[.8rem] text-center font-regular">
-							₹ 15,000* for greatest hack created using polygon and ethereum.
+							₹ 15,000 for the greatest hack created using Polygon and Ethereum.
 						</p>
 						<p className="text-[.7rem]  md:text-[.6rem]  lg:text-[.8rem] text-center font-regular">
-							+ eligibility to apply for internships or full-time positions, and
-							up to $5000 in seed money for winners!
+							eligibility to apply for internships or full-time positions, and
+							up to $5,000 in seed money for winners!
 						</p>
 					</div>
 					<div className="w-full h-full flex flex-col justify-center items-center text-white bg-gray-800 p-2 cursor-pointer rounded-[4px] space-y-4">
@@ -83,11 +83,10 @@ function Prizes() {
 							/>
 						</h2>
 						<p className="text-[.7rem]  md:text-[.6rem] lg:text-[.8rem] text-center font-regular">
-							The finest Dapp created on Tezos will recieve Rs. 20,000.
+							₹ 20,000 for the best Celo-built Dapp
 						</p>
 						<p className="text-[.7rem]  md:text-[.6rem]  lg:text-[.8rem] text-center font-regular">
-							+ Opportunity for a community award of up to $5,000 USD for a
-							superior initiative.
+							Up to Rs. 1 lakh worth of goodies
 						</p>
 					</div>
 

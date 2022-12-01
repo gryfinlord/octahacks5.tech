@@ -7,7 +7,7 @@ const About = () => {
 			id="about"
 		>
 			<div className="text-3xl lg:text-5xl xl:text-6xl font-bold md:text-4xl lg:w-1/2  text-center lg:text-start mt-6 lg:mt-0">
-				<span className="bg-gradient-to-r from-[#6c6aff] via-[#fbc7d4] to-[#ff658b] bg-clip-text text-transparent">
+				<span className="bg-gradient-to-r from-[#6c6aff] via-[#fbc7d4] to-[#ff658b] bg-clip-text text-transparent w-fit">
 					About Us
 				</span>
 			</div>
