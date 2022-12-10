@@ -1,13 +1,6 @@
 import React from "react";
-import Logo1 from "../../assets/Sponsors/community-partner/gdsc-logo-1.svg";
-import Logo2 from "../../assets/Sponsors/community-partner/gdsc-logo-2.svg";
-import Logo3 from "../../assets/Sponsors/community-partner/gdsc-logo-3.svg";
-import Logo4 from "../../assets/Sponsors/community-partner/gdsc-logo-4.svg";
-import Logo5 from "../../assets/Sponsors/community-partner/gdsc-logo-5.svg";
-import Logo6 from "../../assets/Sponsors/community-partner/gdsc-logo-6.svg";
-import cuLogo from "../../assets/Sponsors/community-partner/cu-logo.png";
-import Logo7 from "../../assets/Sponsors/community-partner/gdsc-logo-7.svg";
-import Logo8 from "../../assets/Sponsors/community-partner/gdsc-logo-8.svg";
+import JetLogo from "../../assets/Sponsors/premium/jbLogo.svg";
+import DGOcean from "../../assets/Sponsors/gold/DigitalOcean_logo.svg";
 
 const Sponsers = () => {
 	return (
@@ -102,6 +95,12 @@ text-transparent  bg-gradient-to-r from-[#6c6aff] via-[#fbc7d4] to-[#ff658b] inl
 										alt=""
 										className="w-36 h-auto"
 									/>
+									<img src={DGOcean} alt="" className="w-28 h-auto" />
+									<img
+										src={require("../../assets/Sponsors/premium/wolfram.png")}
+										alt=""
+										className="w-36 h-auto"
+									/>
 								</div>
 							</div>
 
@@ -130,6 +129,37 @@ text-transparent  bg-gradient-to-r from-[#6c6aff] via-[#fbc7d4] to-[#ff658b] inl
 										alt=""
 										className="w-36 h-auto"
 									/>
+									<img src={JetLogo} alt="" className="w-28 h-auto" />
+									<img
+										src={require("../../assets/Sponsors/premium/logo_taskade_black.png")}
+										alt=""
+										className="w-28 h-auto"
+									/>
+									<img
+										src={require("../../assets/Sponsors/premium/rosenfeld-logo.png")}
+										alt=""
+										className="w-28 h-auto"
+									/>
+									<img
+										src={require("../../assets/Sponsors/premium/interviewCake.png")}
+										alt=""
+										className="w-28 h-auto"
+									/>
+									<img
+										src={require("../../assets/Sponsors/premium/streamYard.png")}
+										alt=""
+										className="w-28 h-auto"
+									/>
+									<img
+										src={require("../../assets/Sponsors/premium/balsamiq.png")}
+										alt=""
+										className="w-36 h-auto"
+									/>
+									<img
+										src={require("../../assets/Sponsors/premium/oreilly.png")}
+										alt=""
+										className="w-36 h-auto"
+									/>
 								</div>
 							</div>
 
@@ -144,15 +174,51 @@ text-transparent  bg-gradient-to-r from-[#6c6aff] via-[#fbc7d4] to-[#ff658b] inl
 
 								{/* community Partner Images ----------------------------------------------------------------*/}
 								<div className="flex justify-center gap-2 p-4 flex-wrap items-center ">
-									<img src={cuLogo} alt="chitkara" className="w-32 h-auto" />
-									<img src={Logo1} alt="gietu" className="w-32 h-auto" />
-									<img src={Logo2} alt="kalindi" className="w-32 h-auto" />
-									<img src={Logo3} alt="kanpur" className="w-32 h-auto" />
-									<img src={Logo4} alt="maharishi" className="w-32 h-auto" />
-									<img src={Logo5} alt="peshawar" className="w-32 h-auto" />
-									<img src={Logo6} alt="ropar" className="w-32 h-auto" />
-									<img src={Logo7} alt="ropar" className="w-32 h-auto" />
-									<img src={Logo8} alt="jalandhar" className="w-32 h-auto" />
+									<img
+										src={require("../../assets/Sponsors/chitkara.jpg")}
+										alt="chitkara"
+										className="w-32 h-auto rounded-md"
+									/>
+									<img
+										src={require("../../assets/Sponsors/gietu.jpg")}
+										alt="gietu"
+										className="w-32 h-auto rounded-md"
+									/>
+									<img
+										src={require("../../assets/Sponsors/kalindi.jpg")}
+										alt="kalindi"
+										className="w-32 h-auto rounded-md"
+									/>
+									<img
+										src={require("../../assets/Sponsors/kanpur.jpg")}
+										alt="kanpur"
+										className="w-32 h-auto rounded-md"
+									/>
+									<img
+										src={require("../../assets/Sponsors/maharishi.jpg")}
+										alt="maharishi"
+										className="w-32 h-auto rounded-md"
+									/>
+									<img
+										src={require("../../assets/Sponsors/peshawar.jpg")}
+										alt="peshawar"
+										className="w-32 h-auto rounded-md"
+									/>
+									<img
+										src={require("../../assets/Sponsors/ropar.jpg")}
+										alt="ropar"
+										className="w-32 h-auto rounded-md"
+									/>
+									<img
+										src={require("../../assets/Sponsors/srinix.jpg")}
+										alt="ropar"
+										className="w-32 h-auto rounded-md"
+									/>
+									<img
+										src={require("../../assets/Sponsors/jalandhar.jpg")}
+										alt="jalandhar"
+										className="w-32 h-auto rounded-md"
+									/>
 								</div>
 							</div>
 						</div>
@@ -213,6 +279,12 @@ text-transparent  bg-gradient-to-r from-[#6c6aff] via-[#fbc7d4] to-[#ff658b] inl
 										alt=""
 										className="w-36 h-auto"
 									/>
+									<img src={DGOcean} alt="" className="w-28 h-auto" />
+									<img
+										src={require("../../assets/Sponsors/premium/wolfram.png")}
+										alt=""
+										className="w-36 h-auto"
+									/>
 								</div>
 							</div>
 
@@ -241,6 +313,37 @@ text-transparent  bg-gradient-to-r from-[#6c6aff] via-[#fbc7d4] to-[#ff658b] inl
 										alt=""
 										className="w-36 h-auto"
 									/>
+									<img src={JetLogo} alt="" className="w-28 h-auto" />
+									<img
+										src={require("../../assets/Sponsors/premium/logo_taskade_black.png")}
+										alt=""
+										className="w-28 h-auto"
+									/>
+									<img
+										src={require("../../assets/Sponsors/premium/rosenfeld-logo.png")}
+										alt=""
+										className="w-28 h-auto"
+									/>
+									<img
+										src={require("../../assets/Sponsors/premium/interviewCake.png")}
+										alt=""
+										className="w-28 h-auto"
+									/>
+									<img
+										src={require("../../assets/Sponsors/premium/streamYard.png")}
+										alt=""
+										className="w-28 h-auto"
+									/>
+									<img
+										src={require("../../assets/Sponsors/premium/balsamiq.png")}
+										alt=""
+										className="w-36 h-auto"
+									/>
+									<img
+										src={require("../../assets/Sponsors/premium/oreilly.png")}
+										alt=""
+										className="w-36 h-auto"
+									/>
 								</div>
 							</div>
 
@@ -255,15 +358,51 @@ text-transparent  bg-gradient-to-r from-[#6c6aff] via-[#fbc7d4] to-[#ff658b] inl
 
 								{/* Gold Sponsors Images ----------------------------------------------------------------*/}
 								<div className="flex justify-center gap-2 p-4 flex-wrap items-center ">
-									<img src={cuLogo} alt="chitkara" className="w-32 h-auto" />
-									<img src={Logo1} alt="gietu" className="w-32 h-auto" />
-									<img src={Logo2} alt="kalindi" className="w-32 h-auto" />
-									<img src={Logo3} alt="kanpur" className="w-32 h-auto" />
-									<img src={Logo4} alt="maharishi" className="w-32 h-auto" />
-									<img src={Logo5} alt="peshawar" className="w-32 h-auto" />
-									<img src={Logo6} alt="ropar" className="w-32 h-auto" />
-									<img src={Logo7} alt="ropar" className="w-32 h-auto" />
-									<img src={Logo8} alt="jalandhar" className="w-32 h-auto" />
+									<img
+										src={require("../../assets/Sponsors/chitkara.jpg")}
+										alt="chitkara"
+										className="w-32 h-auto rounded-md"
+									/>
+									<img
+										src={require("../../assets/Sponsors/gietu.jpg")}
+										alt="gietu"
+										className="w-32 h-auto rounded-md"
+									/>
+									<img
+										src={require("../../assets/Sponsors/kalindi.jpg")}
+										alt="kalindi"
+										className="w-32 h-auto rounded-md"
+									/>
+									<img
+										src={require("../../assets/Sponsors/kanpur.jpg")}
+										alt="kanpur"
+										className="w-32 h-auto rounded-md"
+									/>
+									<img
+										src={require("../../assets/Sponsors/maharishi.jpg")}
+										alt="maharishi"
+										className="w-32 h-auto rounded-md"
+									/>
+									<img
+										src={require("../../assets/Sponsors/peshawar.jpg")}
+										alt="peshawar"
+										className="w-32 h-auto rounded-md"
+									/>
+									<img
+										src={require("../../assets/Sponsors/ropar.jpg")}
+										alt="ropar"
+										className="w-32 h-auto rounded-md"
+									/>
+									<img
+										src={require("../../assets/Sponsors/srinix.jpg")}
+										alt="ropar"
+										className="w-32 h-auto rounded-md"
+									/>
+									<img
+										src={require("../../assets/Sponsors/jalandhar.jpg")}
+										alt="jalandhar"
+										className="w-32 h-auto rounded-md"
+									/>
 								</div>
 							</div>
 						</div>

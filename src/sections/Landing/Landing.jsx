@@ -1,3 +1,5 @@
+import Calendar from "../../assets/calendar/Calender.svg";
+
 import React from "react";
 const Landing = () => {
 	return (
@@ -9,14 +11,18 @@ const Landing = () => {
 				className="w-full h-full min-h-screen flex flex-col justify-center backdrop-blur-lg bg-black/30 items-center lg:items-start
       font-extrabold font-azonix"
 			>
-				<div className="w-2/3 text-md p-1 xl:text-5xl lg:text-3xl md:text-2xl sm:text-xl xs:text-lg text-center lg:text-start lg:mt-[6%]">
+				<div className="w-2/3 text-md p-1 xl:text-3xl lg:text-3xl md:text-2xl sm:text-xl xs:text-lg text-center lg:text-start lg:mt-[6%]">
 					<p>"TECH IT EASY"</p>
 				</div>
 
-				<div className="w-full text-4xl p-2 xl:text-9xl lg:text-8xl md:text-8xl sm:text-7xl xs:text-5xl text-center lg:text-start">
+				<div className="w-full text-4xl p-2 xl:text-7xl lg:text-8xl md:text-8xl sm:text-7xl xs:text-5xl text-center lg:text-start">
 					<p className="w-full h-full p-1">
 						Octahacks <br /> 5.0
 					</p>
+				</div>
+
+				<div className="img w-fit items-center justify-center lg:block md:flex sm:flex xl:block 2xl:block flex">
+					<img src={Calendar} className="w-[65%]" alt="" />
 				</div>
 				<div className="w-2/12 h-[1px] bg-white rounded-lg my-8 mx-4 border-white border-2"></div>
 				<div className="flex items-center flex-col lg:flex-row justify-center gap-7 w-[75%] md:w-1/2 lg:w-[75%] xl:w-1/2 p-4 m-1">

@@ -10,7 +10,7 @@ const Mentors = () => {
 					Mentors
 				</h1>
 			</div>
-			<div class="grid sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-6 px-6 xs:px-12 py-12 md:px-6 md:py-6 xl:px-12 xl:py-12 auto-rows-fr bg-slate-900">
+			<div class="grid sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-6 px-6 xs:px-12 py-12 md:px-6 md:py-6 xl:px-12 xl:py-12 auto-rows-fr bg-slate-900 h-[90vh]">
 				<div
 					data-aos="flip-left"
 					data-aos-easing="ease-in-sine"
@@ -181,7 +181,7 @@ const Mentors = () => {
                         <p class="text-xl text-gray-700 font-bold mb-2">Dany Bailey</p>
                         <p class="text-base text-gray-400 font-normal">Software Engineer</p>
                     </div> */}
-					<div className="text-black text-3xl w-full h-64 text-center flex items-center justify-center">
+					<div className="text-black text-3xl w-full text-center flex items-center justify-center">
 						Coming Soon..
 					</div>
 

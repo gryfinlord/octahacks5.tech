@@ -83,10 +83,11 @@ function Prizes() {
 							/>
 						</h2>
 						<p className="text-[.7rem]  md:text-[.6rem] lg:text-[.8rem] text-center font-regular">
-							₹ 20,000 for the best Celo-built Dapp
+							Best Tezos app will recieve ₹ 20,000
 						</p>
 						<p className="text-[.7rem]  md:text-[.6rem]  lg:text-[.8rem] text-center font-regular">
-							Up to Rs. 1 lakh worth of goodies
+							Continuity grant opportunity for an exceptional initiative, up to
+							$5000 USD.
 						</p>
 					</div>
 
