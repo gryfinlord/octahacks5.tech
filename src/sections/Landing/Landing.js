@@ -10,7 +10,6 @@ const Landing = () => {
 			id="home"
 			className="flex relative flex-row flex-1 h-screen  bg-gif   bg-no-repeat bg-cover bg-center"
 		>
-			<Form trigger={buttonPopup}></Form>
 			<div
 				className="w-full h-full min-h-screen flex flex-col justify-center backdrop-blur-lg bg-black/30 items-center lg:items-start
       font-extrabold font-azonix"
@@ -32,7 +31,7 @@ const Landing = () => {
 				<div className="flex items-center flex-col lg:flex-row justify-center gap-7 w-[75%] md:w-1/2 lg:w-[75%] xl:w-1/2 p-4 m-1">
 					<button
 						className="p-2  w-full flex items-center justify-center gap-4 text-sm md:text-md lg:text-lg  font-semibold border-2 border-blue-700"
-						onclick={() => setButtonPopup(true)}
+						onClick={() => setButtonPopup(true)}
 					>
 						Apply Now
 					</button>
@@ -80,6 +79,7 @@ const Landing = () => {
 					<img src={require("../../assets/Line9.svg").default} alt="line" />
 				</div>
 			</div>
+			<Form trigger={buttonPopup} setTrigger={setButtonPopup}></Form>
 		</div>
 	);
 };

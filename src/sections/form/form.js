@@ -4,9 +4,8 @@ export default function Form(props) {
 	return props.trigger ? (
 		<section id="form" className="h-screen z-50">
 			<div className="grid grid-cols-12">
-				<div col-span-2></div>
-				<div className="col-span-10  bg-[length:100%_100%] formBg h-fit w-fit">
-					<div className="grid grid-cols-2 mt-32 ml-10 gap-x-16">
+				<div className="col-span-12  bg-[length:100%_100%] formBg h-fit w-fit p-10">
+					<div className="grid 2xl:grid-cols-2 xl:grid-cols-2 lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 mt-32 ml-10 gap-x-16">
 						<div className="col-span-1">
 							<div className="label">
 								<label id="fname" className="text-white ">
@@ -114,12 +113,14 @@ export default function Form(props) {
 					>
 						SUBMIT
 					</button>
-					<button className="bg-transparent border-2 border-[#d9d9d9] mt-6 px-3 py-1 rounded-lg ml-10">
+					<button
+						className="bg-transparent border-2 border-[#d9d9d9] mt-6 px-3 py-1 rounded-lg ml-10"
+						onClick={() => props.setTrigger(false)}
+					>
 						Close
 					</button>
 					{props.children}
 				</div>
-				<div></div>
 			</div>
 		</section>
 	) : (
