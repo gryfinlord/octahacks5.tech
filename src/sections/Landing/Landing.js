@@ -1,7 +1,10 @@
 import Calendar from "../../assets/calendar/Calender.svg";
+import Form from "../form/form";
+import { useState } from "react";
 
 import React from "react";
 const Landing = () => {
+	const [buttonPopup, setButtonPopup] = useState(false);
 	return (
 		<div
 			id="home"
@@ -26,8 +29,11 @@ const Landing = () => {
 				</div>
 				<div className="w-2/12 h-[1px] bg-white rounded-lg my-8 mx-4 border-white border-2"></div>
 				<div className="flex items-center flex-col lg:flex-row justify-center gap-7 w-[75%] md:w-1/2 lg:w-[75%] xl:w-1/2 p-4 m-1">
-					<button className="p-2  w-full flex items-center justify-center gap-4 text-sm md:text-md lg:text-lg  font-semibold border-2 border-blue-700">
-						Apply With Devfolio
+					<button
+						className="p-2  w-full flex items-center justify-center gap-4 text-sm md:text-md lg:text-lg  font-semibold border-2 border-blue-700"
+						onClick={() => setButtonPopup(true)}
+					>
+						Apply Now
 					</button>
 					<a
 						href="https://discord.gg/qRCZGEFYAE"
@@ -73,6 +79,7 @@ const Landing = () => {
 					<img src={require("../../assets/Line9.svg").default} alt="line" />
 				</div>
 			</div>
+			<Form trigger={buttonPopup} setTrigger={setButtonPopup}></Form>
 		</div>
 	);
 };
