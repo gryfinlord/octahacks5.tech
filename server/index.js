@@ -42,7 +42,8 @@ app.post("/formSubmit", async (req, res) => {
 		gender: req.body.gender,
 		year: req.body.year,
 		school: req.body.school,
-		bio: req.body.bio,
+		email: req.body.email,
+		participation:req.body.participation
 	});
 	try {
 		const savedForm = await newForm.save();

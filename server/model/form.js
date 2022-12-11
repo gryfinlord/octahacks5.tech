@@ -11,6 +11,7 @@ const FormSchema = new mongoose.Schema({
     },
     phone:{
         type:String,
+        required:true
     },
     gender:{
         type:String,
@@ -24,7 +25,11 @@ const FormSchema = new mongoose.Schema({
         type:String,
         required:true,
     },
-    bio:{
+    email:{
+        type:String,
+        required:true
+    },
+    participation:{
         type:String,
         required:true
     }
