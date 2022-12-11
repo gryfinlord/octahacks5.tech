@@ -8,7 +8,8 @@ export default function Form(props) {
 	const [gender, setGender] = useState("");
 	const [year, setYear] = useState("");
 	const [school, setSchool] = useState("");
-	const [bio, setBio] = useState("");
+	const [email, setEmail] = useState("");
+	const [participation, setParticipation] = useState("");
 	const handleClick = () => {
 		axios
 			.post("http://localhost:9000/formSubmit", {
@@ -18,7 +19,8 @@ export default function Form(props) {
 				gender,
 				year,
 				school,
-				bio,
+				email,
+				participation,
 			})
 			.then((res) => console.log(res))
 			.catch((err) => console.log(err));
@@ -55,20 +57,6 @@ export default function Form(props) {
 									className="w-full outline-none text-white p-2 bg-transparent border-[#d9d9d9] border-2 rounded-xl"
 									name="lname"
 									onChange={(e) => setLName(e.target.value)}
-								/>
-							</div>
-
-							<div className="label mt-6">
-								<label id="phone" className=" ">
-									EMAIL
-								</label>
-							</div>
-							<div className="inputLname mt-2">
-								<input
-									type="text"
-									className="w-full outline-none text-white p-2 bg-transparent border-[#d9d9d9] border-2 rounded-xl"
-									name="email"
-									onChange={(e) => setPhone(e.target.value)}
 								/>
 							</div>
 
@@ -131,6 +119,38 @@ export default function Form(props) {
 									name="school"
 									onChange={(e) => setSchool(e.target.value)}
 								/>
+							</div>
+
+							<div className="label mt-6">
+								<label id="email" className=" ">
+									EMAIL
+								</label>
+							</div>
+							<div className="inputLname mt-2">
+								<input
+									type="email"
+									className="w-full outline-none text-white p-2 bg-transparent border-[#d9d9d9] border-2 rounded-xl"
+									name="email"
+									onChange={(e) => setEmail(e.target.value)}
+								/>
+							</div>
+
+							<div className="label mt-6">
+								<label id="gender" className=" ">
+									Participation
+								</label>
+							</div>
+							<div className="inputLname mt-2">
+								<select
+									name="participation"
+									id="participation"
+									className="text-white w-full p-2 bg-transparent border-2 border-[#d9d9d9]outline-none"
+									onChange={(e) => setParticipation(e.target.value)}
+								>
+									<option value=""></option>
+									<option value="Solo">Solo</option>
+									<option value="Teammate">Teammate</option>
+								</select>
 							</div>
 						</div>
 					</div>
