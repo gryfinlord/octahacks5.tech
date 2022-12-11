@@ -91,7 +91,7 @@ export default function Form(props) {
 								<select
 									name=""
 									id="gender"
-									className="text-white w-full p-2 bg-transparent border-2 border-[#d9d9d9]outline-none"
+									className="text-black w-full p-2 bg-transparent border-2 border-[#d9d9d9]outline-none"
 									onChange={(e) => setGender(e.target.value)}
 								>
 									<option value=""></option>
@@ -152,11 +152,11 @@ export default function Form(props) {
 								<select
 									name="participation"
 									id="participation"
-									className="text-white w-full p-2 bg-transparent border-2 border-[#d9d9d9]outline-none"
+									className="text-black w-full p-2 bg-transparent border-2 border-[#d9d9d9]outline-none"
 									onChange={(e) => setParticipation(e.target.value)}
 								>
 									<option value=""></option>
-									<option value="Solo">Solo</option>
+									<option value="Solo">Individual</option>
 									<option value="Teammate">Teammate</option>
 								</select>
 							</div>
