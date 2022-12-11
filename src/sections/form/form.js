@@ -24,6 +24,14 @@ export default function Form(props) {
 			})
 			.then((res) => console.log(res))
 			.catch((err) => console.log(err));
+			setFName("");
+			setLName("");
+			setPhone("");
+			setGender("");
+			setYear("");
+			setSchool("");
+			setEmail("");
+			setParticipation("");
 		/* console.log("button clicked"); */
 	};
 	return props.trigger ? (
