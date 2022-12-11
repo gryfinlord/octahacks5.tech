@@ -23,15 +23,15 @@ app.get("/", (req, res) => {
 	res.send({ Yoo: "working fine" });
 });
 
-/* {
-    "firstName":"Harsh",
-    "lastName":"Gooyal",
-    "phone":"9588549901",
-    "gender":"male",
-    "year":2003,
-    "school":"Chitkara",
-    "bio":"front end developer"
-} */
+// {
+//     "firstName":"Harsh",
+//     "lastName":"Goyal",
+//     "phone":"9588549901",
+//     "gender":"male",
+//     "year":2003,
+//     "school":"Chitkara",
+//     "bio":"front end developer"
+// } 
 
 app.post("/formSubmit", async (req, res) => {
 	console.log(req.body);
