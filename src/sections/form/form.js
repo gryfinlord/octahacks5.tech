@@ -12,7 +12,7 @@ export default function Form(props) {
 	const [participation, setParticipation] = useState("");
 	const handleClick = () => {
 		axios
-			.post("http://localhost:9000/formSubmit", {
+			.post("https://beautiful-waders-newt.cyclic.app/formSubmit", {
 				fName,
 				lName,
 				phone,
@@ -22,16 +22,26 @@ export default function Form(props) {
 				email,
 				participation,
 			})
-			.then((res) => console.log(res))
+			.then((res) => {
+				console.log(res);
+				setFName("");
+				setLName("");
+				setPhone("");
+				setGender("");
+				setYear("");
+				setSchool("");
+				setEmail("");
+				setParticipation("");
+			})
 			.catch((err) => console.log(err));
-			setFName("");
-			setLName("");
-			setPhone("");
-			setGender("");
-			setYear("");
-			setSchool("");
-			setEmail("");
-			setParticipation("");
+		setFName("");
+		setLName("");
+		setPhone("");
+		setGender("");
+		setYear("");
+		setSchool("");
+		setEmail("");
+		setParticipation("");
 		/* console.log("button clicked"); */
 	};
 	return props.trigger ? (
@@ -47,6 +57,7 @@ export default function Form(props) {
 							</div>
 							<div className="inputFname mt-2">
 								<input
+								value={fName}
 									type="text"
 									className="w-full outline-none text-white p-2 bg-transparent border-[#d9d9d9] border-2 rounded-xl"
 									name="fname"
@@ -61,6 +72,7 @@ export default function Form(props) {
 							</div>
 							<div className="inputLname mt-2">
 								<input
+								value={lName}
 									type="text"
 									className="w-full outline-none text-white p-2 bg-transparent border-[#d9d9d9] border-2 rounded-xl"
 									name="lname"
@@ -76,6 +88,7 @@ export default function Form(props) {
 							<div className="inputLname mt-2">
 								<input
 									type="text"
+									value={phone}
 									className="w-full outline-none text-white p-2 bg-transparent border-[#d9d9d9] border-2 rounded-xl"
 									name="phone"
 									onChange={(e) => setPhone(e.target.value)}
@@ -89,6 +102,7 @@ export default function Form(props) {
 							</div>
 							<div className="inputLname mt-2">
 								<select
+								value={gender}
 									name=""
 									id="gender"
 									className="text-black w-full p-2 bg-transparent border-2 border-[#d9d9d9]outline-none"
@@ -108,6 +122,7 @@ export default function Form(props) {
 							</div>
 							<div className="inputGrad">
 								<input
+								value={year}
 									type="text"
 									className="w-full outline-none text-white p-2 bg-transparent border-[#d9d9d9] border-2 rounded-xl"
 									name="gradYear"
@@ -122,6 +137,7 @@ export default function Form(props) {
 							</div>
 							<div className="inputSchool">
 								<input
+								value={school}
 									type="text"
 									className="w-full outline-none text-white p-2 bg-transparent border-[#d9d9d9] border-2 rounded-xl"
 									name="school"
@@ -136,6 +152,7 @@ export default function Form(props) {
 							</div>
 							<div className="inputLname mt-2">
 								<input
+								value={email}
 									type="email"
 									className="w-full outline-none text-white p-2 bg-transparent border-[#d9d9d9] border-2 rounded-xl"
 									name="email"
@@ -150,6 +167,7 @@ export default function Form(props) {
 							</div>
 							<div className="inputLname mt-2">
 								<select
+								value={participation}
 									name="participation"
 									id="participation"
 									className="text-black w-full p-2 bg-transparent border-2 border-[#d9d9d9]outline-none"
