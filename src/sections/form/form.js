@@ -26,10 +26,10 @@ export default function Form(props) {
 	};
 	return props.trigger ? (
 		<section id="form" className="z-50">
-			<div className="grid grid-cols-12  max-h-[calc(100vh-10%)] h-screen overflow-y-scroll">
-				<div className="col-span-12  bg-cover formBg h-fit w-fit p-10">
-					<div className="grid grid-cols-1 2xl:grid-cols-2 xl:grid-cols-2 lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-2 xs:grid-cols-1 mt-1 2xl:mt-32 xl:mt-32 lg:mt md:mt-1 sm:mt-1 xs:mt-1 2xl:ml-10 xl:ml-10 lg:ml-10 md:ml-10 sm:ml-1 xs:ml-1 2xl:gap-x-16 xl:gap-x-16 lg:gap-x-16 md:gap-x-8 sm:gap-x-2 xs:gap-x-1 gap-x-2">
-						<div className="col-span-1">
+			<div className="grid grid-cols-12  max-h-[calc(100vh-10%)] h-screen overflow-y-scroll w-96 max-w-[100vw - 40%]">
+				<div className="col-span-12  bg-cover formBg h-fit p-10 max-w-[100vw-40%]">
+					<div className="grid grid-cols-1 2xl:grid-cols-2 xl:grid-cols-2 lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-2 xs:grid-cols-1 mt-1 2xl:mt-32 xl:mt-10 lg:mt-1 md:mt-1 sm:mt-1 xs:mt-1 2xl:ml-10 xl:ml-10 lg:ml-10 md:ml-10 sm:ml-1 xs:ml-1 2xl:gap-x-16 xl:gap-x-16 lg:gap-x-16 md:gap-x-8 sm:gap-x-2 xs:gap-x-1 gap-x-2">
+						<div className="col-span-2">
 							<div className="label">
 								<label id="fname" className="text-white ">
 									FIRST NAME
@@ -60,7 +60,21 @@ export default function Form(props) {
 
 							<div className="label mt-6">
 								<label id="phone" className=" ">
-									PHONE NUMBER (OPTIONAL)
+									EMAIL
+								</label>
+							</div>
+							<div className="inputLname mt-2">
+								<input
+									type="text"
+									className="w-full outline-none text-white p-2 bg-transparent border-[#d9d9d9] border-2 rounded-xl"
+									name="email"
+									onChange={(e) => setPhone(e.target.value)}
+								/>
+							</div>
+
+							<div className="label mt-6">
+								<label id="phone" className=" ">
+									PHONE NUMBER
 								</label>
 							</div>
 							<div className="inputLname mt-2">
@@ -117,23 +131,6 @@ export default function Form(props) {
 									name="school"
 									onChange={(e) => setSchool(e.target.value)}
 								/>
-							</div>
-						</div>
-
-						<div className="col-span-1">
-							<div className="label mt-6">
-								<label id="school" className=" ">
-									BIO
-								</label>
-							</div>
-							<div className="inputBio 2xl:mr-16 xl:mr-16 lg:mr-16 md:mr-8 sm:mr-2 xs:mr-2 mr-0">
-								<textarea
-									name="bio"
-									id=""
-									rows="5"
-									className="bg-transparent text-white border-2 border-[#d9d9d9] rounded-lg w-full p-2"
-									onChange={(e) => setBio(e.target.value)}
-								></textarea>
 							</div>
 						</div>
 					</div>
