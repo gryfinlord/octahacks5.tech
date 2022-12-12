@@ -23,9 +23,9 @@ const Landing = () => {
       font-extrabold font-azonix"
 			>
 				<div className="w-2/3 text-md p-1  md:text-xss sm:text-sm xs:text-md text-center lg:text-start lg:mt-[6%]">
-					<p>Devfolio presents</p>
+					<div className="flex flex-row justify-center items-center lg:justify-start gap-4"><img src={require("../../assets/Sponsors/devfolio.svg").default} className="w-32 h-16"></img><p>presents</p></div>
 				</div>
-				<div className="w-2/3 text-md p-1 xl:text-3xl lg:text-3xl md:text-2xl sm:text-xl xs:text-lg text-center lg:text-start">
+				<div className="w-2/3 text-md p-1 xl:text-2xl lg:text-xl md:text-lg sm:text-xl xs:text-lg text-center lg:text-start">
 					<p>"TECH IT EASY"</p>
 				</div>
 
@@ -38,7 +38,7 @@ const Landing = () => {
 				<div className="img w-fit items-center justify-center lg:block md:flex sm:flex xl:block 2xl:block flex">
 					<img src={Calendar} className="w-[65%]" alt="" />
 				</div>
-				<div className="w-2/12 h-[1px] bg-white rounded-lg my-8 mx-4 border-white border-2"></div>
+				<div className="w-2/12 h-[1px] bg-white rounded-lg my-6 mx-4 border-white border-2"></div>
 				<div className="flex items-center flex-col lg:flex-row justify-center gap-7 w-[75%] md:w-1/2 lg:w-[75%] xl:w-1/2 p-4 m-1">
 					<div 
 	className="apply-button" 
