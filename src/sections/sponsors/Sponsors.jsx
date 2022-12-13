@@ -229,6 +229,11 @@ text-transparent  bg-gradient-to-r from-[#6c6aff] via-[#fbc7d4] to-[#ff658b] inl
 										alt="jalandhar"
 										className="w-32 h-auto rounded-md"
 									/>
+									<img
+										src={require("../../assets/Sponsors/new.jpg")}
+										alt="jalandhar"
+										className="w-32 h-auto rounded-md"
+									/>
 								</div>
 							</div>
 						</div>
@@ -420,6 +425,11 @@ text-transparent  bg-gradient-to-r from-[#6c6aff] via-[#fbc7d4] to-[#ff658b] inl
 									/>
 									<img
 										src={require("../../assets/Sponsors/PP_GDSC.jpeg")}
+										alt="jalandhar"
+										className="w-32 h-auto rounded-md"
+									/>
+									<img
+										src={require("../../assets/Sponsors/new.jpg")}
 										alt="jalandhar"
 										className="w-32 h-auto rounded-md"
 									/>
