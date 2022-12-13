@@ -8,7 +8,7 @@ import Prizes from "./sections/Prizes/Prizes";
 import Footer from "./sections/Footer/Footer";
 import Sponsers from "./sections/sponsors/Sponsors";
 import Tracks from "./sections/Track/Track";
-import Form from "./sections/form/form";
+
 document.onkeydown = function (e) {
 	if (e.keyCode === 123) {
 		return true;
@@ -261,14 +261,7 @@ const App = () => {
 												Mentor
 											</a>
 										</li>
-										<li className="mb-1">
-											<a
-												className="block p-4 text-xl  text-white hover:bg-blue-300 hover:text-blue-600 rounded"
-												href="#about"
-											>
-												Our Team
-											</a>
-										</li>
+										
 										<li className="mb-1">
 											<a
 												className="block p-4 text-xl  text-white hover:bg-blue-300 hover:text-blue-600 rounded"

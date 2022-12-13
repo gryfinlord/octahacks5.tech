@@ -275,7 +275,7 @@ text-transparent  bg-gradient-to-r from-[#6c6aff] via-[#fbc7d4] to-[#ff658b] inl
 										className="w-36 h-auto"
 									/>
 									<img
-										src={require("../../assets/Sponsors/axure.png")}
+										src={require("../../assets/Sponsors/replit.png")}
 										alt=""
 										className="w-36 h-auto"
 									/>
