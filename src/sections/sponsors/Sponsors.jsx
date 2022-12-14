@@ -121,25 +121,31 @@ text-transparent  bg-gradient-to-r from-[#6c6aff] via-[#fbc7d4] to-[#ff658b] inl
 									/>
 									<img
 										src={require("../../assets/Sponsors/airmeet.png")}
-										alt=""
+										alt="airmeet"
 										className="w-36 h-auto"
 									/>
+									<a href="https://www.sashido.io/en/" target="_blank" className="cursor-pointer">
 									<img
 										src={require("../../assets/Sponsors/sashido.png")}
-										alt=""
+										alt="sashido"
 										className="w-36 h-auto"
-									/>
+										
+									/></a>
 									<img src={JetLogo} alt="" className="w-28 h-auto" />
+									<a href="https://www.taskade.com/" target="_blank" className="cursor-pointer">
 									<img
 										src={require("../../assets/Sponsors/premium/logo_taskade_black.png")}
-										alt=""
+										alt="taskade"
 										className="w-28 h-auto"
-									/>
+										onclick="javascript:location.href='https://www.taskade.com/'"
+									/></a>
+									<a href="http://rosenfeldmedia.com/" target="_blank" className="cursor-pointer">
 									<img
 										src={require("../../assets/Sponsors/premium/rosenfeld-logo.png")}
 										alt=""
 										className="w-28 h-auto"
 									/>
+									</a>
 									<img
 										src={require("../../assets/Sponsors/premium/interviewCake.png")}
 										alt=""
@@ -308,22 +314,28 @@ text-transparent  bg-gradient-to-r from-[#6c6aff] via-[#fbc7d4] to-[#ff658b] inl
 										alt=""
 										className="w-36 h-auto"
 									/>
+									<a href="https://www.sashido.io/en/" target="_blank" className="cursor-pointer">
 									<img
 										src={require("../../assets/Sponsors/sashido.png")}
-										alt=""
+										alt="sashido"
 										className="w-36 h-auto"
-									/>
+										
+									/></a>
 									<img src={JetLogo} alt="" className="w-28 h-auto" />
-									<img
+									<a href="https://www.taskade.com/" target="_blank" className="cursor-pointer">			
+		  						   <img
 										src={require("../../assets/Sponsors/premium/logo_taskade_black.png")}
 										alt=""
 										className="w-28 h-auto"
 									/>
+									</a>
+									<a href="http://rosenfeldmedia.com/" target="_blank" className="cursor-pointer">
 									<img
 										src={require("../../assets/Sponsors/premium/rosenfeld-logo.png")}
 										alt=""
 										className="w-28 h-auto"
 									/>
+									</a>
 									<img
 										src={require("../../assets/Sponsors/premium/interviewCake.png")}
 										alt=""
