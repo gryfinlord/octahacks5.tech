@@ -180,11 +180,7 @@ text-transparent  bg-gradient-to-r from-[#6c6aff] via-[#fbc7d4] to-[#ff658b] inl
 
 								{/* community Partner Images ----------------------------------------------------------------*/}
 								<div className="flex justify-center gap-2 p-4 flex-wrap items-center ">
-									<img
-										src={require("../../assets/Sponsors/chitkara.jpg")}
-										alt="chitkara"
-										className="w-32 h-auto rounded-md"
-									/>
+									
 									<img
 										src={require("../../assets/Sponsors/gietu.jpg")}
 										alt="gietu"
