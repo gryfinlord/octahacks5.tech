@@ -229,14 +229,7 @@ const App = () => {
 												Tracks
 											</a>
 										</li>
-										<li className="mb-1">
-											<a
-												className="block p-4 text-xl  text-white hover:bg-blue-300 hover:text-blue-600 rounded"
-												href="#prizes"
-											>
-												Prizes
-											</a>
-										</li>
+										
 										<li className="mb-1">
 											<a
 												className="block p-4 text-xl  text-white hover:bg-blue-300 hover:text-blue-600 rounded"
@@ -245,22 +238,7 @@ const App = () => {
 												Sponsors
 											</a>
 										</li>
-										<li className="mb-1">
-											<a
-												className="block p-4 text-xl  text-white hover:bg-blue-300 hover:text-blue-600 rounded"
-												href="#judges"
-											>
-												Judges
-											</a>
-										</li>
-										<li className="mb-1">
-											<a
-												className="block p-4 text-xl  text-white hover:bg-blue-300 hover:text-blue-600 rounded"
-												href="#mentors"
-											>
-												Mentor
-											</a>
-										</li>
+										
 										
 										<li className="mb-1">
 											<a
@@ -283,15 +261,7 @@ const App = () => {
 							<a href="#sponsors">
 								<div className="text-light "> Sponsors</div>
 							</a>
-							<a href="#mentors">
-								<div className="text-light "> Mentor </div>
-							</a>
-							<a href="#judges">
-								<div className="text-light "> Judges </div>
-							</a>
-							<a href="#prizes">
-								<div className="text-light "> Prizes </div>
-							</a>
+							
 							<a href="#tracks">
 								<div className="text-light "> Tracks </div>
 							</a>
