@@ -302,9 +302,6 @@ const App = () => {
 						<About />
 						{/* <Tracks2 /> */}
 						<Tracks />
-						<Prizes />
-						<Judges />
-						<Mentors />
 						<Sponsers />
 						<Footer />
 					</div>
